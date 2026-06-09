@@ -273,7 +273,7 @@ flowchart LR
   s3 --> s4
 ```
 
-## 8 · Projected bracket (chalk)
+## 8 · Projected bracket
 
 Modal R32 occupants chained forward — each tie re-simulated 100,000× with the match engine, modal winner advancing. A single
 self-consistent **chalk** projection conditioned on the modal R32; the honest
@@ -315,36 +315,36 @@ flowchart LR
   m101["SF: <b>Spain</b>"]
   m102["SF: <b>Argentina</b>"]
   m104(["FINAL: <b>Argentina</b>"])
-  m73 --> m89
-  m75 --> m89
-  m74 --> m90
-  m77 --> m90
-  m76 --> m91
-  m78 --> m91
-  m79 --> m92
-  m80 --> m92
-  m83 --> m93
-  m84 --> m93
-  m81 --> m94
-  m82 --> m94
-  m86 --> m95
-  m88 --> m95
-  m85 --> m96
-  m87 --> m96
-  m89 --> m97
-  m90 --> m97
-  m93 --> m98
-  m94 --> m98
-  m91 --> m99
-  m92 --> m99
-  m95 --> m100
-  m96 --> m100
-  m97 --> m101
-  m98 --> m101
-  m99 --> m102
-  m100 --> m102
-  m101 --> m104
-  m102 --> m104
+  m73 --- m89
+  m75 --- m89
+  m74 --- m90
+  m77 --- m90
+  m91 --- m76
+  m91 --- m78
+  m92 --- m79
+  m92 --- m80
+  m83 --- m93
+  m84 --- m93
+  m81 --- m94
+  m82 --- m94
+  m95 --- m86
+  m95 --- m88
+  m96 --- m85
+  m96 --- m87
+  m89 --- m97
+  m90 --- m97
+  m93 --- m98
+  m94 --- m98
+  m99 --- m91
+  m99 --- m92
+  m100 --- m95
+  m100 --- m96
+  m97 --- m101
+  m98 --- m101
+  m102 --- m99
+  m102 --- m100
+  m101 --- m104
+  m104 --- m102
 ```
 
 <details><summary>Full projected bracket table</summary>
