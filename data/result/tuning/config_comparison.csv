@@ -1,0 +1,9 @@
+use_home_adv,sparse_threshold,year,half_life_years,floor,lookback_years,n_sims,seed,match_n,match_brier,match_rps,match_accuracy,tourn_n_teams,tourn_E1,tourn_E2,tourn_brier,tourn_rps,actual_champion,actual_champ_prob,actual_champ_rank,top_favorite,top_favorite_prob
+True,15,2018,12.0,0.1,7.0,100000,2026,64,0.5428,0.1866,0.6094,32,27.0,32.609,18.349,3.424,France,0.0588,4,Germany,0.3143
+True,15,2022,12.0,0.1,7.0,100000,2026,64,0.5845,0.2025,0.5938,32,25.0,32.384,19.858,3.322,Argentina,0.1533,2,Netherlands,0.1977
+True,20,2018,12.0,0.1,7.0,100000,2026,64,0.5428,0.1866,0.6094,32,27.0,32.609,18.349,3.424,France,0.0588,4,Germany,0.3143
+True,20,2022,12.0,0.1,7.0,100000,2026,64,0.5854,0.2025,0.5938,32,25.0,32.235,19.792,3.291,Argentina,0.1597,2,Netherlands,0.2036
+False,15,2018,12.0,0.1,7.0,100000,2026,64,0.5364,0.1842,0.6094,32,27.0,32.474,18.236,3.393,France,0.0578,4,Germany,0.3159
+False,15,2022,12.0,0.1,7.0,100000,2026,64,0.5787,0.2003,0.5938,32,25.0,32.165,19.754,3.295,Argentina,0.1561,2,Netherlands,0.1915
+False,20,2018,12.0,0.1,7.0,100000,2026,64,0.537,0.1843,0.6094,32,27.0,32.481,18.258,3.406,France,0.056,4,Germany,0.319
+False,20,2022,12.0,0.1,7.0,100000,2026,64,0.5795,0.2004,0.5938,32,25.0,32.006,19.674,3.263,Argentina,0.1645,2,Netherlands,0.2007

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FIFA World Cup 2026 — HKT Viewing Calendar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=Spline+Sans+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0f14; --panel:#11171f; --panel-2:#0e131a;
+    --ink:#eef3f7; --muted:#7e8b99; --line:#1e2731;
+    --grp:#1fae6b; --grp-soft:rgba(31,174,107,.13);
+    --ko:#f2b441; --ko-soft:rgba(242,180,65,.12);
+    --hot:#ff5a4d; --grid-gap:7px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Archivo',system-ui,sans-serif;
+    background:
+      radial-gradient(1100px 600px at 82% -10%, rgba(31,174,107,.10), transparent 60%),
+      radial-gradient(900px 520px at 8% 108%, rgba(242,180,65,.07), transparent 60%),
+      var(--bg);
+    color:var(--ink); -webkit-font-smoothing:antialiased;
+    padding:34px 22px 60px; min-height:100vh;
+  }
+  .wrap{max-width:1180px;margin:0 auto}
+  header.top{
+    display:flex;align-items:flex-end;justify-content:space-between;
+    gap:24px;flex-wrap:wrap;border-bottom:1px solid var(--line);
+    padding-bottom:20px;margin-bottom:26px;
+  }
+  .title h1{
+    font-family:'Anton',sans-serif;font-weight:400;
+    font-size:clamp(34px,5.4vw,62px);line-height:.92;
+    letter-spacing:.5px;text-transform:uppercase;
+  }
+  .title h1 .yr{color:var(--grp)}
+  .title .sub{margin-top:9px;color:var(--muted);font-size:14px;letter-spacing:.3px;max-width:46ch}
+  .meta{text-align:right;display:flex;flex-direction:column;gap:14px;align-items:flex-end}
+  .tz{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:2px}
+  .tzbig{font-family:'Anton',sans-serif;font-size:30px;color:var(--ko);line-height:1;margin-top:2px}
+  .progress{min-width:190px}
+  .progress .pnum{font-family:'Spline Sans Mono',monospace;font-size:13px;color:var(--ink);margin-bottom:6px;letter-spacing:.5px}
+  .progress .pnum b{color:var(--grp);font-size:16px}
+  .bar{height:7px;border-radius:20px;background:rgba(255,255,255,.07);overflow:hidden}
+  .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--grp),var(--ko));border-radius:20px;transition:width .35s ease}
+
+  .legend{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-bottom:24px;font-size:13px;color:var(--muted)}
+  .legend .pill{display:inline-flex;align-items:center;gap:8px}
+  .dot{width:11px;height:11px;border-radius:3px;display:inline-block}
+  .dot.g{background:var(--grp)} .dot.k{background:var(--ko)}
+
+  .months{display:grid;grid-template-columns:1fr;gap:46px}
+  .month h2{
+    font-family:'Anton',sans-serif;font-weight:400;text-transform:uppercase;
+    font-size:26px;letter-spacing:1px;margin-bottom:14px;display:flex;align-items:baseline;gap:12px;
+  }
+  .month h2 .count{font-family:'Spline Sans Mono',monospace;font-size:12px;color:var(--muted);letter-spacing:1px;text-transform:none}
+  .dow{display:grid;grid-template-columns:repeat(7,1fr);gap:var(--grid-gap);margin-bottom:var(--grid-gap)}
+  .dow span{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);text-align:left;padding-left:4px}
+  .grid{display:grid;grid-template-columns:repeat(7,1fr);gap:var(--grid-gap)}
+  .cell{
+    background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    min-height:96px;padding:9px 9px 11px;position:relative;overflow:hidden;
+    transition:border-color .18s ease, transform .18s ease;
+  }
+  .cell.empty{background:var(--panel-2);border-style:dashed;opacity:.55}
+  .cell.pad{background:transparent;border:none}
+  .cell.has:hover{border-color:#33414f}
+  .cell.weekend .dnum{color:var(--hot)}
+  .dnum{font-family:'Spline Sans Mono',monospace;font-weight:600;font-size:13px;color:var(--muted);margin-bottom:7px;display:flex;justify-content:space-between;align-items:center}
+  .cell.has .dnum{color:var(--ink)}
+  .nmatch{font-family:'Spline Sans Mono',monospace;font-size:10px;color:var(--muted);background:rgba(255,255,255,.04);border-radius:20px;padding:1px 7px}
+
+  .m{
+    display:flex;align-items:center;gap:7px;cursor:pointer;user-select:none;
+    padding:4px 6px;border-radius:7px;margin-bottom:4px;
+    border-left:3px solid var(--grp);background:var(--grp-soft);
+    transition:opacity .2s ease, background .2s ease;
+  }
+  .m:last-child{margin-bottom:0}
+  .m.ko{border-left-color:var(--ko);background:var(--ko-soft)}
+  .m .t{font-family:'Spline Sans Mono',monospace;font-weight:600;font-size:12px;color:var(--grp);white-space:nowrap}
+  .m.ko .t{color:var(--ko)}
+  .m .lbl{font-size:11px;color:#cbd5dd;line-height:1.18;font-weight:500;flex:1}
+  .m .lbl .tm{font-weight:600;color:#e7edf2}
+  .m .lbl .vs{color:var(--muted);font-weight:600;padding:0 4px}
+  .m .lbl .grp{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.4px}
+
+  /* custom checkbox */
+  .cbx{
+    appearance:none;-webkit-appearance:none;flex:none;
+    width:16px;height:16px;border-radius:5px;border:1.5px solid #3a4856;
+    background:rgba(255,255,255,.03);cursor:pointer;position:relative;
+    transition:background .15s ease,border-color .15s ease;
+  }
+  .cbx:hover{border-color:var(--grp)}
+  .m.ko .cbx:hover{border-color:var(--ko)}
+  .cbx:checked{background:var(--grp);border-color:var(--grp)}
+  .m.ko .cbx:checked{background:var(--ko);border-color:var(--ko)}
+  .cbx:checked::after{
+    content:"";position:absolute;left:4.6px;top:1.4px;width:4px;height:8px;
+    border:solid #0b0f14;border-width:0 2px 2px 0;transform:rotate(42deg);
+  }
+
+  /* watched -> struck through with a centred middle line */
+  .m.done{opacity:.46}
+  .m.done .t, .m.done .lbl{
+    text-decoration:line-through;
+    text-decoration-thickness:1.5px;
+    text-decoration-color:rgba(255,255,255,.7);
+  }
+
+  footer{margin-top:40px;color:var(--muted);font-size:12.5px;line-height:1.6;border-top:1px solid var(--line);padding-top:18px}
+
+  @media(max-width:720px){
+    body{padding:20px 12px 40px}
+    .cell{min-height:78px;padding:7px 6px 8px}
+    .m .lbl{font-size:10.5px}
+    .dow span{font-size:9px;letter-spacing:1px}
+    .meta{align-items:flex-start;text-align:left}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="title">
+      <h1>World Cup <span class="yr">2026</span><br>Viewing Calendar</h1>
+      <div class="sub">All kickoff times shown in Hong Kong Time. Tick a fixture once you've watched it.</div>
+    </div>
+    <div class="meta">
+      <div><div class="tz">Times in</div><div class="tzbig">HKT</div></div>
+      <div class="progress">
+        <div class="pnum"><b id="wcount">0</b> / 104 watched</div>
+        <div class="bar"><i id="wbar"></i></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="legend">
+    <span class="pill"><span class="dot g"></span> Group stage</span>
+    <span class="pill"><span class="dot k"></span> Knockout</span>
+    <span class="pill" style="color:var(--hot)">● weekend</span>
+    <span class="pill">☑ tick to mark watched</span>
+  </div>
+
+  <div class="months" id="months"></div>
+
+  <footer>
+    Kickoff times are local Hong Kong Time (UTC+8). Tap any fixture to mark it watched — it gets struck through and the
+    counter updates. Group-stage cards show the two nations and group letter; knockout cards omit teams (decided by group
+    results) and show the round and kickoff time only. Your ticks are saved automatically.
+  </footer>
+</div>
+
+<script>
+const MATCHES = [{"id":"m1","d":"2026-06-12","t":"03:00","ko":false,"stage":"Group A","h":"Mexico","a":"South Africa"},{"id":"m2","d":"2026-06-12","t":"10:00","ko":false,"stage":"Group A","h":"South Korea","a":"Czechia"},{"id":"m3","d":"2026-06-13","t":"03:00","ko":false,"stage":"Group B","h":"Canada","a":"Bosnia and Herzegovina"},{"id":"m4","d":"2026-06-13","t":"09:00","ko":false,"stage":"Group D","h":"United States","a":"Paraguay"},{"id":"m5","d":"2026-06-14","t":"03:00","ko":false,"stage":"Group B","h":"Qatar","a":"Switzerland"},{"id":"m6","d":"2026-06-14","t":"06:00","ko":false,"stage":"Group C","h":"Brazil","a":"Morocco"},{"id":"m7","d":"2026-06-14","t":"09:00","ko":false,"stage":"Group C","h":"Haiti","a":"Scotland"},{"id":"m8","d":"2026-06-14","t":"12:00","ko":false,"stage":"Group D","h":"Australia","a":"Turkey"},{"id":"m9","d":"2026-06-15","t":"01:00","ko":false,"stage":"Group E","h":"Germany","a":"Cura\u00e7ao"},{"id":"m10","d":"2026-06-15","t":"04:00","ko":false,"stage":"Group F","h":"Netherlands","a":"Japan"},{"id":"m11","d":"2026-06-15","t":"07:00","ko":false,"stage":"Group E","h":"Ivory Coast","a":"Ecuador"},{"id":"m12","d":"2026-06-15","t":"10:00","ko":false,"stage":"Group F","h":"Sweden","a":"Tunisia"},{"id":"m13","d":"2026-06-16","t":"00:00","ko":false,"stage":"Group H","h":"Spain","a":"Cape Verde"},{"id":"m14","d":"2026-06-16","t":"03:00","ko":false,"stage":"Group G","h":"Belgium","a":"Egypt"},{"id":"m15","d":"2026-06-16","t":"06:00","ko":false,"stage":"Group H","h":"Saudi Arabia","a":"Uruguay"},{"id":"m16","d":"2026-06-16","t":"09:00","ko":false,"stage":"Group G","h":"Iran","a":"New Zealand"},{"id":"m17","d":"2026-06-17","t":"03:00","ko":false,"stage":"Group I","h":"France","a":"Senegal"},{"id":"m18","d":"2026-06-17","t":"06:00","ko":false,"stage":"Group I","h":"Iraq","a":"Norway"},{"id":"m19","d":"2026-06-17","t":"09:00","ko":false,"stage":"Group J","h":"Argentina","a":"Algeria"},{"id":"m20","d":"2026-06-17","t":"12:00","ko":false,"stage":"Group J","h":"Austria","a":"Jordan"},{"id":"m21","d":"2026-06-18","t":"01:00","ko":false,"stage":"Group K","h":"Portugal","a":"DR Congo"},{"id":"m22","d":"2026-06-18","t":"04:00","ko":false,"stage":"Group L","h":"England","a":"Croatia"},{"id":"m23","d":"2026-06-18","t":"07:00","ko":false,"stage":"Group L","h":"Ghana","a":"Panama"},{"id":"m24","d":"2026-06-18","t":"10:00","ko":false,"stage":"Group K","h":"Uzbekistan","a":"Colombia"},{"id":"m25","d":"2026-06-19","t":"00:00","ko":false,"stage":"Group A","h":"Czechia","a":"South Africa"},{"id":"m26","d":"2026-06-19","t":"03:00","ko":false,"stage":"Group B","h":"Switzerland","a":"Bosnia and Herzegovina"},{"id":"m27","d":"2026-06-19","t":"06:00","ko":false,"stage":"Group B","h":"Canada","a":"Qatar"},{"id":"m28","d":"2026-06-19","t":"09:00","ko":false,"stage":"Group A","h":"Mexico","a":"South Korea"},{"id":"m29","d":"2026-06-20","t":"03:00","ko":false,"stage":"Group D","h":"United States","a":"Australia"},{"id":"m30","d":"2026-06-20","t":"06:00","ko":false,"stage":"Group C","h":"Scotland","a":"Morocco"},{"id":"m31","d":"2026-06-20","t":"09:00","ko":false,"stage":"Group C","h":"Brazil","a":"Haiti"},{"id":"m32","d":"2026-06-20","t":"12:00","ko":false,"stage":"Group D","h":"Turkey","a":"Paraguay"},{"id":"m33","d":"2026-06-21","t":"01:00","ko":false,"stage":"Group F","h":"Netherlands","a":"Sweden"},{"id":"m34","d":"2026-06-21","t":"04:00","ko":false,"stage":"Group E","h":"Germany","a":"Ivory Coast"},{"id":"m35","d":"2026-06-21","t":"08:00","ko":false,"stage":"Group E","h":"Ecuador","a":"Cura\u00e7ao"},{"id":"m36","d":"2026-06-21","t":"12:00","ko":false,"stage":"Group F","h":"Tunisia","a":"Japan"},{"id":"m37","d":"2026-06-22","t":"00:00","ko":false,"stage":"Group H","h":"Spain","a":"Saudi Arabia"},{"id":"m38","d":"2026-06-22","t":"03:00","ko":false,"stage":"Group G","h":"Belgium","a":"Iran"},{"id":"m39","d":"2026-06-22","t":"06:00","ko":false,"stage":"Group H","h":"Uruguay","a":"Cape Verde"},{"id":"m40","d":"2026-06-22","t":"09:00","ko":false,"stage":"Group G","h":"New Zealand","a":"Egypt"},{"id":"m41","d":"2026-06-23","t":"01:00","ko":false,"stage":"Group J","h":"Argentina","a":"Austria"},{"id":"m42","d":"2026-06-23","t":"05:00","ko":false,"stage":"Group I","h":"France","a":"Iraq"},{"id":"m43","d":"2026-06-23","t":"08:00","ko":false,"stage":"Group I","h":"Norway","a":"Senegal"},{"id":"m44","d":"2026-06-23","t":"11:00","ko":false,"stage":"Group J","h":"Jordan","a":"Algeria"},{"id":"m45","d":"2026-06-24","t":"01:00","ko":false,"stage":"Group K","h":"Portugal","a":"Uzbekistan"},{"id":"m46","d":"2026-06-24","t":"04:00","ko":false,"stage":"Group L","h":"England","a":"Ghana"},{"id":"m47","d":"2026-06-24","t":"07:00","ko":false,"stage":"Group L","h":"Panama","a":"Croatia"},{"id":"m48","d":"2026-06-24","t":"10:00","ko":false,"stage":"Group K","h":"Colombia","a":"DR Congo"},{"id":"m49","d":"2026-06-25","t":"03:00","ko":false,"stage":"Group B","h":"Switzerland","a":"Canada"},{"id":"m50","d":"2026-06-25","t":"03:00","ko":false,"stage":"Group B","h":"Bosnia and Herzegovina","a":"Qatar"},{"id":"m51","d":"2026-06-25","t":"06:00","ko":false,"stage":"Group C","h":"Scotland","a":"Brazil"},{"id":"m52","d":"2026-06-25","t":"06:00","ko":false,"stage":"Group C","h":"Morocco","a":"Haiti"},{"id":"m53","d":"2026-06-25","t":"09:00","ko":false,"stage":"Group A","h":"Czechia","a":"Mexico"},{"id":"m54","d":"2026-06-25","t":"09:00","ko":false,"stage":"Group A","h":"South Africa","a":"South Korea"},{"id":"m55","d":"2026-06-26","t":"04:00","ko":false,"stage":"Group E","h":"Cura\u00e7ao","a":"Ivory Coast"},{"id":"m56","d":"2026-06-26","t":"04:00","ko":false,"stage":"Group E","h":"Ecuador","a":"Germany"},{"id":"m57","d":"2026-06-26","t":"07:00","ko":false,"stage":"Group F","h":"Japan","a":"Sweden"},{"id":"m58","d":"2026-06-26","t":"07:00","ko":false,"stage":"Group F","h":"Tunisia","a":"Netherlands"},{"id":"m59","d":"2026-06-26","t":"10:00","ko":false,"stage":"Group D","h":"Turkey","a":"United States"},{"id":"m60","d":"2026-06-26","t":"10:00","ko":false,"stage":"Group D","h":"Paraguay","a":"Australia"},{"id":"m61","d":"2026-06-27","t":"03:00","ko":false,"stage":"Group I","h":"Norway","a":"France"},{"id":"m62","d":"2026-06-27","t":"03:00","ko":false,"stage":"Group I","h":"Senegal","a":"Iraq"},{"id":"m63","d":"2026-06-27","t":"08:00","ko":false,"stage":"Group H","h":"Cape Verde","a":"Saudi Arabia"},{"id":"m64","d":"2026-06-27","t":"08:00","ko":false,"stage":"Group H","h":"Uruguay","a":"Spain"},{"id":"m65","d":"2026-06-27","t":"11:00","ko":false,"stage":"Group G","h":"Egypt","a":"Iran"},{"id":"m66","d":"2026-06-27","t":"11:00","ko":false,"stage":"Group G","h":"New Zealand","a":"Belgium"},{"id":"m67","d":"2026-06-28","t":"05:00","ko":false,"stage":"Group L","h":"Panama","a":"England"},{"id":"m68","d":"2026-06-28","t":"05:00","ko":false,"stage":"Group L","h":"Croatia","a":"Ghana"},{"id":"m69","d":"2026-06-28","t":"07:30","ko":false,"stage":"Group K","h":"Colombia","a":"Portugal"},{"id":"m70","d":"2026-06-28","t":"07:30","ko":false,"stage":"Group K","h":"DR Congo","a":"Uzbekistan"},{"id":"m71","d":"2026-06-28","t":"10:00","ko":false,"stage":"Group J","h":"Algeria","a":"Austria"},{"id":"m72","d":"2026-06-28","t":"10:00","ko":false,"stage":"Group J","h":"Jordan","a":"Argentina"},{"id":"m73","d":"2026-06-29","t":"03:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m74","d":"2026-06-30","t":"01:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m75","d":"2026-06-30","t":"04:30","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m76","d":"2026-06-30","t":"09:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m77","d":"2026-07-01","t":"01:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m78","d":"2026-07-01","t":"05:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m79","d":"2026-07-01","t":"09:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m80","d":"2026-07-02","t":"00:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m81","d":"2026-07-02","t":"04:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m82","d":"2026-07-02","t":"08:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m83","d":"2026-07-03","t":"03:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m84","d":"2026-07-03","t":"07:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m85","d":"2026-07-03","t":"11:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m86","d":"2026-07-04","t":"02:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m87","d":"2026-07-04","t":"06:00","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m88","d":"2026-07-04","t":"09:30","ko":true,"stage":"Round of 32","h":null,"a":null},{"id":"m89","d":"2026-07-05","t":"01:00","ko":true,"stage":"Round of 16","h":null,"a":null},{"id":"m90","d":"2026-07-05","t":"05:00","ko":true,"stage":"Round of 16","h":null,"a":null},{"id":"m91","d":"2026-07-06","t":"04:00","ko":true,"stage":"Round of 16","h":null,"a":null},{"id":"m92","d":"2026-07-06","t":"08:00","ko":true,"stage":"Round of 16","h":null,"a":null},{"id":"m93","d":"2026-07-07","t":"03:00","ko":true,"stage":"Round of 16","h":null,"a":null},{"id":"m94","d":"2026-07-07","t":"08:00","ko":true,"stage":"Round of 16","h":null,"a":null},{"id":"m95","d":"2026-07-08","t":"00:00","ko":true,"stage":"Round of 16","h":null,"a":null},{"id":"m96","d":"2026-07-08","t":"04:00","ko":true,"stage":"Round of 16","h":null,"a":null},{"id":"m97","d":"2026-07-10","t":"04:00","ko":true,"stage":"Quarter-final","h":null,"a":null},{"id":"m98","d":"2026-07-11","t":"03:00","ko":true,"stage":"Quarter-final","h":null,"a":null},{"id":"m99","d":"2026-07-12","t":"05:00","ko":true,"stage":"Quarter-final","h":null,"a":null},{"id":"m100","d":"2026-07-12","t":"09:00","ko":true,"stage":"Quarter-final","h":null,"a":null},{"id":"m101","d":"2026-07-15","t":"03:00","ko":true,"stage":"Semi-final","h":null,"a":null},{"id":"m102","d":"2026-07-16","t":"03:00","ko":true,"stage":"Semi-final","h":null,"a":null},{"id":"m103","d":"2026-07-19","t":"05:00","ko":true,"stage":"Third place","h":null,"a":null},{"id":"m104","d":"2026-07-20","t":"03:00","ko":true,"stage":"Final","h":null,"a":null}];
+const DOW = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const MONTHS = [{y:2026,m:5,name:'June 2026',days:30},{y:2026,m:6,name:'July 2026',days:31}];
+
+const byDate = {};
+for(const x of MATCHES){ (byDate[x.d] ||= []).push(x); }
+for(const k in byDate){ byDate[k].sort((a,b)=>a.t.localeCompare(b.t)); }
+const pad=n=>String(n).padStart(2,'0');
+
+let watched = {};
+async function loadWatched(){
+  try{ const r = await window.storage.get('watched'); if(r && r.value) watched = JSON.parse(r.value)||{}; }
+  catch(e){ /* no saved state or storage unavailable */ }
+}
+async function saveWatched(){
+  try{ await window.storage.set('watched', JSON.stringify(watched)); }catch(e){}
+}
+
+function matchHTML(x){
+  const checked = watched[x.id] ? 'checked' : '';
+  const done = watched[x.id] ? ' done' : '';
+  let body;
+  if(x.ko){
+    body = `<span class="t">${x.t}</span><span class="lbl">${x.stage}</span>`;
+  }else{
+    const g = x.stage.replace('Group ','');
+    body = `<span class="t">${x.t}</span><span class="lbl"><span class="tm">${x.h}</span><span class="vs">v</span><span class="tm">${x.a}</span> <span class="grp">${g}</span></span>`;
+  }
+  return `<label class="m ${x.ko?'ko':''}${done}" data-id="${x.id}">${body}<input type="checkbox" class="cbx" ${checked}></label>`;
+}
+
+function updateProgress(){
+  const n = Object.values(watched).filter(Boolean).length;
+  document.getElementById('wcount').textContent = n;
+  document.getElementById('wbar').style.width = (n/MATCHES.length*100)+'%';
+}
+
+function render(){
+  const root = document.getElementById('months');
+  root.innerHTML='';
+  for(const M of MONTHS){
+    const sec=document.createElement('div'); sec.className='month';
+    const first=new Date(M.y,M.m,1).getDay();
+    let cnt=0;
+    for(let d=1;d<=M.days;d++){const ds=`${M.y}-${pad(M.m+1)}-${pad(d)}`; if(byDate[ds]) cnt+=byDate[ds].length;}
+    let h=`<h2>${M.name}<span class="count">${cnt} matches</span></h2>`;
+    h+=`<div class="dow">${DOW.map(d=>`<span>${d}</span>`).join('')}</div><div class="grid">`;
+    for(let i=0;i<first;i++) h+=`<div class="cell pad"></div>`;
+    for(let d=1;d<=M.days;d++){
+      const ds=`${M.y}-${pad(M.m+1)}-${pad(d)}`; const ms=byDate[ds];
+      const wd=new Date(M.y,M.m,d).getDay(); const we=(wd===0||wd===6)?'weekend':'';
+      if(ms){
+        h+=`<div class="cell has ${we}"><div class="dnum"><span>${d}</span><span class="nmatch">${ms.length}</span></div>${ms.map(matchHTML).join('')}</div>`;
+      }else{
+        h+=`<div class="cell empty ${we}"><div class="dnum"><span>${d}</span></div></div>`;
+      }
+    }
+    h+=`</div>`; sec.innerHTML=h; root.appendChild(sec);
+  }
+  root.addEventListener('change', onToggle);
+  updateProgress();
+}
+
+function onToggle(e){
+  const cb=e.target; if(!cb.classList.contains('cbx')) return;
+  const card=cb.closest('.m'); const id=card.dataset.id;
+  if(cb.checked){ watched[id]=true; card.classList.add('done'); }
+  else{ delete watched[id]; card.classList.remove('done'); }
+  updateProgress(); saveWatched();
+}
+
+(async()=>{ await loadWatched(); render(); })();
+</script>
+</body>
+</html>

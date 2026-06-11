@@ -1,0 +1,33 @@
+match_number,stage_id,kickoff_at,match_label,host_country
+73,2,2026-06-29 03:00:00,2A vs 2B,United States
+74,2,2026-06-30 04:30:00,1E vs 3ABCDF,United States
+75,2,2026-06-30 09:00:00,1F vs 2C,Mexico
+76,2,2026-06-30 01:00:00,1C vs 2F,United States
+77,2,2026-07-01 05:00:00,1I vs 3CDFGH,United States
+78,2,2026-07-01 01:00:00,2E vs 2I,United States
+79,2,2026-07-01 09:00:00,1A vs 3CEFHI,Mexico
+80,2,2026-07-02 00:00:00,1L vs 3EHIJK,United States
+81,2,2026-07-02 08:00:00,1D vs 3BEFIJ,United States
+82,2,2026-07-02 04:00:00,1G vs 3AEHIJ,United States
+83,2,2026-07-03 07:00:00,2K vs 2L,Canada
+84,2,2026-07-03 03:00:00,1H vs 2J,United States
+85,2,2026-07-03 11:00:00,1B vs 3EFGIJ,Canada
+86,2,2026-07-04 06:00:00,1J vs 2H,United States
+87,2,2026-07-04 09:30:00,1K vs 3DEIJL,United States
+88,2,2026-07-04 02:00:00,2D vs 2G,United States
+89,3,2026-07-05 05:00:00,W73 vs W75,United States
+90,3,2026-07-05 01:00:00,W74 vs W77,United States
+91,3,2026-07-06 04:00:00,W76 vs W78,United States
+92,3,2026-07-06 08:00:00,W79 vs W80,Mexico
+93,3,2026-07-07 03:00:00,W83 vs W84,United States
+94,3,2026-07-07 08:00:00,W81 vs W82,United States
+95,3,2026-07-08 00:00:00,W86 vs W88,United States
+96,3,2026-07-08 04:00:00,W85 vs W87,Canada
+97,4,2026-07-10 04:00:00,W89 vs W90,United States
+98,4,2026-07-11 03:00:00,W93 vs W94,United States
+99,4,2026-07-12 05:00:00,W91 vs W92,United States
+100,4,2026-07-12 09:00:00,W95 vs W96,United States
+101,5,2026-07-15 03:00:00,W97 vs W98,United States
+102,5,2026-07-16 03:00:00,W99 vs W100,United States
+103,6,2026-07-19 05:00:00,RU101 vs RU102,United States
+104,7,2026-07-20 03:00:00,W101 vs W102,United States

@@ -1,0 +1,2979 @@
+date,home_team,away_team,home_score,away_score,tournament,country,neutral
+2010-01-02,Iran,North Korea,1,0,Friendly tournament,Qatar,True
+2010-01-04,Egypt,Mali,1,0,Friendly,United Arab Emirates,True
+2010-01-05,Ghana,Malawi,0,0,Friendly,Swaziland,True
+2010-01-06,Nigeria,Zambia,0,0,Friendly,South Africa,True
+2010-01-07,Ivory Coast,Rwanda,2,0,Friendly,Tanzania,True
+2010-01-09,Zambia,South Korea,4,2,Friendly,South Africa,True
+2010-01-11,Malawi,Algeria,3,0,African Nations Cup,Angola,True
+2010-01-11,Burkina Faso,Ivory Coast,0,0,African Nations Cup,Angola,True
+2010-01-12,Egypt,Nigeria,3,1,African Nations Cup,Angola,True
+2010-01-13,Tunisia,Zambia,1,1,African Nations Cup,Angola,True
+2010-01-13,Gabon,Cameroon,1,0,African Nations Cup,Angola,True
+2010-01-14,Algeria,Mali,1,0,African Nations Cup,Angola,True
+2010-01-15,Ivory Coast,Ghana,3,1,African Nations Cup,Angola,True
+2010-01-16,Egypt,Mozambique,2,0,African Nations Cup,Angola,True
+2010-01-16,Nigeria,Benin,1,0,African Nations Cup,Angola,True
+2010-01-17,Cameroon,Zambia,3,2,African Nations Cup,Angola,True
+2010-01-17,Gabon,Tunisia,0,0,African Nations Cup,Angola,True
+2010-01-18,South Korea,Finland,2,0,Friendly,Spain,True
+2010-01-18,Angola,Algeria,0,0,African Nations Cup,Angola,False
+2010-01-19,Ghana,Burkina Faso,1,0,African Nations Cup,Angola,True
+2010-01-20,Egypt,Benin,2,0,African Nations Cup,Angola,True
+2010-01-20,Nigeria,Mozambique,3,0,African Nations Cup,Angola,True
+2010-01-21,Cameroon,Tunisia,2,2,African Nations Cup,Angola,True
+2010-01-22,South Korea,Latvia,1,0,Friendly,Spain,True
+2010-01-23,Poland,Singapore,6,1,King's Cup,Thailand,True
+2010-01-24,Angola,Ghana,0,1,African Nations Cup,Angola,False
+2010-01-24,Algeria,Ivory Coast,3,2,African Nations Cup,Angola,True
+2010-01-25,Egypt,Cameroon,3,1,African Nations Cup,Angola,True
+2010-01-25,Nigeria,Zambia,0,0,African Nations Cup,Angola,True
+2010-01-28,Egypt,Algeria,4,0,African Nations Cup,Angola,True
+2010-01-28,Ghana,Nigeria,1,0,African Nations Cup,Angola,True
+2010-01-30,Nigeria,Algeria,1,0,African Nations Cup,Angola,True
+2010-01-31,Egypt,Ghana,1,0,African Nations Cup,Angola,True
+2010-02-07,South Korea,Hong Kong,5,0,East Asian Championship,Japan,True
+2010-02-10,China,South Korea,3,0,East Asian Championship,Japan,True
+2010-02-24,Mexico,Bolivia,5,0,Friendly,United States,True
+2010-03-02,Brazil,Ireland,2,0,Friendly,England,True
+2010-03-03,South Korea,Ivory Coast,2,0,Friendly,England,True
+2010-03-03,Cameroon,Italy,0,0,Friendly,Monaco,True
+2010-03-03,Mexico,New Zealand,2,0,Friendly,United States,True
+2010-03-24,Iceland,Mexico,0,0,Friendly,United States,True
+2010-04-22,North Korea,South Africa,0,0,Friendly,Germany,True
+2010-04-28,South Africa,Jamaica,2,0,Friendly,Germany,True
+2010-05-07,Ecuador,Mexico,0,0,Friendly,United States,True
+2010-05-10,Mexico,Senegal,1,0,Friendly,United States,True
+2010-05-13,Mexico,Angola,1,0,Friendly,United States,True
+2010-05-15,Paraguay,North Korea,1,0,Friendly,Switzerland,True
+2010-05-21,Saudi Arabia,DR Congo,2,0,Friendly,Austria,True
+2010-05-22,Turkey,Czechia,2,1,Friendly,United States,True
+2010-05-25,Nigeria,Saudi Arabia,0,0,Friendly,Austria,True
+2010-05-25,Cameroon,Georgia,0,0,Friendly,Austria,True
+2010-05-26,Netherlands,Mexico,2,1,Friendly,Germany,True
+2010-05-26,Turkey,Northern Ireland,2,0,Friendly,United States,True
+2010-05-29,Spain,Saudi Arabia,3,2,Friendly,Austria,True
+2010-05-29,Cameroon,Slovakia,1,1,Friendly,Austria,True
+2010-05-29,New Zealand,Serbia,1,0,Friendly,Austria,True
+2010-05-30,England,Japan,2,1,Friendly,Austria,True
+2010-05-30,Belarus,South Korea,1,0,Friendly,Austria,True
+2010-05-30,Colombia,Nigeria,1,1,Friendly,England,True
+2010-05-30,Mexico,Gambia,5,1,Friendly,Germany,True
+2010-05-30,Ivory Coast,Paraguay,2,2,Friendly,France,True
+2010-06-01,Australia,Denmark,1,0,Friendly,South Africa,True
+2010-06-02,Paraguay,Greece,2,0,Friendly,Switzerland,True
+2010-06-02,Poland,Serbia,0,0,Friendly,Austria,True
+2010-06-03,Spain,South Korea,1,0,Friendly,Austria,True
+2010-06-03,Mexico,Italy,2,1,Friendly,Belgium,True
+2010-06-04,Ivory Coast,Japan,2,0,Friendly,Switzerland,True
+2010-06-04,China,France,1,0,Friendly,Reunion,True
+2010-06-05,United States,Australia,3,1,Friendly,South Africa,True
+2010-06-05,Algeria,United Arab Emirates,1,0,Friendly,Germany,True
+2010-06-05,Ghana,Latvia,1,0,Friendly,England,True
+2010-06-06,Nigeria,North Korea,3,1,Friendly,South Africa,True
+2010-06-08,Portugal,Mozambique,3,0,Friendly,South Africa,True
+2010-06-09,Chile,New Zealand,2,0,Friendly,South Africa,True
+2010-06-10,Japan,Zimbabwe,0,0,Friendly,South Africa,True
+2010-06-11,South Africa,Mexico,1,1,World Cup,South Africa,False
+2010-06-11,France,Uruguay,0,0,World Cup,South Africa,True
+2010-06-12,South Korea,Greece,2,0,World Cup,South Africa,True
+2010-06-12,Argentina,Nigeria,1,0,World Cup,South Africa,True
+2010-06-12,England,United States,1,1,World Cup,South Africa,True
+2010-06-13,Germany,Australia,4,0,World Cup,South Africa,True
+2010-06-13,Ghana,Serbia,1,0,World Cup,South Africa,True
+2010-06-13,Slovenia,Algeria,1,0,World Cup,South Africa,True
+2010-06-14,Japan,Cameroon,1,0,World Cup,South Africa,True
+2010-06-14,Italy,Paraguay,1,1,World Cup,South Africa,True
+2010-06-14,Netherlands,Denmark,2,0,World Cup,South Africa,True
+2010-06-15,Brazil,North Korea,2,1,World Cup,South Africa,True
+2010-06-15,Ivory Coast,Portugal,0,0,World Cup,South Africa,True
+2010-06-15,New Zealand,Slovakia,1,1,World Cup,South Africa,True
+2010-06-16,South Africa,Uruguay,0,3,World Cup,South Africa,False
+2010-06-16,Switzerland,Spain,1,0,World Cup,South Africa,True
+2010-06-17,Argentina,South Korea,4,1,World Cup,South Africa,True
+2010-06-17,Greece,Nigeria,2,1,World Cup,South Africa,True
+2010-06-17,Mexico,France,2,0,World Cup,South Africa,True
+2010-06-18,Algeria,England,0,0,World Cup,South Africa,True
+2010-06-18,Slovenia,United States,2,2,World Cup,South Africa,True
+2010-06-18,Serbia,Germany,1,0,World Cup,South Africa,True
+2010-06-19,Netherlands,Japan,1,0,World Cup,South Africa,True
+2010-06-19,Australia,Ghana,1,1,World Cup,South Africa,True
+2010-06-19,Denmark,Cameroon,2,1,World Cup,South Africa,True
+2010-06-20,Brazil,Ivory Coast,3,1,World Cup,South Africa,True
+2010-06-20,Paraguay,Slovakia,2,0,World Cup,South Africa,True
+2010-06-20,Italy,New Zealand,1,1,World Cup,South Africa,True
+2010-06-21,Portugal,North Korea,7,0,World Cup,South Africa,True
+2010-06-21,Spain,Honduras,2,0,World Cup,South Africa,True
+2010-06-21,Chile,Switzerland,1,0,World Cup,South Africa,True
+2010-06-22,Nigeria,South Korea,2,2,World Cup,South Africa,True
+2010-06-22,South Africa,France,2,1,World Cup,South Africa,False
+2010-06-22,Uruguay,Mexico,1,0,World Cup,South Africa,True
+2010-06-22,Argentina,Greece,2,0,World Cup,South Africa,True
+2010-06-23,Australia,Serbia,2,1,World Cup,South Africa,True
+2010-06-23,Germany,Ghana,1,0,World Cup,South Africa,True
+2010-06-23,United States,Algeria,1,0,World Cup,South Africa,True
+2010-06-23,England,Slovenia,1,0,World Cup,South Africa,True
+2010-06-24,Japan,Denmark,3,1,World Cup,South Africa,True
+2010-06-24,Netherlands,Cameroon,2,1,World Cup,South Africa,True
+2010-06-24,New Zealand,Paraguay,0,0,World Cup,South Africa,True
+2010-06-25,Ivory Coast,North Korea,3,0,World Cup,South Africa,True
+2010-06-25,Honduras,Switzerland,0,0,World Cup,South Africa,True
+2010-06-25,Spain,Chile,2,1,World Cup,South Africa,True
+2010-06-25,Brazil,Portugal,0,0,World Cup,South Africa,True
+2010-06-26,Uruguay,South Korea,2,1,World Cup,South Africa,True
+2010-06-26,Ghana,United States,2,1,World Cup,South Africa,True
+2010-06-27,Argentina,Mexico,3,1,World Cup,South Africa,True
+2010-06-27,Germany,England,4,1,World Cup,South Africa,True
+2010-06-28,Brazil,Chile,3,0,World Cup,South Africa,True
+2010-06-28,Netherlands,Slovakia,2,1,World Cup,South Africa,True
+2010-06-29,Japan,Paraguay,0,0,World Cup,South Africa,True
+2010-06-29,Spain,Portugal,1,0,World Cup,South Africa,True
+2010-07-02,Ghana,Uruguay,1,1,World Cup,South Africa,True
+2010-07-02,Netherlands,Brazil,2,1,World Cup,South Africa,True
+2010-07-03,Germany,Argentina,4,0,World Cup,South Africa,True
+2010-07-03,Spain,Paraguay,1,0,World Cup,South Africa,True
+2010-07-06,Netherlands,Uruguay,3,2,World Cup,South Africa,True
+2010-07-07,Spain,Germany,1,0,World Cup,South Africa,True
+2010-07-10,Germany,Uruguay,3,2,World Cup,South Africa,True
+2010-07-11,Spain,Netherlands,1,0,World Cup,South Africa,True
+2010-08-10,Ivory Coast,Italy,1,0,Friendly,England,True
+2010-08-11,Uruguay,Angola,2,0,Friendly,Portugal,True
+2010-09-07,Peru,Jamaica,2,1,Friendly,United States,True
+2010-09-21,Iraq,Oman,3,2,Friendly,Jordan,True
+2010-09-24,Iran,Bahrain,3,0,West Asian Championship,Jordan,True
+2010-09-25,Iraq,Yemen,2,1,West Asian Championship,Jordan,True
+2010-09-28,Iran,Oman,2,2,West Asian Championship,Jordan,True
+2010-09-29,Iraq,Palestine,3,0,West Asian Championship,Jordan,True
+2010-10-01,Iran,Iraq,2,1,West Asian Championship,Jordan,True
+2010-10-03,Kuwait,Iran,2,1,West Asian Championship,Jordan,True
+2010-10-07,Brazil,Iran,3,0,Friendly,United Arab Emirates,True
+2010-10-08,Colombia,Ecuador,1,0,Friendly,United States,True
+2010-10-11,Brazil,Ukraine,2,0,Friendly,England,True
+2010-10-12,Bulgaria,Saudi Arabia,2,0,Friendly,Turkey,True
+2010-10-12,Saudi Arabia,Gabon,1,0,Friendly,Turkey,True
+2010-10-12,Ecuador,Poland,2,2,Friendly,Canada,True
+2010-11-02,Guyana,Haiti,0,0,CONCACAF Ch & Car Ch q,Trinidad and Tobago,True
+2010-11-04,Haiti,St Vincent & Grenadines,3,1,CONCACAF Ch & Car Ch q,Trinidad and Tobago,True
+2010-11-11,Iraq,India,2,0,Friendly,United Arab Emirates,True
+2010-11-16,Saudi Arabia,Uganda,0,0,Friendly,United Arab Emirates,True
+2010-11-16,Cape Verde,Guinea-Bissau,2,1,Friendly,Portugal,True
+2010-11-17,Iraq,Kuwait,1,1,Friendly,United Arab Emirates,True
+2010-11-17,Ghana,Saudi Arabia,0,0,Friendly,United Arab Emirates,True
+2010-11-17,Mali,DR Congo,3,1,Friendly,France,True
+2010-11-17,Senegal,Gabon,2,1,Friendly,France,True
+2010-11-17,Costa Rica,Jamaica,0,0,Friendly,United States,True
+2010-11-17,Argentina,Brazil,1,0,Friendly,Qatar,True
+2010-11-22,Kuwait,Qatar,1,0,Gulf Cup,Yemen,True
+2010-11-23,Iraq,United Arab Emirates,0,0,Gulf Cup,Yemen,True
+2010-11-25,Kuwait,Saudi Arabia,0,0,Gulf Cup,Yemen,True
+2010-11-26,Iraq,Bahrain,3,2,Gulf Cup,Yemen,True
+2010-11-28,Qatar,Saudi Arabia,1,1,Gulf Cup,Yemen,True
+2010-11-28,Rwanda,Ivory Coast,2,1,CECAFA Cup,Tanzania,True
+2010-11-29,Iraq,Oman,0,0,Gulf Cup,Yemen,True
+2010-12-01,Ivory Coast,Zanzibar,1,0,CECAFA Cup,Tanzania,True
+2010-12-02,Iraq,Kuwait,2,2,Gulf Cup,Yemen,True
+2010-12-02,Saudi Arabia,United Arab Emirates,1,0,Gulf Cup,Yemen,True
+2010-12-05,Kuwait,Saudi Arabia,1,0,Gulf Cup,Yemen,True
+2010-12-05,Ivory Coast,Sudan,3,0,CECAFA Cup,Tanzania,True
+2010-12-07,Ivory Coast,Malawi,1,0,CECAFA Cup,Tanzania,True
+2010-12-10,Ivory Coast,Ethiopia,1,0,CECAFA Cup,Tanzania,True
+2010-12-10,Bosnia and Herzegovina,Poland,2,2,Friendly,Turkey,True
+2010-12-25,Bahrain,Uzbekistan,1,1,Friendly,United Arab Emirates,True
+2010-12-28,Bahrain,Jordan,2,1,Friendly,United Arab Emirates,True
+2010-12-30,South Korea,Syria,1,0,Friendly,United Arab Emirates,True
+2011-01-02,China,Iraq,3,2,Friendly,Qatar,True
+2011-01-02,Iran,Angola,1,0,Friendly,Qatar,True
+2011-01-02,Jordan,Uzbekistan,2,2,Friendly,United Arab Emirates,True
+2011-01-07,Qatar,Uzbekistan,0,2,Asian Cup,Qatar,False
+2011-01-08,DR Congo,Kenya,1,0,Friendly tournament,Egypt,True
+2011-01-09,Japan,Jordan,1,1,Asian Cup,Qatar,True
+2011-01-09,Syria,Saudi Arabia,2,1,Asian Cup,Qatar,True
+2011-01-10,Australia,India,4,0,Asian Cup,Qatar,True
+2011-01-10,South Korea,Bahrain,2,1,Asian Cup,Qatar,True
+2011-01-11,Iran,Iraq,2,1,Asian Cup,Qatar,True
+2011-01-11,DR Congo,Sudan,2,1,Friendly tournament,Egypt,True
+2011-01-12,Qatar,China,2,0,Asian Cup,Qatar,False
+2011-01-12,Uzbekistan,Kuwait,2,1,Asian Cup,Qatar,True
+2011-01-13,Japan,Syria,2,1,Asian Cup,Qatar,True
+2011-01-13,Jordan,Saudi Arabia,1,0,Asian Cup,Qatar,True
+2011-01-14,Australia,South Korea,1,1,Asian Cup,Qatar,True
+2011-01-14,Uganda,DR Congo,1,0,Friendly tournament,Egypt,True
+2011-01-14,Costa Rica,Honduras,1,1,CONCACAF Ch q & C Am Cup,Panama,True
+2011-01-15,Iran,North Korea,1,0,Asian Cup,Qatar,True
+2011-01-15,Iraq,United Arab Emirates,1,0,Asian Cup,Qatar,True
+2011-01-16,China,Uzbekistan,2,2,Asian Cup,Qatar,True
+2011-01-16,Qatar,Kuwait,3,0,Asian Cup,Qatar,False
+2011-01-16,Costa Rica,Guatemala,2,0,CONCACAF Ch q & C Am Cup,Panama,True
+2011-01-17,Japan,Saudi Arabia,5,0,Asian Cup,Qatar,True
+2011-01-17,Jordan,Syria,2,1,Asian Cup,Qatar,True
+2011-01-17,DR Congo,Kenya,1,0,Friendly tournament,Egypt,True
+2011-01-18,Australia,Bahrain,1,0,Asian Cup,Qatar,True
+2011-01-18,South Korea,India,4,1,Asian Cup,Qatar,True
+2011-01-19,Iran,United Arab Emirates,3,0,Asian Cup,Qatar,True
+2011-01-19,Iraq,North Korea,1,0,Asian Cup,Qatar,True
+2011-01-19,Sweden,Botswana,2,1,Friendly,South Africa,True
+2011-01-21,Qatar,Japan,2,3,Asian Cup,Qatar,False
+2011-01-21,Uzbekistan,Jordan,2,1,Asian Cup,Qatar,True
+2011-01-22,Australia,Iraq,1,0,Asian Cup,Qatar,True
+2011-01-22,South Korea,Iran,1,0,Asian Cup,Qatar,True
+2011-01-23,Honduras,Costa Rica,2,1,Central American Cup,Panama,True
+2011-01-25,Japan,South Korea,2,2,Asian Cup,Qatar,True
+2011-01-25,Australia,Uzbekistan,6,0,Asian Cup,Qatar,True
+2011-01-28,South Korea,Uzbekistan,3,2,Asian Cup,Qatar,True
+2011-01-29,Japan,Australia,1,0,Asian Cup,Qatar,True
+2011-02-06,Poland,Moldova,1,0,Friendly,Portugal,True
+2011-02-08,Ghana,Togo,4,1,Friendly,Belgium,True
+2011-02-08,Ivory Coast,Mali,1,0,Friendly,France,True
+2011-02-09,Iran,Russia,1,0,Friendly,United Arab Emirates,True
+2011-02-09,Gabon,DR Congo,2,0,Friendly,France,True
+2011-02-09,Cape Verde,Burkina Faso,1,0,Friendly,Portugal,True
+2011-02-09,Mexico,Bosnia and Herzegovina,2,0,Friendly,United States,True
+2011-02-09,Argentina,Portugal,2,1,Friendly,Switzerland,True
+2011-02-09,Scotland,Northern Ireland,3,0,Friendly tournament,Ireland,True
+2011-02-09,Sweden,Ukraine,1,1,Friendly tournament,Cyprus,True
+2011-02-09,Poland,Norway,1,0,Friendly,Portugal,True
+2011-03-26,Iraq,North Korea,2,0,Friendly,United Arab Emirates,True
+2011-03-26,Jordan,Kuwait,1,1,Friendly,United Arab Emirates,True
+2011-03-26,Mexico,Paraguay,3,1,Friendly,United States,True
+2011-03-26,Colombia,Ecuador,2,0,Friendly,Spain,True
+2011-03-27,Ivory Coast,Benin,2,1,African Nations Cup qualifier,Ghana,True
+2011-03-27,Brazil,Scotland,2,0,Friendly,England,True
+2011-03-29,Jordan,North Korea,1,1,Friendly,United Arab Emirates,True
+2011-03-29,Kuwait,Iraq,1,0,Friendly,United Arab Emirates,True
+2011-03-29,Canada,Belarus,1,0,Friendly,Turkey,True
+2011-03-29,Mexico,Venezuela,1,1,Friendly,United States,True
+2011-03-29,Chile,Colombia,2,0,Friendly,Netherlands,True
+2011-03-29,Ecuador,Peru,0,0,Friendly,Netherlands,True
+2011-05-25,Scotland,Wales,3,1,Friendly tournament,Ireland,True
+2011-05-27,Wales,Northern Ireland,2,0,Friendly tournament,Ireland,True
+2011-05-28,Ecuador,Mexico,1,1,Friendly,United States,True
+2011-06-01,Mexico,New Zealand,3,0,Friendly,United States,True
+2011-06-04,Czechia,Peru,0,0,Friendly tournament,Japan,True
+2011-06-05,Costa Rica,Cuba,5,0,CONCACAF Championship,United States,True
+2011-06-05,Mexico,El Salvador,5,0,CONCACAF Championship,United States,True
+2011-06-07,Cameroon,Russia,0,0,Friendly,Austria,True
+2011-06-07,United States,Canada,2,0,CONCACAF Championship,United States,False
+2011-06-07,Panama,Guadeloupe,3,2,CONCACAF Championship,United States,True
+2011-06-07,Ecuador,Greece,1,1,Friendly,United States,True
+2011-06-09,Costa Rica,El Salvador,1,1,CONCACAF Championship,United States,True
+2011-06-09,Mexico,Cuba,5,0,CONCACAF Championship,United States,True
+2011-06-11,United States,Panama,1,2,CONCACAF Championship,United States,False
+2011-06-11,Canada,Guadeloupe,1,0,CONCACAF Championship,United States,True
+2011-06-12,Mexico,Costa Rica,4,1,CONCACAF Championship,United States,True
+2011-06-14,United States,Guadeloupe,1,0,CONCACAF Championship,United States,False
+2011-06-14,Canada,Panama,1,1,CONCACAF Championship,United States,True
+2011-06-18,Costa Rica,Honduras,1,1,CONCACAF Championship,United States,True
+2011-06-18,Mexico,Guatemala,2,1,CONCACAF Championship,United States,True
+2011-06-19,United States,Jamaica,2,0,CONCACAF Championship,United States,False
+2011-06-19,El Salvador,Panama,1,1,CONCACAF Championship,United States,True
+2011-06-22,United States,Panama,1,0,CONCACAF Championship,United States,False
+2011-06-22,Mexico,Honduras,2,0,CONCACAF Championship,United States,True
+2011-06-25,United States,Mexico,2,4,CONCACAF Championship,United States,False
+2011-07-02,Colombia,Costa Rica,1,0,Copa America,Argentina,True
+2011-07-03,Brazil,Venezuela,0,0,Copa America,Argentina,True
+2011-07-03,Ecuador,Paraguay,0,0,Copa America,Argentina,True
+2011-07-04,Chile,Mexico,2,1,Copa America,Argentina,True
+2011-07-04,Peru,Uruguay,1,1,Copa America,Argentina,True
+2011-07-05,Syria,Jordan,3,1,Friendly,Turkey,True
+2011-07-07,Costa Rica,Bolivia,2,0,Copa America,Argentina,True
+2011-07-08,Jordan,Yemen,4,0,Friendly,Turkey,True
+2011-07-08,Peru,Mexico,1,0,Copa America,Argentina,True
+2011-07-08,Chile,Uruguay,1,1,Copa America,Argentina,True
+2011-07-09,Brazil,Paraguay,2,2,Copa America,Argentina,True
+2011-07-09,Venezuela,Ecuador,1,0,Copa America,Argentina,True
+2011-07-10,Colombia,Bolivia,2,0,Copa America,Argentina,True
+2011-07-12,Uruguay,Mexico,1,0,Copa America,Argentina,True
+2011-07-12,Chile,Peru,1,0,Copa America,Argentina,True
+2011-07-13,Kuwait,Iraq,2,0,Friendly tournament,Jordan,True
+2011-07-13,Brazil,Ecuador,4,2,Copa America,Argentina,True
+2011-07-13,Paraguay,Venezuela,3,3,Copa America,Argentina,True
+2011-07-16,Kuwait,Saudi Arabia,1,0,Friendly tournament,Jordan,True
+2011-07-16,Peru,Colombia,2,0,Copa America,Argentina,True
+2011-07-17,Brazil,Paraguay,0,0,Copa America,Argentina,True
+2011-07-19,Uruguay,Peru,2,0,Copa America,Argentina,True
+2011-07-20,Paraguay,Venezuela,0,0,Copa America,Argentina,True
+2011-07-23,Peru,Venezuela,4,1,Copa America,Argentina,True
+2011-07-24,Uruguay,Paraguay,3,0,Copa America,Argentina,True
+2011-07-28,Iraq,Yemen,0,0,World Cup qualifier,United Arab Emirates,True
+2011-08-10,Gambia,DR Congo,3,0,Friendly,The Gambia,True
+2011-08-10,Ivory Coast,Israel,4,3,Friendly,Switzerland,True
+2011-09-02,Argentina,Venezuela,1,0,Friendly tournament,India,True
+2011-09-02,Spain,Chile,3,2,Friendly,Switzerland,True
+2011-09-03,Colombia,Honduras,2,0,Friendly,United States,True
+2011-09-04,Mexico,Chile,1,0,Friendly,Spain,True
+2011-09-05,Brazil,Ghana,1,0,Friendly,England,True
+2011-09-06,Argentina,Nigeria,3,1,Friendly,Bangladesh,True
+2011-09-06,Colombia,Jamaica,2,0,Friendly,United States,True
+2011-10-07,Indonesia,Saudi Arabia,0,0,Friendly,Malaysia,True
+2011-10-11,Ghana,Nigeria,0,0,Friendly,England,True
+2011-10-11,Poland,Belarus,2,0,Friendly,Germany,True
+2011-11-06,Iraq,Lebanon,1,0,Friendly,Qatar,True
+2011-11-06,DR Congo,Lesotho,3,0,Friendly,South Africa,True
+2011-11-11,Iraq,China,1,0,World Cup qualifier,Qatar,True
+2011-11-11,Cameroon,Sudan,3,1,Friendly tournament,Morocco,True
+2011-11-11,Senegal,Guinea,4,1,Friendly,France,True
+2011-11-14,Brazil,Egypt,2,0,Friendly,Qatar,True
+2011-11-15,Ghana,Gabon,2,1,Friendly,France,True
+2011-12-02,Bonaire,Curaçao,3,1,Friendly tournament,Suriname,True
+2011-12-11,Jordan,Palestine,4,1,Pan Arab Games,Qatar,True
+2011-12-13,Bahrain,Iraq,3,0,Pan Arab Games,Qatar,True
+2011-12-17,Jordan,Libya,0,0,Pan Arab Games,Qatar,True
+2011-12-20,Jordan,Kuwait,2,0,Pan Arab Games,Qatar,True
+2011-12-23,Bahrain,Jordan,1,0,Pan Arab Games,Qatar,True
+2012-01-09,Tunisia,Sudan,3,0,Friendly,United Arab Emirates,True
+2012-01-13,Ivory Coast,Tunisia,2,0,Friendly,United Arab Emirates,True
+2012-01-16,Ivory Coast,Libya,1,0,Friendly,United Arab Emirates,True
+2012-01-18,Sweden,Bahrain,2,0,Friendly,Qatar,True
+2012-01-21,Zambia,Senegal,2,1,African Nations Cup,Equatorial Guinea,True
+2012-01-22,Ivory Coast,Sudan,1,0,African Nations Cup,Equatorial Guinea,True
+2012-01-23,Tunisia,Morocco,2,1,African Nations Cup,Gabon,True
+2012-01-24,Ghana,Botswana,1,0,African Nations Cup,Gabon,True
+2012-01-25,Equatorial Guinea,Senegal,2,1,African Nations Cup,Equatorial Guinea,False
+2012-01-25,Mexico,Venezuela,3,1,Friendly,United States,True
+2012-01-26,Ivory Coast,Burkina Faso,2,0,African Nations Cup,Equatorial Guinea,True
+2012-01-27,Tunisia,Niger,2,1,African Nations Cup,Gabon,True
+2012-01-27,Gabon,Morocco,3,2,African Nations Cup,Gabon,False
+2012-01-28,Ghana,Mali,2,0,African Nations Cup,Gabon,True
+2012-01-29,Libya,Senegal,2,1,African Nations Cup,Equatorial Guinea,True
+2012-01-30,Ivory Coast,Angola,2,0,African Nations Cup,Equatorial Guinea,True
+2012-01-31,Gabon,Tunisia,1,0,African Nations Cup,Gabon,False
+2012-01-31,Morocco,Niger,1,0,African Nations Cup,Gabon,True
+2012-02-01,Ghana,Guinea,1,1,African Nations Cup,Gabon,True
+2012-02-04,Equatorial Guinea,Ivory Coast,0,3,African Nations Cup,Equatorial Guinea,False
+2012-02-05,Ghana,Tunisia,2,1,African Nations Cup,Gabon,True
+2012-02-08,Zambia,Ghana,1,0,African Nations Cup,Equatorial Guinea,True
+2012-02-08,Ivory Coast,Mali,1,0,African Nations Cup,Gabon,True
+2012-02-11,Mali,Ghana,2,0,African Nations Cup,Equatorial Guinea,True
+2012-02-12,Ivory Coast,Zambia,0,0,African Nations Cup,Gabon,True
+2012-02-23,Iran,Jordan,2,2,Friendly,United Arab Emirates,True
+2012-02-28,Brazil,Bosnia and Herzegovina,2,1,Friendly,Switzerland,True
+2012-02-28,Serbia,Armenia,2,0,Friendly,Cyprus,True
+2012-02-29,Iraq,Singapore,7,1,World Cup qualifier,Qatar,True
+2012-02-29,Egypt,Niger,1,0,Friendly,Qatar,True
+2012-02-29,Chile,Ghana,1,1,Friendly,United States,True
+2012-02-29,Gambia,Algeria,1,2,African Nations Cup qualifier,The Gambia,True
+2012-02-29,Armenia,Canada,3,1,Friendly,Cyprus,True
+2012-02-29,Colombia,Mexico,2,0,Friendly,United States,True
+2012-03-02,DR Congo,Egypt,0,0,Friendly,Qatar,True
+2012-03-29,Egypt,Uganda,2,1,Friendly,Sudan,True
+2012-03-31,Egypt,Chad,4,0,Friendly,Sudan,True
+2012-04-12,Egypt,Nigeria,3,2,Friendly,United Arab Emirates,True
+2012-04-15,Egypt,Mauritania,3,0,Friendly,United Arab Emirates,True
+2012-04-17,Egypt,Iraq,0,0,Friendly,United Arab Emirates,True
+2012-05-20,Egypt,Cameroon,2,1,Friendly,Sudan,True
+2012-05-22,Albania,Qatar,2,1,Friendly,Spain,True
+2012-05-22,Egypt,Togo,3,0,Friendly,Sudan,True
+2012-05-22,Poland,Latvia,1,0,Friendly,Austria,True
+2012-05-23,Iraq,Sierra Leone,1,0,Friendly,Turkey,True
+2012-05-23,El Salvador,New Zealand,2,2,Friendly,United States,True
+2012-05-24,Turkey,Georgia,3,1,Friendly,Austria,True
+2012-05-26,Cameroon,Guinea,2,1,Friendly,France,True
+2012-05-26,New Zealand,Honduras,1,0,Friendly,United States,True
+2012-05-26,Brazil,Denmark,3,1,Friendly,Germany,True
+2012-05-26,Finland,Turkey,3,2,Friendly,Austria,True
+2012-05-26,Poland,Slovakia,1,0,Friendly,Austria,True
+2012-05-26,Spain,Serbia,2,0,Friendly,Switzerland,True
+2012-05-26,Czechia,Israel,2,1,Friendly,Austria,True
+2012-05-27,Albania,Iran,1,0,Friendly,Turkey,True
+2012-05-27,Ivory Coast,Mali,2,1,Friendly,France,True
+2012-05-27,Mexico,Wales,2,0,Friendly,United States,True
+2012-05-28,Botswana,Iraq,1,1,Friendly,Turkey,True
+2012-05-29,Lithuania,Russia,0,0,Friendly,Switzerland,True
+2012-05-29,Turkey,Bulgaria,2,0,Friendly,Austria,True
+2012-05-30,Spain,South Korea,4,1,Friendly,Switzerland,True
+2012-05-31,Mexico,Bosnia and Herzegovina,2,1,Friendly,United States,True
+2012-06-01,Russia,Italy,3,0,Friendly,Switzerland,True
+2012-06-02,Gambia,Morocco,1,1,World Cup qualifier,The Gambia,True
+2012-06-02,New Zealand,Fiji,1,0,WC q and Oce Cup,Solomon Islands,True
+2012-06-03,Mexico,Brazil,2,0,Friendly,United States,True
+2012-06-04,New Zealand,Papua New Guinea,2,1,WC q and Oce Cup,Solomon Islands,True
+2012-06-05,Turkey,Ukraine,2,0,Friendly,Germany,True
+2012-06-08,New Caledonia,New Zealand,2,0,Oceania Nations Cup,Solomon Islands,True
+2012-06-08,Russia,Czechia,4,1,European Championship,Poland,True
+2012-06-08,Poland,Greece,1,1,European Championship,Poland,False
+2012-06-09,Argentina,Brazil,4,3,Friendly,United States,True
+2012-06-09,Denmark,Netherlands,1,0,European Championship,Ukraine,True
+2012-06-09,Germany,Portugal,1,0,European Championship,Ukraine,True
+2012-06-10,Libya,Cameroon,2,1,World Cup qualifier,Tunisia,True
+2012-06-10,Mali,Algeria,2,1,World Cup qualifier,Burkina Faso,True
+2012-06-10,Solomon Islands,New Zealand,3,4,Oceania Nations Cup,Solomon Islands,False
+2012-06-10,Italy,Spain,1,1,European Championship,Poland,True
+2012-06-10,Croatia,Ireland,3,1,European Championship,Poland,True
+2012-06-11,England,France,1,1,European Championship,Ukraine,True
+2012-06-11,Ukraine,Sweden,2,1,European Championship,Ukraine,False
+2012-06-12,Iraq,Oman,1,1,World Cup qualifier,Qatar,True
+2012-06-12,Poland,Russia,1,1,European Championship,Poland,False
+2012-06-12,Czechia,Greece,2,1,European Championship,Poland,True
+2012-06-13,Germany,Netherlands,2,1,European Championship,Ukraine,True
+2012-06-13,Portugal,Denmark,3,2,European Championship,Ukraine,True
+2012-06-14,Croatia,Italy,1,1,European Championship,Poland,True
+2012-06-14,Spain,Ireland,4,0,European Championship,Poland,True
+2012-06-15,England,Sweden,3,2,European Championship,Ukraine,True
+2012-06-15,Ukraine,France,0,2,European Championship,Ukraine,False
+2012-06-16,Greece,Russia,1,0,European Championship,Poland,True
+2012-06-16,Poland,Czechia,0,1,European Championship,Poland,False
+2012-06-17,Portugal,Netherlands,2,1,European Championship,Ukraine,True
+2012-06-17,Germany,Denmark,2,1,European Championship,Ukraine,True
+2012-06-18,Spain,Croatia,1,0,European Championship,Poland,True
+2012-06-19,Ukraine,England,0,1,European Championship,Ukraine,False
+2012-06-19,Sweden,France,2,0,European Championship,Ukraine,True
+2012-06-21,Portugal,Czechia,1,0,European Championship,Poland,True
+2012-06-22,Germany,Greece,4,2,European Championship,Poland,True
+2012-06-23,Morocco,Bahrain,4,0,Arab Cup,Saudi Arabia,True
+2012-06-23,Spain,France,2,0,European Championship,Ukraine,True
+2012-06-24,Iraq,Lebanon,1,0,Arab Cup,Saudi Arabia,True
+2012-06-24,England,Italy,0,0,European Championship,Ukraine,True
+2012-06-26,Libya,Morocco,0,0,Arab Cup,Saudi Arabia,True
+2012-06-27,Portugal,Spain,0,0,European Championship,Ukraine,True
+2012-06-28,Italy,Germany,2,1,European Championship,Poland,True
+2012-06-29,Morocco,Yemen,4,0,Arab Cup,Saudi Arabia,True
+2012-06-30,Iraq,Sudan,1,1,Arab Cup,Saudi Arabia,True
+2012-07-01,Spain,Italy,4,0,European Championship,Ukraine,True
+2012-07-03,Morocco,Iraq,2,1,Arab Cup,Saudi Arabia,True
+2012-07-06,Morocco,Libya,1,1,Arab Cup,Saudi Arabia,True
+2012-07-15,Curaçao,Bonaire,9,2,Friendly tournament,Aruba,True
+2012-08-15,Iran,Tunisia,2,2,Friendly,Hungary,True
+2012-08-15,Canada,Trinidad and Tobago,2,0,Friendly,United States,True
+2012-08-15,Guatemala,Paraguay,3,3,Friendly,United States,True
+2012-08-15,Ecuador,Chile,3,0,Friendly,United States,True
+2012-08-15,England,Italy,2,1,Friendly,Switzerland,True
+2012-09-06,Tajikistan,Qatar,2,1,Friendly,Germany,True
+2012-09-09,Algeria,Libya,1,0,African Nations Cup qualifier,Morocco,True
+2012-09-11,Gabon,Saudi Arabia,1,0,Friendly,France,True
+2012-10-11,Brazil,Iraq,6,0,Friendly,Sweden,True
+2012-10-12,Egypt,Congo,3,0,Friendly,United Arab Emirates,True
+2012-10-12,Mexico,Guyana,5,0,World Cup qualifier,United States,True
+2012-10-16,Brazil,Japan,4,0,Friendly,Poland,True
+2012-10-16,Australia,Iraq,2,1,World Cup qualifier,Qatar,True
+2012-10-16,Tunisia,Egypt,1,0,Friendly,United Arab Emirates,True
+2012-10-23,Guyana,Curaçao,2,1,CONCACAF Ch & Car Ch q,Saint Lucia,True
+2012-10-25,St Vincent & Grenadines,Curaçao,4,0,CONCACAF Ch & Car Ch q,Saint Lucia,True
+2012-11-14,Iraq,Jordan,1,0,World Cup qualifier,Qatar,True
+2012-11-14,Burkina Faso,DR Congo,1,0,Friendly,Morocco,True
+2012-11-14,Nigeria,Venezuela,3,1,Friendly,United States,True
+2012-11-14,Ghana,Cape Verde,1,0,Friendly,Portugal,True
+2012-11-14,Albania,Cameroon,0,0,Friendly,Switzerland,True
+2012-11-14,Haiti,Guyana,1,0,CONCACAF Ch & Car Ch q,Grenada,True
+2012-11-14,Honduras,Peru,0,0,Friendly,United States,True
+2012-11-14,Serbia,Chile,3,1,Friendly,Switzerland,True
+2012-11-14,Brazil,Colombia,1,1,Friendly,United States,True
+2012-11-16,French Guiana,Haiti,1,0,CONCACAF Ch & Car Ch q,Grenada,True
+2012-12-03,Bahrain,Iraq,0,0,Friendly,Qatar,True
+2012-12-05,Australia,North Korea,1,1,East Asian Championship qual,Hong Kong,True
+2012-12-07,Australia,Guam,9,0,East Asian Championship qual,Hong Kong,True
+2012-12-07,Haiti,Trinidad and Tobago,0,0,CONCACAF Ch q & Car Ch,Antigua and Barbuda,True
+2012-12-09,Australia,Taiwan,8,0,East Asian Championship qual,Hong Kong,True
+2012-12-09,Iran,Saudi Arabia,0,0,West Asian Championship,Kuwait,True
+2012-12-09,Haiti,Dominican Republic,2,1,CONCACAF Ch q & Car Ch,Antigua and Barbuda,True
+2012-12-10,Iraq,Jordan,1,0,West Asian Championship,Kuwait,True
+2012-12-12,Bahrain,Iran,0,0,West Asian Championship,Kuwait,True
+2012-12-12,Saudi Arabia,Yemen,1,0,West Asian Championship,Kuwait,True
+2012-12-13,Iraq,Syria,1,1,West Asian Championship,Kuwait,True
+2012-12-14,Cuba,Haiti,1,0,Caribbean Championship,Antigua and Barbuda,True
+2012-12-14,Poland,Macedonia,4,1,Friendly,Turkey,True
+2012-12-15,Iran,Yemen,2,1,West Asian Championship,Kuwait,True
+2012-12-15,Bahrain,Saudi Arabia,1,0,West Asian Championship,Kuwait,True
+2012-12-16,Syria,Jordan,2,1,West Asian Championship,Kuwait,True
+2012-12-16,Haiti,Martinique,1,0,Caribbean Championship,Antigua and Barbuda,True
+2012-12-18,Iraq,Oman,2,0,West Asian Championship,Kuwait,True
+2012-12-20,Syria,Iraq,1,0,West Asian Championship,Kuwait,True
+2012-12-30,Tunisia,Iraq,2,1,Friendly,United Arab Emirates,True
+2013-01-05,United Arab Emirates,Qatar,3,1,Gulf Cup,Bahrain,True
+2013-01-06,Iraq,Saudi Arabia,2,0,Gulf Cup,Bahrain,True
+2013-01-07,Ethiopia,Tunisia,1,1,Friendly,Qatar,True
+2013-01-08,Qatar,Oman,2,1,Gulf Cup,Bahrain,True
+2013-01-08,Morocco,Zambia,0,0,Friendly,South Africa,True
+2013-01-09,Iraq,Kuwait,1,0,Gulf Cup,Bahrain,True
+2013-01-09,Saudi Arabia,Yemen,2,0,Gulf Cup,Bahrain,True
+2013-01-09,Cape Verde,Nigeria,0,0,Friendly,Portugal,True
+2013-01-10,Ghana,Egypt,3,0,Friendly,United Arab Emirates,True
+2013-01-10,Gabon,Tunisia,1,1,Friendly,United Arab Emirates,True
+2013-01-12,Iraq,Yemen,2,0,Gulf Cup,Bahrain,True
+2013-01-12,Kuwait,Saudi Arabia,1,0,Gulf Cup,Bahrain,True
+2013-01-12,Morocco,Namibia,2,1,Friendly,South Africa,True
+2013-01-13,Ghana,Tunisia,4,2,Friendly,United Arab Emirates,True
+2013-01-14,Ivory Coast,Egypt,4,2,Friendly,United Arab Emirates,True
+2013-01-18,United Arab Emirates,Iraq,2,1,Gulf Cup,Bahrain,True
+2013-01-19,South Africa,Cape Verde,0,0,African Nations Cup,South Africa,False
+2013-01-19,Angola,Morocco,0,0,African Nations Cup,South Africa,True
+2013-01-20,DR Congo,Ghana,2,2,African Nations Cup,South Africa,True
+2013-01-20,El Salvador,Panama,0,0,CONCACAF Ch q & C Am Cup,Costa Rica,True
+2013-01-21,Burkina Faso,Nigeria,1,1,African Nations Cup,South Africa,True
+2013-01-22,Ivory Coast,Togo,2,1,African Nations Cup,South Africa,True
+2013-01-22,Tunisia,Algeria,1,0,African Nations Cup,South Africa,True
+2013-01-22,Honduras,Panama,1,1,CONCACAF Ch q & C Am Cup,Costa Rica,True
+2013-01-23,North Korea,Sweden,1,1,King's Cup,Thailand,True
+2013-01-23,South Africa,Angola,2,0,African Nations Cup,South Africa,False
+2013-01-23,Cape Verde,Morocco,1,1,African Nations Cup,South Africa,True
+2013-01-24,DR Congo,Niger,0,0,African Nations Cup,South Africa,True
+2013-01-24,Ghana,Mali,1,0,African Nations Cup,South Africa,True
+2013-01-25,Nigeria,Zambia,1,1,African Nations Cup,South Africa,True
+2013-01-25,Panama,Guatemala,3,1,CONCACAF Ch q & C Am Cup,Costa Rica,True
+2013-01-26,Togo,Algeria,2,0,African Nations Cup,South Africa,True
+2013-01-26,Ivory Coast,Tunisia,3,0,African Nations Cup,South Africa,True
+2013-01-26,Sweden,Finland,3,0,King's Cup,Thailand,True
+2013-01-27,South Africa,Morocco,2,2,African Nations Cup,South Africa,False
+2013-01-27,Cape Verde,Angola,2,1,African Nations Cup,South Africa,True
+2013-01-28,DR Congo,Mali,1,1,African Nations Cup,South Africa,True
+2013-01-28,Ghana,Niger,3,0,African Nations Cup,South Africa,True
+2013-01-29,Nigeria,Ethiopia,2,0,African Nations Cup,South Africa,True
+2013-01-30,Togo,Tunisia,1,1,African Nations Cup,South Africa,True
+2013-01-30,Algeria,Ivory Coast,2,2,African Nations Cup,South Africa,True
+2013-02-01,Iraq,Malaysia,3,0,Friendly,United Arab Emirates,True
+2013-02-01,Azerbaijan,Uzbekistan,0,0,Friendly,United Arab Emirates,True
+2013-02-02,South Africa,Mali,1,1,African Nations Cup,South Africa,False
+2013-02-02,Ghana,Cape Verde,2,0,African Nations Cup,South Africa,True
+2013-02-03,Nigeria,Ivory Coast,2,1,African Nations Cup,South Africa,True
+2013-02-05,Guinea,Senegal,1,1,Friendly,France,True
+2013-02-06,Romania,Australia,3,2,Friendly,Spain,True
+2013-02-06,Iraq,Indonesia,1,0,Asian Cup qualifier,United Arab Emirates,True
+2013-02-06,Croatia,South Korea,4,0,Friendly,England,True
+2013-02-06,Chile,Egypt,2,1,Friendly,Spain,True
+2013-02-06,Nigeria,Mali,4,1,African Nations Cup,South Africa,True
+2013-02-06,Burkina Faso,Ghana,1,1,African Nations Cup,South Africa,True
+2013-02-06,Colombia,Guatemala,4,1,Friendly,United States,True
+2013-02-06,Spain,Uruguay,3,1,Friendly,Qatar,True
+2013-02-06,Ukraine,Norway,2,0,Friendly,Spain,True
+2013-02-06,Russia,Iceland,2,0,Friendly,Spain,True
+2013-02-09,Mali,Ghana,3,1,African Nations Cup,South Africa,True
+2013-02-10,Nigeria,Burkina Faso,1,0,African Nations Cup,South Africa,True
+2013-03-21,Brazil,Italy,2,2,Friendly,Switzerland,True
+2013-03-22,Japan,Canada,2,1,Friendly,Qatar,True
+2013-03-23,Angola,Senegal,1,1,World Cup qualifier,Guinea,True
+2013-03-25,Belarus,Canada,2,0,Friendly,Qatar,True
+2013-03-25,Brazil,Russia,1,1,Friendly,England,True
+2013-04-17,Mexico,Peru,0,0,Friendly,United States,True
+2013-05-28,Latvia,Turkey,3,3,Friendly,Germany,True
+2013-05-29,Germany,Ecuador,4,2,Friendly,United States,True
+2013-05-31,Mexico,Nigeria,2,2,Friendly,United States,True
+2013-05-31,Slovenia,Turkey,2,0,Friendly,Germany,True
+2013-06-08,South Africa,Central African Republic,3,0,World Cup qualifier,Cameroon,True
+2013-06-08,Gambia,Ivory Coast,0,3,World Cup qualifier,The Gambia,True
+2013-06-08,Spain,Haiti,2,1,Friendly,United States,True
+2013-06-10,Portugal,Croatia,1,0,Friendly,Switzerland,True
+2013-06-11,Japan,Iraq,1,0,World Cup qualifier,Qatar,True
+2013-06-11,Haiti,Italy,2,2,Friendly,Brazil,True
+2013-06-11,Spain,Ireland,2,0,Friendly,United States,True
+2013-06-16,Italy,Mexico,2,1,Confederations Cup,Brazil,True
+2013-06-16,Spain,Uruguay,2,1,Confederations Cup,Brazil,True
+2013-06-17,Nigeria,Tahiti,6,1,Confederations Cup,Brazil,True
+2013-06-19,Italy,Japan,4,3,Confederations Cup,Brazil,True
+2013-06-20,Uruguay,Nigeria,2,1,Confederations Cup,Brazil,True
+2013-06-20,Spain,Tahiti,10,0,Confederations Cup,Brazil,True
+2013-06-22,Mexico,Japan,2,1,Confederations Cup,Brazil,True
+2013-06-23,Spain,Nigeria,3,0,Confederations Cup,Brazil,True
+2013-06-23,Uruguay,Tahiti,8,0,Confederations Cup,Brazil,True
+2013-06-27,Italy,Spain,0,0,Confederations Cup,Brazil,True
+2013-06-30,Italy,Uruguay,2,2,Confederations Cup,Brazil,True
+2013-07-07,Martinique,Canada,1,0,CONCACAF Championship,United States,True
+2013-07-07,Panama,Mexico,2,1,CONCACAF Championship,United States,True
+2013-07-08,Honduras,Haiti,2,0,CONCACAF Championship,United States,True
+2013-07-09,United States,Belize,6,1,CONCACAF Championship,United States,False
+2013-07-09,Costa Rica,Cuba,3,0,CONCACAF Championship,United States,True
+2013-07-11,Mexico,Canada,2,0,CONCACAF Championship,United States,True
+2013-07-11,Panama,Martinique,1,0,CONCACAF Championship,United States,True
+2013-07-12,Haiti,Trinidad and Tobago,2,0,CONCACAF Championship,United States,True
+2013-07-13,South Africa,Namibia,2,1,COSAFA Cup,Zambia,True
+2013-07-13,United States,Cuba,4,1,CONCACAF Championship,United States,False
+2013-07-13,Costa Rica,Belize,1,0,CONCACAF Championship,United States,True
+2013-07-14,Canada,Panama,0,0,CONCACAF Championship,United States,True
+2013-07-14,Mexico,Martinique,3,1,CONCACAF Championship,United States,True
+2013-07-15,El Salvador,Haiti,1,0,CONCACAF Championship,United States,True
+2013-07-16,United States,Costa Rica,1,0,CONCACAF Championship,United States,False
+2013-07-20,South Africa,Lesotho,2,1,COSAFA Cup,Zambia,True
+2013-07-20,Mexico,Trinidad and Tobago,1,0,CONCACAF Championship,United States,True
+2013-07-20,Panama,Cuba,6,1,CONCACAF Championship,United States,True
+2013-07-21,China,Japan,3,3,East Asian Championship,South Korea,True
+2013-07-21,United States,El Salvador,5,1,CONCACAF Championship,United States,False
+2013-07-21,Honduras,Costa Rica,1,0,CONCACAF Championship,United States,True
+2013-07-24,United States,Honduras,3,1,CONCACAF Championship,United States,False
+2013-07-24,Panama,Mexico,2,1,CONCACAF Championship,United States,True
+2013-07-25,Japan,Australia,3,2,East Asian Championship,South Korea,True
+2013-07-28,China,Australia,4,3,East Asian Championship,South Korea,True
+2013-07-28,United States,Panama,1,0,CONCACAF Championship,United States,False
+2013-08-14,Chile,Iraq,6,0,Friendly,Denmark,True
+2013-08-14,Senegal,Zambia,1,1,Friendly,France,True
+2013-08-14,Cape Verde,Gabon,1,1,Friendly,Portugal,True
+2013-08-14,Mexico,Ivory Coast,4,1,Friendly,United States,True
+2013-08-14,Colombia,Serbia,1,0,Friendly,Spain,True
+2013-08-15,Jordan,Syria,1,1,Asian Cup qualifier,Iran,True
+2013-08-30,Libya,Ghana,1,0,Friendly,Tunisia,True
+2013-09-07,Senegal,Uganda,1,0,World Cup qualifier,Morocco,True
+2013-09-08,Canada,Mauritania,0,0,Friendly,Spain,True
+2013-09-09,United Arab Emirates,New Zealand,2,0,Friendly tournament,Saudi Arabia,True
+2013-09-10,Mauritania,Canada,1,0,Friendly,Spain,True
+2013-09-10,Chile,Spain,2,2,Friendly,Switzerland,True
+2013-09-10,Brazil,Portugal,3,1,Friendly,United States,True
+2013-10-06,Iraq,Yemen,3,2,Friendly,Lebanon,True
+2013-10-15,Australia,Canada,3,0,Friendly,England,True
+2013-10-15,Saudi Arabia,Iraq,2,0,Asian Cup qualifier,Jordan,True
+2013-10-15,Brazil,Zambia,2,0,Friendly,China,True
+2013-11-06,Jordan,Zambia,1,0,Friendly,Qatar,True
+2013-11-11,Iraq,Syria,2,1,Friendly,Jordan,True
+2013-11-15,Qatar,Yemen,4,1,Asian Cup qualifier,United Arab Emirates,True
+2013-11-15,Argentina,Ecuador,0,0,Friendly,United States,True
+2013-11-15,Russia,Serbia,1,1,Friendly,United Arab Emirates,True
+2013-11-16,Japan,Netherlands,2,2,Friendly,Belgium,True
+2013-11-16,Ivory Coast,Senegal,1,1,World Cup qualifier,Morocco,True
+2013-11-16,Brazil,Honduras,5,0,Friendly,United States,True
+2013-11-18,Italy,Nigeria,2,2,Friendly,England,True
+2013-11-18,Argentina,Bosnia and Herzegovina,2,0,Friendly,United States,True
+2013-11-19,Russia,South Korea,2,1,Friendly,United Arab Emirates,True
+2013-11-19,Ecuador,Honduras,2,2,Friendly,United States,True
+2013-11-19,Brazil,Chile,2,1,Friendly,Canada,True
+2013-12-26,Jordan,Lebanon,0,0,West Asian Championship,Qatar,True
+2013-12-28,Bahrain,Iraq,0,0,West Asian Championship,Qatar,True
+2013-12-28,Palestine,Saudi Arabia,0,0,West Asian Championship,Qatar,True
+2013-12-31,Iraq,Oman,0,0,West Asian Championship,Qatar,True
+2014-01-01,Jordan,Kuwait,2,1,West Asian Championship,Qatar,True
+2014-01-04,Jordan,Bahrain,1,0,West Asian Championship,Qatar,True
+2014-01-15,Norway,Moldova,2,1,Friendly,United Arab Emirates,True
+2014-01-17,Sweden,Moldova,2,1,Friendly,United Arab Emirates,True
+2014-01-18,Poland,Norway,3,0,Friendly,United Arab Emirates,True
+2014-01-20,Poland,Moldova,1,0,Friendly,United Arab Emirates,True
+2014-01-21,Sweden,Iceland,2,0,Friendly,United Arab Emirates,True
+2014-01-25,South Korea,Costa Rica,1,0,Friendly,United States,True
+2014-01-29,Mexico,South Korea,4,0,Friendly,United States,True
+2014-02-21,Iraq,North Korea,2,0,Friendly,United Arab Emirates,True
+2014-03-05,Ecuador,Australia,4,3,Friendly,England,True
+2014-03-05,Iraq,China,3,1,Asian Cup qualifier,United Arab Emirates,True
+2014-03-05,Egypt,Bosnia and Herzegovina,2,0,Friendly,Austria,True
+2014-03-05,Mexico,Nigeria,0,0,Friendly,United States,True
+2014-03-05,Colombia,Tunisia,1,1,Friendly,Spain,True
+2014-03-05,Mali,Senegal,1,1,Friendly,France,True
+2014-03-05,Ukraine,United States,2,0,Friendly,Cyprus,True
+2014-05-18,Belarus,Iran,0,0,Friendly,Austria,True
+2014-05-23,Morocco,Mozambique,4,0,Friendly,Portugal,True
+2014-05-23,Bulgaria,Canada,1,1,Friendly,Austria,True
+2014-05-24,Moldova,Saudi Arabia,4,0,Friendly,Spain,True
+2014-05-25,Senegal,Kosovo,3,1,Friendly,Switzerland,True
+2014-05-26,Iran,Montenegro,0,0,Friendly,Austria,True
+2014-05-26,Cameroon,Macedonia,2,0,Friendly,Austria,True
+2014-05-26,Serbia,Jamaica,2,1,Friendly,United States,True
+2014-05-27,Canada,Moldova,1,1,Friendly,Austria,True
+2014-05-28,Nigeria,Scotland,2,2,Friendly,England,True
+2014-05-28,Angola,Morocco,2,0,Friendly,Portugal,True
+2014-05-29,Georgia,Saudi Arabia,2,0,Friendly,Spain,True
+2014-05-29,Paraguay,Cameroon,2,1,Friendly,Austria,True
+2014-05-29,Turkey,Honduras,2,0,Friendly,United States,True
+2014-05-30,Angola,Iran,1,1,Friendly,Austria,True
+2014-05-30,Macedonia,Qatar,0,0,Friendly,Italy,True
+2014-05-30,Bosnia and Herzegovina,Ivory Coast,2,1,Friendly,United States,True
+2014-05-31,Colombia,Senegal,2,2,Friendly,Argentina,True
+2014-05-31,Algeria,Armenia,3,1,Friendly,Switzerland,True
+2014-05-31,Mexico,Ecuador,3,1,Friendly,United States,True
+2014-05-31,Panama,Serbia,1,1,Friendly,United States,True
+2014-06-02,Japan,Costa Rica,3,1,Friendly,United States,True
+2014-06-03,Greece,Nigeria,0,0,Friendly,United States,True
+2014-06-03,Bosnia and Herzegovina,Mexico,1,0,Friendly,United States,True
+2014-06-04,Egypt,Jamaica,2,2,Friendly,England,True
+2014-06-04,Ivory Coast,El Salvador,2,1,Friendly,United States,True
+2014-06-04,Algeria,Romania,2,1,Friendly,Switzerland,True
+2014-06-04,Ecuador,England,2,2,Friendly,United States,True
+2014-06-06,Japan,Zambia,4,3,Friendly,United States,True
+2014-06-06,Croatia,Australia,1,0,Friendly,Brazil,True
+2014-06-06,Colombia,Jordan,3,0,Friendly,Argentina,True
+2014-06-06,Costa Rica,Ireland,1,1,Friendly,United States,True
+2014-06-06,Portugal,Mexico,1,0,Friendly,United States,True
+2014-06-07,Spain,El Salvador,2,0,Friendly,United States,True
+2014-06-07,England,Honduras,0,0,Friendly,United States,True
+2014-06-08,Iran,Trinidad and Tobago,2,0,Friendly,Brazil,True
+2014-06-09,Ghana,South Korea,4,0,Friendly,United States,True
+2014-06-10,Portugal,Ireland,5,1,Friendly,United States,True
+2014-06-12,Brazil,Croatia,3,1,World Cup,Brazil,False
+2014-06-13,Chile,Australia,3,1,World Cup,Brazil,True
+2014-06-13,Mexico,Cameroon,1,0,World Cup,Brazil,True
+2014-06-13,Netherlands,Spain,5,1,World Cup,Brazil,True
+2014-06-14,Ivory Coast,Japan,2,1,World Cup,Brazil,True
+2014-06-14,Costa Rica,Uruguay,3,1,World Cup,Brazil,True
+2014-06-14,Colombia,Greece,3,0,World Cup,Brazil,True
+2014-06-14,Italy,England,2,1,World Cup,Brazil,True
+2014-06-15,France,Honduras,3,0,World Cup,Brazil,True
+2014-06-15,Argentina,Bosnia and Herzegovina,2,1,World Cup,Brazil,True
+2014-06-15,Switzerland,Ecuador,2,1,World Cup,Brazil,True
+2014-06-16,Iran,Nigeria,0,0,World Cup,Brazil,True
+2014-06-16,United States,Ghana,2,1,World Cup,Brazil,True
+2014-06-16,Germany,Portugal,4,0,World Cup,Brazil,True
+2014-06-17,Russia,South Korea,1,1,World Cup,Brazil,True
+2014-06-17,Belgium,Algeria,2,1,World Cup,Brazil,True
+2014-06-17,Brazil,Mexico,0,0,World Cup,Brazil,False
+2014-06-18,Netherlands,Australia,3,2,World Cup,Brazil,True
+2014-06-18,Croatia,Cameroon,4,0,World Cup,Brazil,True
+2014-06-18,Chile,Spain,2,0,World Cup,Brazil,True
+2014-06-19,Greece,Japan,0,0,World Cup,Brazil,True
+2014-06-19,Colombia,Ivory Coast,2,1,World Cup,Brazil,True
+2014-06-19,Uruguay,England,2,1,World Cup,Brazil,True
+2014-06-20,Costa Rica,Italy,1,0,World Cup,Brazil,True
+2014-06-20,Ecuador,Honduras,2,1,World Cup,Brazil,True
+2014-06-20,France,Switzerland,5,2,World Cup,Brazil,True
+2014-06-21,Argentina,Iran,1,0,World Cup,Brazil,True
+2014-06-21,Nigeria,Bosnia and Herzegovina,1,0,World Cup,Brazil,True
+2014-06-21,Germany,Ghana,2,2,World Cup,Brazil,True
+2014-06-22,Algeria,South Korea,4,2,World Cup,Brazil,True
+2014-06-22,Portugal,United States,2,2,World Cup,Brazil,True
+2014-06-22,Belgium,Russia,1,0,World Cup,Brazil,True
+2014-06-23,Spain,Australia,3,0,World Cup,Brazil,True
+2014-06-23,Brazil,Cameroon,4,1,World Cup,Brazil,False
+2014-06-23,Mexico,Croatia,3,1,World Cup,Brazil,True
+2014-06-23,Netherlands,Chile,2,0,World Cup,Brazil,True
+2014-06-24,Colombia,Japan,4,1,World Cup,Brazil,True
+2014-06-24,Greece,Ivory Coast,2,1,World Cup,Brazil,True
+2014-06-24,Costa Rica,England,0,0,World Cup,Brazil,True
+2014-06-24,Uruguay,Italy,1,0,World Cup,Brazil,True
+2014-06-25,Bosnia and Herzegovina,Iran,3,1,World Cup,Brazil,True
+2014-06-25,Argentina,Nigeria,3,2,World Cup,Brazil,True
+2014-06-25,Switzerland,Honduras,3,0,World Cup,Brazil,True
+2014-06-25,Ecuador,France,0,0,World Cup,Brazil,True
+2014-06-26,Belgium,South Korea,1,0,World Cup,Brazil,True
+2014-06-26,Portugal,Ghana,2,1,World Cup,Brazil,True
+2014-06-26,Algeria,Russia,1,1,World Cup,Brazil,True
+2014-06-26,Germany,United States,1,0,World Cup,Brazil,True
+2014-06-28,Colombia,Uruguay,2,0,World Cup,Brazil,True
+2014-06-28,Brazil,Chile,1,1,World Cup,Brazil,False
+2014-06-29,Costa Rica,Greece,1,1,World Cup,Brazil,True
+2014-06-29,Netherlands,Mexico,2,1,World Cup,Brazil,True
+2014-06-30,France,Nigeria,2,0,World Cup,Brazil,True
+2014-06-30,Germany,Algeria,2,1,World Cup,Brazil,True
+2014-07-01,Belgium,United States,2,1,World Cup,Brazil,True
+2014-07-01,Argentina,Switzerland,1,0,World Cup,Brazil,True
+2014-07-04,Brazil,Colombia,2,1,World Cup,Brazil,False
+2014-07-04,Germany,France,1,0,World Cup,Brazil,True
+2014-07-05,Costa Rica,Netherlands,0,0,World Cup,Brazil,True
+2014-07-05,Argentina,Belgium,1,0,World Cup,Brazil,True
+2014-07-08,Brazil,Germany,1,7,World Cup,Brazil,False
+2014-07-09,Argentina,Netherlands,0,0,World Cup,Brazil,True
+2014-07-12,Brazil,Netherlands,0,3,World Cup,Brazil,False
+2014-07-13,Germany,Argentina,1,0,World Cup,Brazil,True
+2014-09-03,Costa Rica,Nicaragua,3,0,CONCACAF Ch q & C Am Cup,United States,True
+2014-09-04,Peru,Iraq,2,0,Friendly,United Arab Emirates,True
+2014-09-05,Curaçao,Grenada,2,1,CONCACAF Ch & Car Ch q,Puerto Rico,True
+2014-09-05,Brazil,Colombia,1,0,Friendly,United States,True
+2014-09-06,Chile,Mexico,0,0,Friendly,United States,True
+2014-09-06,Ecuador,Bolivia,4,0,Friendly,United States,True
+2014-09-07,Paraguay,United Arab Emirates,0,0,Friendly,Austria,True
+2014-09-07,Costa Rica,Panama,2,2,CONCACAF Ch q & C Am Cup,United States,True
+2014-09-07,Curaçao,French Guiana,0,0,CONCACAF Ch & Car Ch q,Puerto Rico,True
+2014-09-07,Poland,Gibraltar,7,0,European Championship qual,Portugal,True
+2014-09-08,Australia,Saudi Arabia,3,2,Friendly,England,True
+2014-09-09,Mexico,Bolivia,1,0,Friendly,United States,True
+2014-09-09,Chile,Haiti,1,0,Friendly,United States,True
+2014-09-09,Brazil,Ecuador,1,0,Friendly,United States,True
+2014-09-10,Panama,Nicaragua,2,0,CONCACAF Ch q & C Am Cup,United States,True
+2014-09-13,Costa Rica,Guatemala,2,1,Central American Cup,United States,True
+2014-09-13,Panama,El Salvador,1,0,Central American Cup,United States,True
+2014-10-08,Curaçao,Martinique,1,1,CONCACAF Ch & Car Ch q,Guadeloupe,True
+2014-10-10,Iraq,Yemen,1,1,Friendly,Bahrain,True
+2014-10-10,Bahrain,Uzbekistan,0,0,Friendly,United Arab Emirates,True
+2014-10-10,Colombia,El Salvador,3,0,Friendly,United States,True
+2014-10-10,St Vincent & Grenadines,Curaçao,1,0,CONCACAF Ch & Car Ch q,Guadeloupe,True
+2014-10-11,Ghana,Guinea,1,1,African Nations Cup qualifier,Morocco,True
+2014-10-11,Brazil,Argentina,2,0,Friendly tournament,China,True
+2014-10-14,Brazil,Japan,4,0,Friendly,Singapore,True
+2014-10-14,Colombia,Canada,1,0,Friendly,United States,True
+2014-10-14,Ecuador,El Salvador,5,1,Friendly,United States,True
+2014-11-11,Trinidad and Tobago,Curaçao,3,2,CONCACAF Ch q & Car Ch,Jamaica,True
+2014-11-12,Antigua and Barbuda,Haiti,2,2,CONCACAF Ch q & Car Ch,Jamaica,True
+2014-11-12,Argentina,Croatia,2,1,Friendly,England,True
+2014-11-13,Cuba,Curaçao,3,2,CONCACAF Ch q & Car Ch,Jamaica,True
+2014-11-14,Kuwait,Iraq,1,0,Gulf Cup,Saudi Arabia,True
+2014-11-14,Colombia,United States,2,1,Friendly,England,True
+2014-11-14,Haiti,Martinique,3,0,CONCACAF Ch q & Car Ch,Jamaica,True
+2014-11-15,French Guiana,Curaçao,4,1,CONCACAF Ch q & Car Ch,Jamaica,True
+2014-11-16,Qatar,Yemen,0,0,Gulf Cup,Saudi Arabia,True
+2014-11-17,Iraq,Oman,1,1,Gulf Cup,Saudi Arabia,True
+2014-11-18,Haiti,Cuba,2,1,Caribbean Championship,Jamaica,True
+2014-11-18,Portugal,Argentina,1,0,Friendly,England,True
+2014-11-19,Bahrain,Qatar,0,0,Gulf Cup,Saudi Arabia,True
+2014-11-20,United Arab Emirates,Iraq,2,0,Gulf Cup,Saudi Arabia,True
+2014-11-23,Qatar,Oman,3,1,Gulf Cup,Saudi Arabia,True
+2014-12-13,Uzbekistan,Palestine,1,0,Friendly,United Arab Emirates,True
+2014-12-21,Uzbekistan,Jordan,2,1,Friendly,United Arab Emirates,True
+2014-12-22,Iraq,Kuwait,1,1,Friendly,United Arab Emirates,True
+2014-12-25,Uzbekistan,Iraq,1,0,Friendly,United Arab Emirates,True
+2014-12-28,Iraq,Uzbekistan,0,0,Friendly,United Arab Emirates,True
+2014-12-30,United Arab Emirates,Jordan,1,0,Friendly,Australia,True
+2014-12-30,Bahrain,Saudi Arabia,4,1,Friendly,Australia,True
+2014-12-31,Oman,Qatar,2,2,Friendly,Australia,True
+2015-01-04,Iran,Iraq,1,0,Friendly,Australia,True
+2015-01-04,South Korea,Saudi Arabia,2,0,Friendly,Australia,True
+2015-01-04,Bahrain,Jordan,1,0,Friendly,Australia,True
+2015-01-07,Cape Verde,Equatorial Guinea,1,1,Friendly,Portugal,True
+2015-01-09,Australia,Kuwait,4,1,Asian Cup,Australia,False
+2015-01-09,Senegal,Gabon,1,0,Friendly,Morocco,True
+2015-01-10,China,Saudi Arabia,1,0,Asian Cup,Australia,True
+2015-01-10,South Korea,Oman,1,0,Asian Cup,Australia,True
+2015-01-10,Uzbekistan,North Korea,1,0,Asian Cup,Australia,True
+2015-01-10,Cameroon,South Africa,1,1,Friendly,Gabon,True
+2015-01-10,Cape Verde,Congo,3,2,Friendly,Senegal,True
+2015-01-11,Iran,Bahrain,2,0,Asian Cup,Australia,True
+2015-01-11,United Arab Emirates,Qatar,4,1,Asian Cup,Australia,True
+2015-01-12,Japan,Palestine,4,0,Asian Cup,Australia,True
+2015-01-12,Iraq,Jordan,1,0,Asian Cup,Australia,True
+2015-01-13,Australia,Oman,4,0,Asian Cup,Australia,False
+2015-01-13,South Korea,Kuwait,1,0,Asian Cup,Australia,True
+2015-01-13,Senegal,Guinea,5,2,Friendly,Morocco,True
+2015-01-14,China,Uzbekistan,2,1,Asian Cup,Australia,True
+2015-01-14,Saudi Arabia,North Korea,4,1,Asian Cup,Australia,True
+2015-01-14,South Africa,Mali,3,0,Friendly,Gabon,True
+2015-01-15,Iran,Qatar,1,0,Asian Cup,Australia,True
+2015-01-15,Sweden,Ivory Coast,2,0,Friendly,United Arab Emirates,True
+2015-01-16,Japan,Iraq,1,0,Asian Cup,Australia,True
+2015-01-16,Jordan,Palestine,5,1,Asian Cup,Australia,True
+2015-01-16,Iceland,Canada,2,1,Friendly,United States,True
+2015-01-17,Australia,South Korea,0,1,Asian Cup,Australia,False
+2015-01-18,Uzbekistan,Saudi Arabia,3,1,Asian Cup,Australia,True
+2015-01-18,DR Congo,Zambia,1,1,African Nations Cup,Equatorial Guinea,True
+2015-01-18,Cape Verde,Tunisia,1,1,African Nations Cup,Equatorial Guinea,True
+2015-01-19,Iran,United Arab Emirates,1,0,Asian Cup,Australia,True
+2015-01-19,Bahrain,Qatar,2,1,Asian Cup,Australia,True
+2015-01-19,Algeria,South Africa,3,1,African Nations Cup,Equatorial Guinea,True
+2015-01-19,Senegal,Ghana,2,1,African Nations Cup,Equatorial Guinea,True
+2015-01-19,Canada,Iceland,1,1,Friendly,United States,True
+2015-01-19,Finland,Sweden,1,0,Friendly,United Arab Emirates,True
+2015-01-20,Japan,Jordan,2,0,Asian Cup,Australia,True
+2015-01-20,Iraq,Palestine,2,0,Asian Cup,Australia,True
+2015-01-20,Cameroon,Mali,1,1,African Nations Cup,Equatorial Guinea,True
+2015-01-20,Guinea,Ivory Coast,1,1,African Nations Cup,Equatorial Guinea,True
+2015-01-22,Australia,China,2,0,Asian Cup,Australia,False
+2015-01-22,South Korea,Uzbekistan,2,0,Asian Cup,Australia,True
+2015-01-22,Tunisia,Zambia,2,1,African Nations Cup,Equatorial Guinea,True
+2015-01-22,Cape Verde,DR Congo,0,0,African Nations Cup,Equatorial Guinea,True
+2015-01-23,Japan,United Arab Emirates,1,1,Asian Cup,Australia,True
+2015-01-23,Iran,Iraq,3,3,Asian Cup,Australia,True
+2015-01-23,Senegal,South Africa,1,1,African Nations Cup,Equatorial Guinea,True
+2015-01-23,Ghana,Algeria,1,0,African Nations Cup,Equatorial Guinea,True
+2015-01-24,Cameroon,Guinea,1,1,African Nations Cup,Equatorial Guinea,True
+2015-01-24,Ivory Coast,Mali,1,1,African Nations Cup,Equatorial Guinea,True
+2015-01-26,South Korea,Iraq,2,0,Asian Cup,Australia,True
+2015-01-26,Cape Verde,Zambia,0,0,African Nations Cup,Equatorial Guinea,True
+2015-01-26,DR Congo,Tunisia,1,1,African Nations Cup,Equatorial Guinea,True
+2015-01-27,Australia,United Arab Emirates,2,0,Asian Cup,Australia,False
+2015-01-27,Ghana,South Africa,2,1,African Nations Cup,Equatorial Guinea,True
+2015-01-27,Algeria,Senegal,2,0,African Nations Cup,Equatorial Guinea,True
+2015-01-28,Ivory Coast,Cameroon,1,0,African Nations Cup,Equatorial Guinea,True
+2015-01-30,United Arab Emirates,Iraq,3,2,Asian Cup,Australia,True
+2015-01-30,Aruba,Curaçao,0,0,Friendly tournament,Suriname,True
+2015-01-31,Australia,South Korea,2,1,Asian Cup,Australia,False
+2015-01-31,DR Congo,Congo,4,2,African Nations Cup,Equatorial Guinea,True
+2015-01-31,Equatorial Guinea,Tunisia,2,1,African Nations Cup,Equatorial Guinea,False
+2015-02-01,Ghana,Guinea,3,0,African Nations Cup,Equatorial Guinea,True
+2015-02-01,Ivory Coast,Algeria,3,1,African Nations Cup,Equatorial Guinea,True
+2015-02-01,Curaçao,Bonaire,4,1,Friendly tournament,Suriname,True
+2015-02-04,Ivory Coast,DR Congo,3,1,African Nations Cup,Equatorial Guinea,True
+2015-02-05,Equatorial Guinea,Ghana,0,3,African Nations Cup,Equatorial Guinea,False
+2015-02-07,Equatorial Guinea,DR Congo,0,0,African Nations Cup,Equatorial Guinea,False
+2015-02-08,Ghana,Ivory Coast,0,0,African Nations Cup,Equatorial Guinea,True
+2015-03-26,Iran,Chile,2,0,Friendly,Austria,True
+2015-03-27,Canada,Guatemala,1,0,Friendly,United States,True
+2015-03-28,Iraq,DR Congo,2,1,Friendly,United Arab Emirates,True
+2015-03-28,Senegal,Ghana,2,1,Friendly,France,True
+2015-03-28,Argentina,El Salvador,2,0,Friendly,United States,True
+2015-03-28,Mexico,Ecuador,1,0,Friendly,United States,True
+2015-03-29,Brazil,Chile,1,0,Friendly,England,True
+2015-03-30,Colombia,Kuwait,3,1,Friendly,United Arab Emirates,True
+2015-03-30,Algeria,Oman,4,1,Friendly,Qatar,True
+2015-03-31,Iraq,DR Congo,1,0,Friendly,United Arab Emirates,True
+2015-03-31,Ghana,Mali,1,1,Friendly,France,True
+2015-03-31,Mexico,Paraguay,1,0,Friendly,United States,True
+2015-03-31,Argentina,Ecuador,2,1,Friendly,United States,True
+2015-03-31,Venezuela,Peru,1,0,Friendly,United States,True
+2015-05-20,Curaçao,Suriname,3,2,Friendly,Netherlands,True
+2015-05-25,Madagascar,Ghana,2,1,COSAFA Cup,South Africa,True
+2015-05-27,Zambia,Ghana,3,0,COSAFA Cup,South Africa,True
+2015-05-31,Northern Ireland,Qatar,1,1,Friendly,England,True
+2015-06-05,Jordan,Kuwait,2,2,Friendly,Turkey,True
+2015-06-06,Cameroon,Burkina Faso,3,2,Friendly,France,True
+2015-06-06,Colombia,Costa Rica,1,0,Friendly,Argentina,True
+2015-06-07,Serbia,Azerbaijan,4,1,Friendly,Austria,True
+2015-06-09,Cameroon,DR Congo,1,1,Friendly,Belgium,True
+2015-06-11,South Korea,United Arab Emirates,3,0,Friendly,Malaysia,True
+2015-06-12,Bolivia,Mexico,0,0,Copa America,Chile,True
+2015-06-13,Uruguay,Jamaica,1,0,Copa America,Chile,True
+2015-06-13,Argentina,Paraguay,2,2,Copa America,Chile,True
+2015-06-13,Germany,Gibraltar,7,0,European Championship qual,Portugal,True
+2015-06-14,Brazil,Peru,2,1,Copa America,Chile,True
+2015-06-14,Venezuela,Colombia,1,0,Copa America,Chile,True
+2015-06-15,Bolivia,Ecuador,3,2,Copa America,Chile,True
+2015-06-16,South Korea,Myanmar,2,0,World Cup and Asian Cup qual,Thailand,True
+2015-06-16,Paraguay,Jamaica,1,0,Copa America,Chile,True
+2015-06-16,Argentina,Uruguay,1,0,Copa America,Chile,True
+2015-06-16,Portugal,Italy,1,0,Friendly,Switzerland,True
+2015-06-17,Colombia,Brazil,1,0,Copa America,Chile,True
+2015-06-18,Peru,Venezuela,1,0,Copa America,Chile,True
+2015-06-19,Ecuador,Mexico,2,1,Copa America,Chile,True
+2015-06-20,Argentina,Jamaica,1,0,Copa America,Chile,True
+2015-06-20,Paraguay,Uruguay,1,1,Copa America,Chile,True
+2015-06-21,Brazil,Venezuela,2,1,Copa America,Chile,True
+2015-06-21,Colombia,Peru,0,0,Copa America,Chile,True
+2015-06-25,Peru,Bolivia,3,1,Copa America,Chile,True
+2015-06-26,Argentina,Colombia,0,0,Copa America,Chile,True
+2015-06-27,Costa Rica,Mexico,2,2,Friendly,United States,True
+2015-06-27,Brazil,Paraguay,1,1,Copa America,Chile,True
+2015-06-30,Argentina,Paraguay,6,1,Copa America,Chile,True
+2015-07-01,Honduras,Mexico,0,0,Friendly,United States,True
+2015-07-03,Trinidad and Tobago,Haiti,1,0,Friendly,United States,True
+2015-07-03,Peru,Paraguay,2,0,Copa America,Chile,True
+2015-07-07,United States,Honduras,2,1,CONCACAF Championship,United States,False
+2015-07-07,Haiti,Panama,1,1,CONCACAF Championship,United States,True
+2015-07-08,Canada,El Salvador,0,0,CONCACAF Championship,United States,True
+2015-07-08,Costa Rica,Jamaica,2,2,CONCACAF Championship,United States,True
+2015-07-09,Mexico,Cuba,6,0,CONCACAF Championship,United States,True
+2015-07-10,United States,Haiti,1,0,CONCACAF Championship,United States,False
+2015-07-10,Honduras,Panama,1,1,CONCACAF Championship,United States,True
+2015-07-11,Jamaica,Canada,1,0,CONCACAF Championship,United States,True
+2015-07-11,Costa Rica,El Salvador,1,1,CONCACAF Championship,United States,True
+2015-07-12,Guatemala,Mexico,0,0,CONCACAF Championship,United States,True
+2015-07-13,United States,Panama,1,1,CONCACAF Championship,United States,False
+2015-07-13,Haiti,Honduras,1,0,CONCACAF Championship,United States,True
+2015-07-14,Canada,Costa Rica,0,0,CONCACAF Championship,Canada,False
+2015-07-15,Mexico,Trinidad and Tobago,4,4,CONCACAF Championship,United States,True
+2015-07-18,United States,Cuba,6,0,CONCACAF Championship,United States,False
+2015-07-18,Jamaica,Haiti,1,0,CONCACAF Championship,United States,True
+2015-07-19,Mexico,Costa Rica,1,0,CONCACAF Championship,United States,True
+2015-07-19,Panama,Trinidad and Tobago,1,1,CONCACAF Championship,United States,True
+2015-07-22,United States,Jamaica,1,2,CONCACAF Championship,United States,False
+2015-07-22,Mexico,Panama,2,1,CONCACAF Championship,United States,True
+2015-07-25,United States,Panama,1,1,CONCACAF Championship,United States,False
+2015-07-26,Mexico,Jamaica,3,1,CONCACAF Championship,United States,True
+2015-08-02,North Korea,Japan,2,1,East Asian Championship,China,True
+2015-08-05,Japan,South Korea,1,1,East Asian Championship,China,True
+2015-08-09,North Korea,South Korea,0,0,East Asian Championship,China,True
+2015-09-03,Iraq,Taiwan,5,1,World Cup and Asian Cup qual,Iran,True
+2015-09-04,Mexico,Trinidad and Tobago,3,3,Friendly,United States,True
+2015-09-04,Argentina,Bolivia,7,0,Friendly,United States,True
+2015-09-05,Brazil,Costa Rica,1,0,Friendly,United States,True
+2015-09-06,Ivory Coast,Sierra Leone,0,0,African Nations Cup qualifier,Nigeria,True
+2015-09-06,Gambia,Cameroon,0,1,African Nations Cup qualifier,The Gambia,True
+2015-09-06,Cape Verde,Libya,2,1,African Nations Cup qualifier,Egypt,True
+2015-09-08,Japan,Afghanistan,6,0,World Cup and Asian Cup qual,Iran,True
+2015-09-08,Argentina,Mexico,2,2,Friendly,United States,True
+2015-09-08,Colombia,Peru,1,1,Friendly,United States,True
+2015-10-08,Japan,Syria,3,0,World Cup and Asian Cup qual,Oman,True
+2015-10-08,DR Congo,Nigeria,2,0,Friendly,Belgium,True
+2015-10-09,Haiti,El Salvador,3,1,Friendly,United States,True
+2015-10-11,Egypt,Zambia,3,0,Friendly,United Arab Emirates,True
+2015-10-11,Nigeria,Cameroon,3,0,Friendly,Belgium,True
+2015-10-11,Scotland,Gibraltar,6,0,European Championship qual,Portugal,True
+2015-10-12,DR Congo,Gabon,2,1,Friendly,Belgium,True
+2015-10-13,Canada,Ghana,1,1,Friendly,United States,True
+2015-11-06,DR Congo,Zambia,3,0,Friendly tournament,Angola,True
+2015-11-09,Palestine,Saudi Arabia,0,0,World Cup and Asian Cup qual,Jordan,True
+2015-11-11,Jordan,Malta,2,0,Friendly,Turkey,True
+2015-11-17,Uzbekistan,Yemen,3,1,World Cup and Asian Cup qual,Qatar,True
+2016-01-06,Estonia,Sweden,1,1,Friendly,United Arab Emirates,True
+2016-01-08,Haiti,Trinidad and Tobago,1,0,Copa America qualifier,Panama,True
+2016-01-10,Sweden,Finland,3,0,Friendly,United Arab Emirates,True
+2016-01-13,Iceland,Finland,1,0,Friendly,United Arab Emirates,True
+2016-02-14,Uzbekistan,Lebanon,2,0,Friendly,United Arab Emirates,True
+2016-03-18,Syria,Iraq,1,0,Friendly,Iran,True
+2016-03-24,Iraq,Thailand,2,2,World Cup and Asian Cup qual,Iran,True
+2016-03-29,Iraq,Vietnam,1,0,World Cup and Asian Cup qual,Iran,True
+2016-05-25,DR Congo,Romania,1,1,Friendly,Italy,True
+2016-05-27,Nigeria,Mali,1,0,Friendly,France,True
+2016-05-27,Czechia,Malta,6,0,Friendly,Austria,True
+2016-05-28,Peru,El Salvador,3,1,Friendly,United States,True
+2016-05-28,Mexico,Paraguay,1,0,Friendly,United States,True
+2016-05-28,New Zealand,Fiji,3,1,WC q and Oce Cup,Papua New Guinea,True
+2016-05-29,Albania,Qatar,3,1,Friendly,Austria,True
+2016-05-29,Colombia,Haiti,3,1,Friendly,United States,True
+2016-05-29,Brazil,Panama,2,0,Friendly,United States,True
+2016-05-29,Italy,Scotland,1,0,Friendly,Malta,True
+2016-05-29,Spain,Bosnia and Herzegovina,3,1,Friendly,Switzerland,True
+2016-05-31,New Zealand,Vanuatu,5,0,WC q and Oce Cup,Papua New Guinea,True
+2016-06-01,Spain,South Korea,6,1,Friendly,Austria,True
+2016-06-01,Mexico,Chile,1,0,Friendly,United States,True
+2016-06-01,Czechia,Russia,2,1,Friendly,Austria,True
+2016-06-03,Jordan,United Arab Emirates,3,1,King's Cup,Thailand,True
+2016-06-03,Libya,Morocco,1,1,African Nations Cup qualifier,Tunisia,True
+2016-06-03,Azerbaijan,Canada,1,1,Friendly,Austria,True
+2016-06-03,Bosnia and Herzegovina,Denmark,2,2,Friendly tournament,Japan,True
+2016-06-04,Gambia,South Africa,0,4,African Nations Cup qualifier,The Gambia,True
+2016-06-04,Costa Rica,Paraguay,0,0,Copa America,United States,True
+2016-06-04,Peru,Haiti,1,0,Copa America,United States,True
+2016-06-04,Brazil,Ecuador,0,0,Copa America,United States,True
+2016-06-04,New Zealand,Solomon Islands,1,0,WC q and Oce Cup,Papua New Guinea,True
+2016-06-05,Mexico,Uruguay,3,1,Copa America,United States,True
+2016-06-05,Russia,Serbia,1,1,Friendly,Monaco,True
+2016-06-06,Panama,Bolivia,2,1,Copa America,United States,True
+2016-06-06,Argentina,Chile,2,1,Copa America,United States,True
+2016-06-07,Canada,Uzbekistan,2,1,Friendly,Austria,True
+2016-06-07,Colombia,Paraguay,2,1,Copa America,United States,True
+2016-06-07,Denmark,Bulgaria,4,0,Friendly tournament,Japan,True
+2016-06-08,Brazil,Haiti,7,1,Copa America,United States,True
+2016-06-08,Ecuador,Peru,2,2,Copa America,United States,True
+2016-06-08,New Zealand,New Caledonia,1,0,Oceania Nations Cup,Papua New Guinea,True
+2016-06-09,Mexico,Jamaica,2,0,Copa America,United States,True
+2016-06-09,Venezuela,Uruguay,1,0,Copa America,United States,True
+2016-06-10,Argentina,Panama,5,0,Copa America,United States,True
+2016-06-10,France,Romania,2,1,European Championship,France,False
+2016-06-11,Costa Rica,Colombia,3,2,Copa America,United States,True
+2016-06-11,Papua New Guinea,New Zealand,0,0,Oceania Nations Cup,Papua New Guinea,False
+2016-06-11,England,Russia,1,1,European Championship,France,True
+2016-06-11,Wales,Slovakia,2,1,European Championship,France,True
+2016-06-11,Switzerland,Albania,1,0,European Championship,France,True
+2016-06-12,Ecuador,Haiti,4,0,Copa America,United States,True
+2016-06-12,Peru,Brazil,1,0,Copa America,United States,True
+2016-06-12,Poland,Northern Ireland,1,0,European Championship,France,True
+2016-06-12,Germany,Ukraine,2,0,European Championship,France,True
+2016-06-12,Croatia,Turkey,1,0,European Championship,France,True
+2016-06-13,Mexico,Venezuela,1,1,Copa America,United States,True
+2016-06-13,Uruguay,Jamaica,3,0,Copa America,United States,True
+2016-06-13,Italy,Belgium,2,0,European Championship,France,True
+2016-06-13,Ireland,Sweden,1,1,European Championship,France,True
+2016-06-13,Spain,Czechia,1,0,European Championship,France,True
+2016-06-14,Chile,Panama,4,2,Copa America,United States,True
+2016-06-14,Argentina,Bolivia,3,0,Copa America,United States,True
+2016-06-14,Hungary,Austria,2,0,European Championship,France,True
+2016-06-14,Iceland,Portugal,1,1,European Championship,France,True
+2016-06-15,France,Albania,2,0,European Championship,France,False
+2016-06-15,Romania,Switzerland,1,1,European Championship,France,True
+2016-06-15,Slovakia,Russia,2,1,European Championship,France,True
+2016-06-16,England,Wales,2,1,European Championship,France,True
+2016-06-16,Germany,Poland,0,0,European Championship,France,True
+2016-06-17,Colombia,Peru,0,0,Copa America,United States,True
+2016-06-17,Italy,Sweden,1,0,European Championship,France,True
+2016-06-17,Spain,Turkey,3,0,European Championship,France,True
+2016-06-17,Croatia,Czechia,2,2,European Championship,France,True
+2016-06-18,Lesotho,South Africa,1,1,COSAFA Cup,Namibia,True
+2016-06-18,Chile,Mexico,7,0,Copa America,United States,True
+2016-06-18,Argentina,Venezuela,4,1,Copa America,United States,True
+2016-06-18,Austria,Portugal,0,0,European Championship,France,True
+2016-06-18,Hungary,Iceland,1,1,European Championship,France,True
+2016-06-18,Belgium,Ireland,3,0,European Championship,France,True
+2016-06-19,DR Congo,Mozambique,1,0,COSAFA Cup,Namibia,True
+2016-06-19,France,Switzerland,0,0,European Championship,France,False
+2016-06-20,England,Slovakia,0,0,European Championship,France,True
+2016-06-20,Wales,Russia,3,0,European Championship,France,True
+2016-06-21,Germany,Northern Ireland,1,0,European Championship,France,True
+2016-06-21,Poland,Ukraine,1,0,European Championship,France,True
+2016-06-21,Croatia,Spain,2,1,European Championship,France,True
+2016-06-21,Turkey,Czechia,2,0,European Championship,France,True
+2016-06-22,South Africa,Swaziland,5,1,COSAFA Cup,Namibia,True
+2016-06-22,Botswana,DR Congo,0,0,COSAFA Cup,Namibia,True
+2016-06-22,Chile,Colombia,2,0,Copa America,United States,True
+2016-06-22,Iceland,Austria,2,1,European Championship,France,True
+2016-06-22,Hungary,Portugal,3,3,European Championship,France,True
+2016-06-22,Belgium,Sweden,1,0,European Championship,France,True
+2016-06-25,South Africa,Botswana,3,2,COSAFA Cup,Namibia,True
+2016-06-25,Swaziland,DR Congo,1,0,COSAFA Cup,Namibia,True
+2016-06-25,Wales,Northern Ireland,1,0,European Championship,France,True
+2016-06-25,Poland,Switzerland,1,1,European Championship,France,True
+2016-06-25,Portugal,Croatia,1,0,European Championship,France,True
+2016-06-26,Argentina,Chile,0,0,Copa America,United States,True
+2016-06-26,Belgium,Hungary,4,0,European Championship,France,True
+2016-06-26,France,Ireland,2,1,European Championship,France,False
+2016-06-26,Germany,Slovakia,3,0,European Championship,France,True
+2016-06-27,Iceland,England,2,1,European Championship,France,True
+2016-06-27,Italy,Spain,2,0,European Championship,France,True
+2016-06-30,Poland,Portugal,1,1,European Championship,France,True
+2016-07-01,Wales,Belgium,3,1,European Championship,France,True
+2016-07-02,Germany,Italy,1,1,European Championship,France,True
+2016-07-03,France,Iceland,5,2,European Championship,France,False
+2016-07-06,Portugal,Wales,2,0,European Championship,France,True
+2016-07-07,France,Germany,2,0,European Championship,France,False
+2016-07-10,France,Portugal,0,1,European Championship,France,False
+2016-08-16,North Korea,Iraq,1,0,Friendly,Malaysia,True
+2016-08-18,Qatar,Jordan,3,2,Friendly,Switzerland,True
+2016-08-21,Iraq,North Korea,1,1,Friendly,Malaysia,True
+2016-08-24,Saudi Arabia,Laos,4,0,Friendly,Qatar,True
+2016-09-06,Syria,South Korea,0,0,World Cup qualifier,Malaysia,True
+2016-09-06,Iraq,Saudi Arabia,1,2,World Cup qualifier,Malaysia,True
+2016-10-06,Canada,Mauritania,4,0,Friendly,Morocco,True
+2016-10-06,Croatia,Kosovo,6,0,World Cup qualifier,Albania,True
+2016-10-08,Mexico,New Zealand,2,1,Friendly,United States,True
+2016-10-10,Belgium,Gibraltar,6,0,World Cup qualifier,Portugal,True
+2016-10-11,Iraq,Thailand,4,0,World Cup qualifier,Iran,True
+2016-10-11,Mexico,Panama,1,0,Friendly,United States,True
+2016-11-10,Iran,Papua New Guinea,8,1,Friendly,Malaysia,True
+2016-11-11,Tunisia,Libya,1,0,World Cup qualifier,Algeria,True
+2016-11-15,Syria,Iran,0,0,World Cup qualifier,Malaysia,True
+2017-01-06,Haiti,Suriname,4,2,CONCACAF Ch q & Car Ch PO,Trinidad and Tobago,True
+2017-01-08,Senegal,Libya,2,1,Friendly,Congo,True
+2017-01-08,Ivory Coast,Sweden,2,1,Friendly,United Arab Emirates,True
+2017-01-09,Finland,Morocco,1,0,Friendly,United Arab Emirates,True
+2017-01-11,Ivory Coast,Uganda,3,0,Friendly,United Arab Emirates,True
+2017-01-11,Chile,Croatia,1,1,Friendly tournament,China,True
+2017-01-13,Costa Rica,El Salvador,0,0,CONCACAF Ch q & C Am Cup,Panama,True
+2017-01-14,Saudi Arabia,Cambodia,7,2,Friendly,United Arab Emirates,True
+2017-01-14,Burkina Faso,Cameroon,1,1,African Nations Cup,Gabon,True
+2017-01-15,Algeria,Zimbabwe,2,2,African Nations Cup,Gabon,True
+2017-01-15,Senegal,Tunisia,2,0,African Nations Cup,Gabon,True
+2017-01-15,Costa Rica,Belize,3,0,CONCACAF Ch q & C Am Cup,Panama,True
+2017-01-15,Chile,Iceland,1,0,Friendly tournament,China,True
+2017-01-16,DR Congo,Morocco,1,0,African Nations Cup,Gabon,True
+2017-01-16,Ivory Coast,Togo,0,0,African Nations Cup,Gabon,True
+2017-01-17,Egypt,Mali,0,0,African Nations Cup,Gabon,True
+2017-01-17,Ghana,Uganda,1,0,African Nations Cup,Gabon,True
+2017-01-17,Costa Rica,Nicaragua,0,0,CONCACAF Ch q & C Am Cup,Panama,True
+2017-01-18,Cameroon,Guinea-Bissau,2,1,African Nations Cup,Gabon,True
+2017-01-19,Senegal,Zimbabwe,2,0,African Nations Cup,Gabon,True
+2017-01-19,Tunisia,Algeria,2,1,African Nations Cup,Gabon,True
+2017-01-20,DR Congo,Ivory Coast,2,2,African Nations Cup,Gabon,True
+2017-01-20,Morocco,Togo,3,1,African Nations Cup,Gabon,True
+2017-01-20,Costa Rica,Honduras,1,1,CONCACAF Ch q & C Am Cup,Panama,True
+2017-01-21,Egypt,Uganda,1,0,African Nations Cup,Gabon,True
+2017-01-21,Ghana,Mali,1,0,African Nations Cup,Gabon,True
+2017-01-22,Gabon,Cameroon,0,0,African Nations Cup,Gabon,False
+2017-01-23,Georgia,Uzbekistan,2,2,Friendly,United Arab Emirates,True
+2017-01-23,Tunisia,Zimbabwe,4,2,African Nations Cup,Gabon,True
+2017-01-23,Algeria,Senegal,2,2,African Nations Cup,Gabon,True
+2017-01-24,DR Congo,Togo,3,1,African Nations Cup,Gabon,True
+2017-01-24,Morocco,Ivory Coast,1,0,African Nations Cup,Gabon,True
+2017-01-25,Jordan,Georgia,1,0,Friendly,United Arab Emirates,True
+2017-01-25,Egypt,Ghana,1,0,African Nations Cup,Gabon,True
+2017-01-28,Burkina Faso,Tunisia,2,0,African Nations Cup,Gabon,True
+2017-01-28,Cameroon,Senegal,0,0,African Nations Cup,Gabon,True
+2017-01-29,Egypt,Morocco,1,0,African Nations Cup,Gabon,True
+2017-01-29,Ghana,DR Congo,2,1,African Nations Cup,Gabon,True
+2017-02-01,Burkina Faso,Egypt,1,1,African Nations Cup,Gabon,True
+2017-02-02,Cameroon,Ghana,2,0,African Nations Cup,Gabon,True
+2017-02-04,Burkina Faso,Ghana,1,0,African Nations Cup,Gabon,True
+2017-02-05,Cameroon,Egypt,2,1,African Nations Cup,Gabon,True
+2017-02-08,Mexico,Iceland,1,0,Friendly,United States,True
+2017-03-23,Iraq,Australia,1,1,World Cup qualifier,Iran,True
+2017-03-23,Syria,Uzbekistan,1,0,World Cup qualifier,Malaysia,True
+2017-03-23,Nigeria,Senegal,1,1,Friendly,England,True
+2017-03-24,Kosovo,Iceland,1,2,World Cup qualifier,Albania,True
+2017-03-27,Ivory Coast,Senegal,1,1,Friendly,France,True
+2017-03-28,Guinea,Cameroon,2,1,Friendly,Belgium,True
+2017-05-27,Croatia,Mexico,2,1,Friendly,United States,True
+2017-06-01,Nigeria,Togo,3,0,Friendly,France,True
+2017-06-01,Mexico,Ireland,3,1,Friendly,United States,True
+2017-06-05,DR Congo,Botswana,2,0,Friendly,Morocco,True
+2017-06-07,Iraq,South Korea,0,0,Friendly,United Arab Emirates,True
+2017-06-07,Italy,Uruguay,3,0,Friendly,France,True
+2017-06-08,Ecuador,Venezuela,1,1,Friendly,United States,True
+2017-06-09,Argentina,Brazil,1,0,Friendly,Australia,True
+2017-06-11,Kosovo,Turkey,1,4,World Cup qualifier,Albania,True
+2017-06-13,Iraq,Japan,1,1,World Cup qualifier,Iran,True
+2017-06-13,Colombia,Cameroon,4,0,Friendly,Spain,True
+2017-06-13,Ecuador,El Salvador,3,0,Friendly,United States,True
+2017-06-18,Chile,Cameroon,2,0,Confederations Cup,Russia,True
+2017-06-18,Mexico,Portugal,2,2,Confederations Cup,Russia,True
+2017-06-19,Germany,Australia,3,2,Confederations Cup,Russia,True
+2017-06-21,Mexico,New Zealand,2,1,Confederations Cup,Russia,True
+2017-06-22,Australia,Cameroon,1,1,Confederations Cup,Russia,True
+2017-06-22,Chile,Germany,1,1,Confederations Cup,Russia,True
+2017-06-24,Portugal,New Zealand,4,0,Confederations Cup,Russia,True
+2017-06-25,Australia,Chile,1,1,Confederations Cup,Russia,True
+2017-06-25,Germany,Cameroon,3,1,Confederations Cup,Russia,True
+2017-06-25,Curaçao,Jamaica,2,1,Caribbean Championship,Martinique,True
+2017-06-28,Mexico,Ghana,1,0,Friendly,United States,True
+2017-06-28,Chile,Portugal,0,0,Confederations Cup,Russia,True
+2017-06-29,Germany,Mexico,4,1,Confederations Cup,Russia,True
+2017-07-01,Mexico,Paraguay,2,1,Friendly,United States,True
+2017-07-02,Portugal,Mexico,2,1,Confederations Cup,Russia,True
+2017-07-02,Germany,Chile,1,0,Confederations Cup,Russia,True
+2017-07-03,Nicaragua,Canada,3,1,Friendly,United States,True
+2017-07-07,Canada,French Guiana,4,2,CONCACAF Championship,United States,True
+2017-07-07,Costa Rica,Honduras,1,0,CONCACAF Championship,United States,True
+2017-07-08,United States,Panama,1,1,CONCACAF Championship,United States,False
+2017-07-09,Mexico,El Salvador,3,1,CONCACAF Championship,United States,True
+2017-07-09,Jamaica,Curaçao,2,0,CONCACAF Championship,United States,True
+2017-07-11,Canada,Costa Rica,1,1,CONCACAF Championship,United States,True
+2017-07-12,United States,Martinique,3,2,CONCACAF Championship,United States,False
+2017-07-12,Panama,Nicaragua,2,1,CONCACAF Championship,United States,True
+2017-07-13,El Salvador,Curaçao,2,0,CONCACAF Championship,United States,True
+2017-07-13,Jamaica,Mexico,0,0,CONCACAF Championship,United States,True
+2017-07-14,Canada,Honduras,0,0,CONCACAF Championship,United States,True
+2017-07-14,Costa Rica,French Guiana,3,0,CONCACAF Championship,United States,True
+2017-07-15,United States,Nicaragua,3,0,CONCACAF Championship,United States,False
+2017-07-15,Panama,Martinique,3,0,CONCACAF Championship,United States,True
+2017-07-16,Mexico,Curaçao,2,0,CONCACAF Championship,United States,True
+2017-07-19,United States,El Salvador,2,0,CONCACAF Championship,United States,False
+2017-07-19,Costa Rica,Panama,1,0,CONCACAF Championship,United States,True
+2017-07-20,Jamaica,Canada,2,1,CONCACAF Championship,United States,True
+2017-07-20,Mexico,Honduras,1,0,CONCACAF Championship,United States,True
+2017-07-22,United States,Costa Rica,2,0,CONCACAF Championship,United States,False
+2017-07-23,Jamaica,Mexico,1,0,CONCACAF Championship,United States,True
+2017-07-26,United States,Jamaica,2,1,CONCACAF Championship,United States,False
+2017-08-16,Qatar,Andorra,1,0,Friendly,England,True
+2017-08-26,Iraq,Syria,1,1,Friendly,Malaysia,True
+2017-08-31,Syria,Qatar,3,1,World Cup qualifier,Malaysia,True
+2017-09-03,Gibraltar,Bosnia and Herzegovina,0,4,World Cup qualifier,Portugal,True
+2017-09-05,Iraq,United Arab Emirates,1,0,World Cup qualifier,Jordan,True
+2017-10-04,Jordan,Oman,1,1,Friendly,United Arab Emirates,True
+2017-10-05,Syria,Australia,1,1,World Cup qualifier,Malaysia,True
+2017-10-07,Libya,DR Congo,1,2,World Cup qualifier,Tunisia,True
+2017-10-08,El Salvador,Canada,1,0,Friendly,United States,True
+2017-10-10,Afghanistan,Jordan,3,3,Asian Cup qualifier,Tajikistan,True
+2017-10-10,Morocco,South Korea,3,1,Friendly,Switzerland,True
+2017-10-10,Mozambique,Cape Verde,1,0,Friendly,Portugal,True
+2017-11-07,Saudi Arabia,Latvia,2,0,Friendly,Portugal,True
+2017-11-08,Czechia,Iceland,2,1,Friendly tournament,Qatar,True
+2017-11-09,Iran,Panama,2,1,Friendly,Austria,True
+2017-11-10,Brazil,Japan,3,1,Friendly,France,True
+2017-11-13,Iran,Venezuela,1,0,Friendly,Netherlands,True
+2017-11-13,Bulgaria,Saudi Arabia,1,0,Friendly,Portugal,True
+2017-11-14,Nigeria,Argentina,4,2,Friendly,Russia,True
+2017-12-09,China,South Korea,2,2,East Asian Championship,Japan,True
+2017-12-12,South Korea,North Korea,1,0,East Asian Championship,Japan,True
+2017-12-23,Bahrain,Iraq,1,1,Gulf Cup,Kuwait,True
+2017-12-23,Qatar,Yemen,4,0,Gulf Cup,Kuwait,True
+2017-12-25,Saudi Arabia,United Arab Emirates,0,0,Gulf Cup,Kuwait,True
+2017-12-26,Iraq,Qatar,2,1,Gulf Cup,Kuwait,True
+2017-12-28,Oman,Saudi Arabia,2,0,Gulf Cup,Kuwait,True
+2017-12-29,Iraq,Yemen,3,0,Gulf Cup,Kuwait,True
+2017-12-29,Bahrain,Qatar,1,1,Gulf Cup,Kuwait,True
+2018-01-02,Iraq,United Arab Emirates,0,0,Gulf Cup,Kuwait,True
+2018-01-07,Estonia,Sweden,1,1,Friendly,United Arab Emirates,True
+2018-01-11,Finland,Jordan,2,1,Friendly,United Arab Emirates,True
+2018-01-27,South Korea,Moldova,1,0,Friendly,Turkey,True
+2018-01-30,Jamaica,South Korea,2,2,Friendly,Turkey,True
+2018-01-31,Mexico,Bosnia and Herzegovina,1,0,Friendly,United States,True
+2018-02-03,South Korea,Latvia,1,0,Friendly,Turkey,True
+2018-03-21,Angola,South Africa,1,1,Friendly tournament,Zambia,True
+2018-03-23,Japan,Mali,1,1,Friendly,Belgium,True
+2018-03-23,Saudi Arabia,Ukraine,1,1,Friendly,Spain,True
+2018-03-23,Senegal,Uzbekistan,1,1,Friendly,Morocco,True
+2018-03-23,Portugal,Egypt,2,1,Friendly,Switzerland,True
+2018-03-23,Morocco,Serbia,2,1,Friendly,Italy,True
+2018-03-23,Mexico,Iceland,3,0,Friendly,United States,True
+2018-03-23,Uruguay,Czechia,2,0,Friendly tournament,China,True
+2018-03-23,Argentina,Italy,2,0,Friendly,England,True
+2018-03-23,Peru,Croatia,2,0,Friendly,United States,True
+2018-03-24,Qatar,Syria,2,2,Friendly tournament,Iraq,True
+2018-03-24,Ivory Coast,Togo,2,2,Friendly,France,True
+2018-03-24,Canada,New Zealand,1,0,Friendly,Spain,True
+2018-03-26,Uruguay,Wales,1,0,Friendly tournament,China,True
+2018-03-26,Netherlands,Portugal,3,0,Friendly,Switzerland,True
+2018-03-27,Ukraine,Japan,2,1,Friendly,Belgium,True
+2018-03-27,Australia,Colombia,0,0,Friendly,England,True
+2018-03-27,Iran,Algeria,2,1,Friendly,Austria,True
+2018-03-27,Greece,Egypt,1,0,Friendly,Switzerland,True
+2018-03-27,Serbia,Nigeria,2,0,Friendly,England,True
+2018-03-27,Tunisia,Costa Rica,1,0,Friendly,France,True
+2018-03-27,Ivory Coast,Moldova,2,1,Friendly,France,True
+2018-03-27,Bosnia and Herzegovina,Senegal,0,0,Friendly,France,True
+2018-03-27,Croatia,Mexico,1,0,Friendly,United States,True
+2018-03-27,Peru,Iceland,3,1,Friendly,United States,True
+2018-05-09,Saudi Arabia,Algeria,2,0,Friendly,Spain,True
+2018-05-15,Saudi Arabia,Greece,2,0,Friendly,Spain,True
+2018-05-27,Burkina Faso,Cameroon,1,0,Friendly,France,True
+2018-05-28,Italy,Saudi Arabia,2,1,Friendly,Switzerland,True
+2018-05-28,Mexico,Wales,0,0,Friendly,United States,True
+2018-05-31,Morocco,Ukraine,0,0,Friendly,Switzerland,True
+2018-06-01,Australia,Czechia,4,0,Friendly,Austria,True
+2018-06-01,Colombia,Egypt,0,0,Friendly,Italy,True
+2018-06-01,Tunisia,Turkey,2,2,Friendly,Switzerland,True
+2018-06-02,Kenya,New Zealand,2,1,Friendly tournament,India,True
+2018-06-03,Peru,Saudi Arabia,3,0,Friendly,Switzerland,True
+2018-06-03,Andorra,Cape Verde,0,0,Friendly,Portugal,True
+2018-06-03,Brazil,Croatia,2,0,Friendly,England,True
+2018-06-04,Morocco,Slovakia,2,1,Friendly,Switzerland,True
+2018-06-04,Chile,Serbia,1,0,Friendly,Austria,True
+2018-06-05,New Zealand,Taiwan,1,0,Friendly tournament,India,True
+2018-06-06,Czechia,Nigeria,1,0,Friendly,Austria,True
+2018-06-07,Bolivia,South Korea,0,0,Friendly,Austria,True
+2018-06-08,Iran,Lithuania,1,0,Friendly,Russia,True
+2018-06-09,Spain,Tunisia,1,0,Friendly,Russia,True
+2018-06-09,Serbia,Bolivia,5,1,Friendly,Austria,True
+2018-06-11,Senegal,South Korea,2,0,Friendly,Austria,True
+2018-06-12,Japan,Paraguay,4,2,Friendly,Austria,True
+2018-06-14,Russia,Saudi Arabia,5,0,World Cup,Russia,False
+2018-06-15,Iran,Morocco,1,0,World Cup,Russia,True
+2018-06-15,Uruguay,Egypt,1,0,World Cup,Russia,True
+2018-06-15,Portugal,Spain,3,3,World Cup,Russia,True
+2018-06-16,France,Australia,2,1,World Cup,Russia,True
+2018-06-16,Croatia,Nigeria,2,0,World Cup,Russia,True
+2018-06-16,Argentina,Iceland,1,1,World Cup,Russia,True
+2018-06-16,Denmark,Peru,1,0,World Cup,Russia,True
+2018-06-17,Serbia,Costa Rica,1,0,World Cup,Russia,True
+2018-06-17,Mexico,Germany,1,0,World Cup,Russia,True
+2018-06-17,Brazil,Switzerland,1,1,World Cup,Russia,True
+2018-06-18,Sweden,South Korea,1,0,World Cup,Russia,True
+2018-06-18,England,Tunisia,2,1,World Cup,Russia,True
+2018-06-18,Belgium,Panama,3,0,World Cup,Russia,True
+2018-06-19,Japan,Colombia,2,1,World Cup,Russia,True
+2018-06-19,Russia,Egypt,3,1,World Cup,Russia,False
+2018-06-19,Senegal,Poland,2,1,World Cup,Russia,True
+2018-06-20,Spain,Iran,1,0,World Cup,Russia,True
+2018-06-20,Uruguay,Saudi Arabia,1,0,World Cup,Russia,True
+2018-06-20,Portugal,Morocco,1,0,World Cup,Russia,True
+2018-06-21,Australia,Denmark,1,1,World Cup,Russia,True
+2018-06-21,Croatia,Argentina,3,0,World Cup,Russia,True
+2018-06-21,France,Peru,1,0,World Cup,Russia,True
+2018-06-22,Nigeria,Iceland,2,0,World Cup,Russia,True
+2018-06-22,Brazil,Costa Rica,2,0,World Cup,Russia,True
+2018-06-22,Switzerland,Serbia,2,1,World Cup,Russia,True
+2018-06-23,Mexico,South Korea,2,1,World Cup,Russia,True
+2018-06-23,Belgium,Tunisia,5,2,World Cup,Russia,True
+2018-06-23,Germany,Sweden,2,1,World Cup,Russia,True
+2018-06-24,Japan,Senegal,2,2,World Cup,Russia,True
+2018-06-24,England,Panama,6,1,World Cup,Russia,True
+2018-06-24,Colombia,Poland,3,0,World Cup,Russia,True
+2018-06-25,Portugal,Iran,1,1,World Cup,Russia,True
+2018-06-25,Saudi Arabia,Egypt,2,1,World Cup,Russia,True
+2018-06-25,Morocco,Spain,2,2,World Cup,Russia,True
+2018-06-25,Russia,Uruguay,0,3,World Cup,Russia,False
+2018-06-26,Peru,Australia,2,0,World Cup,Russia,True
+2018-06-26,Argentina,Nigeria,2,1,World Cup,Russia,True
+2018-06-26,Denmark,France,0,0,World Cup,Russia,True
+2018-06-26,Croatia,Iceland,2,1,World Cup,Russia,True
+2018-06-27,South Korea,Germany,2,0,World Cup,Russia,True
+2018-06-27,Costa Rica,Switzerland,2,2,World Cup,Russia,True
+2018-06-27,Sweden,Mexico,3,0,World Cup,Russia,True
+2018-06-27,Brazil,Serbia,2,0,World Cup,Russia,True
+2018-06-28,Poland,Japan,1,0,World Cup,Russia,True
+2018-06-28,Tunisia,Panama,2,1,World Cup,Russia,True
+2018-06-28,Colombia,Senegal,1,0,World Cup,Russia,True
+2018-06-28,Belgium,England,1,0,World Cup,Russia,True
+2018-06-30,Uruguay,Portugal,2,1,World Cup,Russia,True
+2018-06-30,France,Argentina,4,3,World Cup,Russia,True
+2018-07-01,Russia,Spain,1,1,World Cup,Russia,False
+2018-07-01,Croatia,Denmark,1,1,World Cup,Russia,True
+2018-07-02,Belgium,Japan,3,2,World Cup,Russia,True
+2018-07-02,Brazil,Mexico,2,0,World Cup,Russia,True
+2018-07-03,Colombia,England,1,1,World Cup,Russia,True
+2018-07-03,Sweden,Switzerland,1,0,World Cup,Russia,True
+2018-07-06,France,Uruguay,2,0,World Cup,Russia,True
+2018-07-06,Belgium,Brazil,2,1,World Cup,Russia,True
+2018-07-07,England,Sweden,2,0,World Cup,Russia,True
+2018-07-07,Russia,Croatia,2,2,World Cup,Russia,False
+2018-07-10,France,Belgium,1,0,World Cup,Russia,True
+2018-07-11,Croatia,England,2,1,World Cup,Russia,True
+2018-07-14,Belgium,England,2,0,World Cup,Russia,True
+2018-07-15,France,Croatia,4,2,World Cup,Russia,True
+2018-09-06,Wales,Ireland,4,1,European Nations League B,Wales,False
+2018-09-06,Germany,France,0,0,European Nations League A,Germany,False
+2018-09-06,Norway,Cyprus,2,0,European Nations League C,Norway,False
+2018-09-06,Czechia,Ukraine,1,2,European Nations League B,Czechia,False
+2018-09-07,Argentina,Guatemala,3,0,Friendly,United States,True
+2018-09-07,Uruguay,Mexico,4,1,Friendly,United States,True
+2018-09-07,Ecuador,Jamaica,2,0,Friendly,United States,True
+2018-09-07,Colombia,Venezuela,2,1,Friendly,United States,True
+2018-09-07,Italy,Poland,1,1,European Nations League A,Italy,False
+2018-09-07,Turkey,Russia,1,2,European Nations League B,Turkey,False
+2018-09-07,Lithuania,Serbia,0,1,European Nations League C,Lithuania,False
+2018-09-08,Gambia,Algeria,1,1,African Nations Cup qualifier,The Gambia,True
+2018-09-08,England,Spain,1,2,European Nations League A,England,False
+2018-09-08,Northern Ireland,Bosnia and Herzegovina,1,2,European Nations League B,Northern Ireland,False
+2018-09-08,Switzerland,Iceland,6,0,European Nations League A,Switzerland,False
+2018-09-09,Canada,US Virgin Islands,8,0,CONCACAF Nations League q,United States,True
+2018-09-09,Denmark,Wales,2,0,European Nations League B,Denmark,False
+2018-09-09,France,Netherlands,2,1,European Nations League A,France,False
+2018-09-09,Bulgaria,Norway,1,0,European Nations League C,Bulgaria,False
+2018-09-10,Scotland,Albania,2,0,European Nations League C,Scotland,False
+2018-09-10,Sweden,Turkey,2,3,European Nations League B,Sweden,False
+2018-09-10,Portugal,Italy,1,0,European Nations League A,Portugal,False
+2018-09-10,Serbia,Romania,2,2,European Nations League C,Serbia,False
+2018-09-11,Brazil,El Salvador,5,0,Friendly,United States,True
+2018-09-11,Ecuador,Guatemala,2,0,Friendly,United States,True
+2018-09-11,Argentina,Colombia,0,0,Friendly,United States,True
+2018-09-11,Bosnia and Herzegovina,Austria,1,0,European Nations League B,Bosnia and Herzegovina,False
+2018-09-11,Iceland,Belgium,0,3,European Nations League A,Iceland,False
+2018-09-11,Spain,Croatia,6,0,European Nations League A,Spain,False
+2018-10-11,Argentina,Iraq,4,0,Friendly tournament,Saudi Arabia,True
+2018-10-11,Israel,Scotland,2,1,European Nations League C,Israel,False
+2018-10-11,Russia,Sweden,0,0,European Nations League B,Russia,False
+2018-10-11,Poland,Portugal,2,3,European Nations League A,Poland,False
+2018-10-11,Montenegro,Serbia,0,2,European Nations League C,Montenegro,False
+2018-10-12,Curaçao,US Virgin Islands,5,0,CONCACAF Nations League q,United States,True
+2018-10-12,Peru,Chile,3,0,Friendly,United States,True
+2018-10-12,Croatia,England,0,0,European Nations League A,Croatia,False
+2018-10-12,Austria,Northern Ireland,1,0,European Nations League B,Austria,False
+2018-10-12,Belgium,Switzerland,2,1,European Nations League A,Belgium,False
+2018-10-13,Netherlands,Germany,3,0,European Nations League A,Netherlands,False
+2018-10-13,Norway,Slovenia,1,0,European Nations League C,Norway,False
+2018-10-13,Ireland,Denmark,0,0,European Nations League B,Ireland,False
+2018-10-13,Slovakia,Czechia,1,2,European Nations League B,Slovakia,False
+2018-10-14,Poland,Italy,0,1,European Nations League A,Poland,False
+2018-10-14,Russia,Turkey,2,0,European Nations League B,Russia,False
+2018-10-14,Romania,Serbia,0,0,European Nations League C,Romania,False
+2018-10-15,Spain,England,2,3,European Nations League A,Spain,False
+2018-10-15,Bosnia and Herzegovina,Northern Ireland,2,0,European Nations League B,Bosnia and Herzegovina,False
+2018-10-15,Iceland,Switzerland,1,2,European Nations League A,Iceland,False
+2018-10-16,Ecuador,Oman,0,0,Friendly,Qatar,True
+2018-10-16,Nigeria,Libya,3,2,African Nations Cup qualifier,Tunisia,True
+2018-10-16,Colombia,Costa Rica,3,1,Friendly,United States,True
+2018-10-16,Haiti,Saint Lucia,2,1,CONCACAF Nations League q,Martinique,True
+2018-10-16,Brazil,Argentina,1,0,Friendly tournament,Saudi Arabia,True
+2018-10-16,Ireland,Wales,0,1,European Nations League B,Ireland,False
+2018-10-16,France,Germany,2,1,European Nations League A,France,False
+2018-10-16,Norway,Bulgaria,1,0,European Nations League C,Norway,False
+2018-10-16,Ukraine,Czechia,1,0,European Nations League B,Ukraine,False
+2018-11-15,Lebanon,Uzbekistan,0,0,Friendly,Australia,True
+2018-11-15,Austria,Bosnia and Herzegovina,0,0,European Nations League B,Austria,False
+2018-11-15,Belgium,Iceland,2,0,European Nations League A,Belgium,False
+2018-11-15,Croatia,Spain,3,2,European Nations League A,Croatia,False
+2018-11-16,Brazil,Uruguay,1,0,Friendly,England,True
+2018-11-16,Wales,Denmark,1,2,European Nations League B,Wales,False
+2018-11-16,Netherlands,France,2,0,European Nations League A,Netherlands,False
+2018-11-16,Slovenia,Norway,1,1,European Nations League C,Slovenia,False
+2018-11-17,Albania,Scotland,0,4,European Nations League C,Albania,False
+2018-11-17,Turkey,Sweden,0,1,European Nations League B,Turkey,False
+2018-11-17,Italy,Portugal,0,0,European Nations League A,Italy,False
+2018-11-17,Serbia,Montenegro,2,1,European Nations League C,Serbia,False
+2018-11-18,England,Croatia,2,1,European Nations League A,England,False
+2018-11-18,Northern Ireland,Austria,1,2,European Nations League B,Northern Ireland,False
+2018-11-18,Switzerland,Belgium,5,2,European Nations League A,Switzerland,False
+2018-11-19,Iceland,Qatar,2,2,Friendly,Belgium,True
+2018-11-19,Germany,Netherlands,2,2,European Nations League A,Germany,False
+2018-11-19,Cyprus,Norway,0,2,European Nations League C,Cyprus,False
+2018-11-19,Denmark,Ireland,0,0,European Nations League B,Denmark,False
+2018-11-19,Czechia,Slovakia,1,0,European Nations League B,Czechia,False
+2018-11-20,Iran,Venezuela,1,1,Friendly,Qatar,True
+2018-11-20,South Korea,Uzbekistan,4,0,Friendly,Australia,True
+2018-11-20,Bolivia,Iraq,0,0,Friendly,United Arab Emirates,True
+2018-11-20,Brazil,Cameroon,1,0,Friendly,England,True
+2018-11-20,Italy,United States,1,0,Friendly,Belgium,True
+2018-11-20,Scotland,Israel,3,2,European Nations League C,Scotland,False
+2018-11-20,Sweden,Russia,2,0,European Nations League B,Sweden,False
+2018-11-20,Portugal,Poland,1,1,European Nations League A,Portugal,False
+2018-11-20,Serbia,Lithuania,4,1,European Nations League C,Serbia,False
+2018-12-20,Kyrgyzstan,Jordan,1,0,Friendly,Qatar,True
+2018-12-24,Iraq,China,2,1,Friendly,Qatar,True
+2018-12-24,Iran,Palestine,1,1,Friendly,Qatar,True
+2018-12-28,China,Jordan,1,1,Friendly,Qatar,True
+2018-12-28,Iraq,Palestine,1,0,Friendly,Qatar,True
+2018-12-30,Australia,Oman,5,0,Friendly,United Arab Emirates,True
+2018-12-31,Saudi Arabia,South Korea,0,0,Friendly,United Arab Emirates,True
+2019-01-06,Jordan,Australia,1,0,Asian Cup,United Arab Emirates,True
+2019-01-07,South Korea,Philippines,1,0,Asian Cup,United Arab Emirates,True
+2019-01-07,Iran,Yemen,5,0,Asian Cup,United Arab Emirates,True
+2019-01-08,Iraq,Vietnam,3,2,Asian Cup,United Arab Emirates,True
+2019-01-08,Saudi Arabia,North Korea,4,0,Asian Cup,United Arab Emirates,True
+2019-01-08,Finland,Sweden,1,0,Friendly,Qatar,True
+2019-01-09,Japan,Turkmenistan,3,2,Asian Cup,United Arab Emirates,True
+2019-01-09,Qatar,Lebanon,2,0,Asian Cup,United Arab Emirates,True
+2019-01-09,Uzbekistan,Oman,2,1,Asian Cup,United Arab Emirates,True
+2019-01-10,Jordan,Syria,2,0,Asian Cup,United Arab Emirates,True
+2019-01-11,Australia,Palestine,3,0,Asian Cup,United Arab Emirates,True
+2019-01-11,South Korea,Kyrgyzstan,1,0,Asian Cup,United Arab Emirates,True
+2019-01-11,Iceland,Sweden,2,2,Friendly,Qatar,True
+2019-01-12,Saudi Arabia,Lebanon,2,0,Asian Cup,United Arab Emirates,True
+2019-01-12,Iran,Vietnam,2,0,Asian Cup,United Arab Emirates,True
+2019-01-12,Iraq,Yemen,3,0,Asian Cup,United Arab Emirates,True
+2019-01-13,Japan,Oman,1,0,Asian Cup,United Arab Emirates,True
+2019-01-13,Qatar,North Korea,6,0,Asian Cup,United Arab Emirates,True
+2019-01-13,Uzbekistan,Turkmenistan,4,0,Asian Cup,United Arab Emirates,True
+2019-01-15,Australia,Syria,3,2,Asian Cup,United Arab Emirates,True
+2019-01-15,Jordan,Palestine,0,0,Asian Cup,United Arab Emirates,True
+2019-01-15,Estonia,Iceland,0,0,Friendly,Qatar,True
+2019-01-16,South Korea,China,2,0,Asian Cup,United Arab Emirates,True
+2019-01-16,Iran,Iraq,0,0,Asian Cup,United Arab Emirates,True
+2019-01-17,Japan,Uzbekistan,2,1,Asian Cup,United Arab Emirates,True
+2019-01-17,Qatar,Saudi Arabia,2,0,Asian Cup,United Arab Emirates,True
+2019-01-20,Iran,Oman,2,0,Asian Cup,United Arab Emirates,True
+2019-01-20,Jordan,Vietnam,1,1,Asian Cup,United Arab Emirates,True
+2019-01-21,Japan,Saudi Arabia,1,0,Asian Cup,United Arab Emirates,True
+2019-01-21,Australia,Uzbekistan,0,0,Asian Cup,United Arab Emirates,True
+2019-01-22,South Korea,Bahrain,2,1,Asian Cup,United Arab Emirates,True
+2019-01-22,Qatar,Iraq,1,0,Asian Cup,United Arab Emirates,True
+2019-01-24,Japan,Vietnam,1,0,Asian Cup,United Arab Emirates,True
+2019-01-24,Iran,China,3,0,Asian Cup,United Arab Emirates,True
+2019-01-25,United Arab Emirates,Australia,1,0,Asian Cup,United Arab Emirates,False
+2019-01-25,Qatar,South Korea,1,0,Asian Cup,United Arab Emirates,True
+2019-01-28,Japan,Iran,3,0,Asian Cup,United Arab Emirates,True
+2019-01-29,United Arab Emirates,Qatar,0,4,Asian Cup,United Arab Emirates,False
+2019-02-01,Qatar,Japan,3,1,Asian Cup,United Arab Emirates,True
+2019-03-22,Uruguay,Uzbekistan,3,0,Friendly tournament,China,True
+2019-03-22,Mexico,Chile,3,1,Friendly,United States,True
+2019-03-22,Venezuela,Argentina,3,1,Friendly,Spain,True
+2019-03-22,Peru,Paraguay,1,0,Friendly,United States,True
+2019-03-23,Syria,Jordan,1,0,Friendly tournament,Iraq,True
+2019-03-23,Brazil,Panama,1,1,Friendly,Portugal,True
+2019-03-24,South Africa,Libya,2,1,African Nations Cup qualifier,Tunisia,True
+2019-03-25,Uruguay,Thailand,4,0,Friendly tournament,China,True
+2019-03-26,El Salvador,Peru,2,0,Friendly,United States,True
+2019-03-26,Mexico,Paraguay,4,2,Friendly,United States,True
+2019-03-26,Ecuador,Honduras,0,0,Friendly,United States,True
+2019-06-01,Ecuador,Venezuela,1,1,Friendly,United States,True
+2019-06-02,El Salvador,Haiti,1,0,Friendly,United States,True
+2019-06-05,Curaçao,India,3,1,King's Cup,Thailand,True
+2019-06-05,Mexico,Venezuela,3,1,Friendly,United States,True
+2019-06-05,Portugal,Switzerland,3,1,European Nations League,Portugal,False
+2019-06-06,Netherlands,England,3,1,European Nations League,Portugal,True
+2019-06-07,Ivory Coast,Comoros,3,1,Friendly,France,True
+2019-06-08,Curaçao,Vietnam,1,1,King's Cup,Thailand,True
+2019-06-09,Cameroon,Zambia,2,1,Friendly,Spain,True
+2019-06-09,Burkina Faso,DR Congo,0,0,Friendly,Spain,True
+2019-06-09,Namibia,Ghana,1,0,Friendly,United Arab Emirates,True
+2019-06-09,Mexico,Ecuador,3,2,Friendly,United States,True
+2019-06-09,England,Switzerland,0,0,European Nations League,Portugal,True
+2019-06-09,Portugal,Netherlands,1,0,European Nations League,Portugal,False
+2019-06-10,Canada,Trinidad and Tobago,2,0,Friendly,United States,True
+2019-06-11,Algeria,Burundi,1,1,Friendly,Qatar,True
+2019-06-11,Haiti,Guyana,3,1,Friendly,Costa Rica,True
+2019-06-14,Cameroon,Mali,1,1,Friendly,Qatar,True
+2019-06-15,Ghana,South Africa,0,0,Friendly,United Arab Emirates,True
+2019-06-15,DR Congo,Kenya,1,1,Friendly,Spain,True
+2019-06-15,Uganda,Ivory Coast,1,0,Friendly,United Arab Emirates,True
+2019-06-15,Canada,Martinique,4,0,CONCACAF Championship,United States,True
+2019-06-15,Mexico,Cuba,7,0,CONCACAF Championship,United States,True
+2019-06-15,Colombia,Argentina,2,0,Copa America,Brazil,True
+2019-06-15,Peru,Venezuela,0,0,Copa America,Brazil,True
+2019-06-16,Paraguay,Qatar,2,2,Copa America,Brazil,True
+2019-06-16,Senegal,Nigeria,1,0,Friendly,Egypt,True
+2019-06-16,Algeria,Mali,3,2,Friendly,Qatar,True
+2019-06-16,Costa Rica,Nicaragua,4,0,CONCACAF Championship,Costa Rica,False
+2019-06-16,Haiti,Bermuda,2,1,CONCACAF Championship,Costa Rica,True
+2019-06-16,Uruguay,Ecuador,4,0,Copa America,Brazil,True
+2019-06-17,Chile,Japan,4,0,Copa America,Brazil,True
+2019-06-17,El Salvador,Curaçao,1,0,CONCACAF Championship,Jamaica,True
+2019-06-18,United States,Guyana,4,0,CONCACAF Championship,United States,False
+2019-06-18,Panama,Trinidad and Tobago,2,0,CONCACAF Championship,United States,True
+2019-06-18,Peru,Bolivia,3,1,Copa America,Brazil,True
+2019-06-19,Colombia,Qatar,1,0,Copa America,Brazil,True
+2019-06-19,Ivory Coast,Zambia,4,1,Friendly,United Arab Emirates,True
+2019-06-19,Mexico,Canada,3,1,CONCACAF Championship,United States,True
+2019-06-19,Argentina,Paraguay,1,1,Copa America,Brazil,True
+2019-06-20,Japan,Uruguay,2,2,Copa America,Brazil,True
+2019-06-20,Costa Rica,Bermuda,2,1,CONCACAF Championship,United States,True
+2019-06-20,Haiti,Nicaragua,2,0,CONCACAF Championship,United States,True
+2019-06-21,Egypt,Zimbabwe,1,0,African Nations Cup,Egypt,False
+2019-06-21,Curaçao,Honduras,1,0,CONCACAF Championship,United States,True
+2019-06-21,Chile,Ecuador,2,1,Copa America,Brazil,True
+2019-06-22,Uganda,DR Congo,2,0,African Nations Cup,Egypt,True
+2019-06-22,Nigeria,Burundi,1,0,African Nations Cup,Egypt,True
+2019-06-22,United States,Trinidad and Tobago,6,0,CONCACAF Championship,United States,False
+2019-06-22,Panama,Guyana,4,2,CONCACAF Championship,United States,True
+2019-06-23,Argentina,Qatar,2,0,Copa America,Brazil,True
+2019-06-23,Algeria,Kenya,2,0,African Nations Cup,Egypt,True
+2019-06-23,Senegal,Tanzania,2,0,African Nations Cup,Egypt,True
+2019-06-23,Morocco,Namibia,1,0,African Nations Cup,Egypt,True
+2019-06-23,Canada,Cuba,7,0,CONCACAF Championship,United States,True
+2019-06-23,Mexico,Martinique,3,2,CONCACAF Championship,United States,True
+2019-06-23,Colombia,Paraguay,1,0,Copa America,Brazil,True
+2019-06-24,Ecuador,Japan,1,1,Copa America,Brazil,True
+2019-06-24,Ivory Coast,South Africa,1,0,African Nations Cup,Egypt,True
+2019-06-24,Angola,Tunisia,1,1,African Nations Cup,Egypt,True
+2019-06-24,Haiti,Costa Rica,2,1,CONCACAF Championship,United States,True
+2019-06-24,Uruguay,Chile,1,0,Copa America,Brazil,True
+2019-06-25,Benin,Ghana,2,2,African Nations Cup,Egypt,True
+2019-06-25,Cameroon,Guinea-Bissau,2,0,African Nations Cup,Egypt,True
+2019-06-25,Curaçao,Jamaica,1,1,CONCACAF Championship,United States,True
+2019-06-26,Egypt,DR Congo,2,0,African Nations Cup,Egypt,False
+2019-06-26,Nigeria,Guinea,1,0,African Nations Cup,Egypt,True
+2019-06-26,United States,Panama,1,0,CONCACAF Championship,United States,False
+2019-06-27,Algeria,Senegal,1,0,African Nations Cup,Egypt,True
+2019-06-28,South Africa,Namibia,1,0,African Nations Cup,Egypt,True
+2019-06-28,Mali,Tunisia,1,1,African Nations Cup,Egypt,True
+2019-06-28,Morocco,Ivory Coast,1,0,African Nations Cup,Egypt,True
+2019-06-28,Argentina,Venezuela,2,0,Copa America,Brazil,True
+2019-06-28,Chile,Colombia,0,0,Copa America,Brazil,True
+2019-06-29,Cameroon,Ghana,0,0,African Nations Cup,Egypt,True
+2019-06-29,Haiti,Canada,3,2,CONCACAF Championship,United States,True
+2019-06-29,Costa Rica,Mexico,1,1,CONCACAF Championship,United States,True
+2019-06-29,Peru,Uruguay,0,0,Copa America,Brazil,True
+2019-06-30,Egypt,Uganda,2,0,African Nations Cup,Egypt,False
+2019-06-30,DR Congo,Zimbabwe,4,0,African Nations Cup,Egypt,True
+2019-06-30,Madagascar,Nigeria,2,0,African Nations Cup,Egypt,True
+2019-06-30,United States,Curaçao,1,0,CONCACAF Championship,United States,False
+2019-06-30,Jamaica,Panama,1,0,CONCACAF Championship,United States,True
+2019-07-01,Morocco,South Africa,1,0,African Nations Cup,Egypt,True
+2019-07-01,Senegal,Kenya,3,0,African Nations Cup,Egypt,True
+2019-07-01,Algeria,Tanzania,3,0,African Nations Cup,Egypt,True
+2019-07-01,Ivory Coast,Namibia,4,1,African Nations Cup,Egypt,True
+2019-07-02,Ghana,Guinea-Bissau,2,0,African Nations Cup,Egypt,True
+2019-07-02,Mauritania,Tunisia,0,0,African Nations Cup,Egypt,True
+2019-07-02,Benin,Cameroon,0,0,African Nations Cup,Egypt,True
+2019-07-02,Mexico,Haiti,1,0,CONCACAF Championship,United States,True
+2019-07-03,United States,Jamaica,3,1,CONCACAF Championship,United States,False
+2019-07-03,Peru,Chile,3,0,Copa America,Brazil,True
+2019-07-05,Senegal,Uganda,1,0,African Nations Cup,Egypt,True
+2019-07-05,Benin,Morocco,1,1,African Nations Cup,Egypt,True
+2019-07-06,Egypt,South Africa,0,1,African Nations Cup,Egypt,False
+2019-07-06,Nigeria,Cameroon,3,2,African Nations Cup,Egypt,True
+2019-07-06,Argentina,Chile,2,1,Copa America,Brazil,True
+2019-07-07,DR Congo,Madagascar,2,2,African Nations Cup,Egypt,True
+2019-07-07,Algeria,Guinea,3,0,African Nations Cup,Egypt,True
+2019-07-07,United States,Mexico,0,1,CONCACAF Championship,United States,False
+2019-07-08,Ghana,Tunisia,1,1,African Nations Cup,Egypt,True
+2019-07-08,Ivory Coast,Mali,1,0,African Nations Cup,Egypt,True
+2019-07-10,Nigeria,South Africa,2,1,African Nations Cup,Egypt,True
+2019-07-10,Senegal,Benin,1,0,African Nations Cup,Egypt,True
+2019-07-11,Tunisia,Madagascar,3,0,African Nations Cup,Egypt,True
+2019-07-11,Algeria,Ivory Coast,1,1,African Nations Cup,Egypt,True
+2019-07-14,Algeria,Nigeria,2,1,African Nations Cup,Egypt,True
+2019-07-14,Senegal,Tunisia,1,0,African Nations Cup,Egypt,True
+2019-07-17,Nigeria,Tunisia,1,0,African Nations Cup,Egypt,True
+2019-07-19,Algeria,Senegal,1,0,African Nations Cup,Egypt,True
+2019-08-04,Kuwait,Saudi Arabia,2,1,West Asian Championship,Iraq,True
+2019-08-04,Bahrain,Jordan,1,0,West Asian Championship,Iraq,True
+2019-08-07,Jordan,Kuwait,1,1,West Asian Championship,Iraq,True
+2019-08-07,Bahrain,Saudi Arabia,0,0,West Asian Championship,Iraq,True
+2019-08-10,Jordan,Saudi Arabia,3,0,West Asian Championship,Iraq,True
+2019-09-05,Georgia,South Korea,2,2,Friendly,Turkey,True
+2019-09-05,Argentina,Chile,0,0,Friendly,United States,True
+2019-09-05,Ecuador,Peru,1,0,Friendly,United States,True
+2019-09-06,Benin,Ivory Coast,2,1,Friendly,France,True
+2019-09-06,Brazil,Colombia,2,2,Friendly,United States,True
+2019-09-09,Iraq,Uzbekistan,0,0,Friendly,Jordan,True
+2019-09-10,Saudi Arabia,Yemen,2,2,World Cup and Asian Cup qual,Bahrain,True
+2019-09-10,Ivory Coast,Tunisia,2,1,Friendly,France,True
+2019-09-10,Canada,Cuba,1,0,CONCACAF Nations League A,Cayman Islands,True
+2019-09-10,Argentina,Mexico,4,0,Friendly,United States,True
+2019-09-10,Peru,Brazil,1,0,Friendly,United States,True
+2019-09-10,Colombia,Venezuela,0,0,Friendly,United States,True
+2019-10-10,Cape Verde,Togo,2,1,Friendly,France,True
+2019-10-10,Brazil,Senegal,1,1,Friendly,Singapore,True
+2019-10-10,Costa Rica,Haiti,1,1,CONCACAF Nations League A,Bahamas,True
+2019-10-12,Chile,Colombia,0,0,Friendly,Spain,True
+2019-10-13,Ivory Coast,DR Congo,3,1,Friendly,France,True
+2019-10-13,Brazil,Nigeria,1,1,Friendly,Singapore,True
+2019-10-13,Argentina,Ecuador,6,1,Friendly,Spain,True
+2019-10-15,Algeria,Colombia,3,0,Friendly,France,True
+2019-11-14,Iraq,Iran,2,1,World Cup and Asian Cup qual,Jordan,True
+2019-11-15,Argentina,Brazil,1,0,Friendly,Saudi Arabia,True
+2019-11-15,Colombia,Peru,1,0,Friendly,United States,True
+2019-11-18,Gambia,DR Congo,2,2,African Nations Cup qualifier,The Gambia,True
+2019-11-18,Argentina,Uruguay,2,2,Friendly,Israel,True
+2019-11-19,Qatar,Afghanistan,1,0,World Cup and Asian Cup qual,Tajikistan,True
+2019-11-19,Brazil,South Korea,3,0,Friendly,United Arab Emirates,True
+2019-11-19,Bahrain,Iraq,0,0,World Cup and Asian Cup qual,Jordan,True
+2019-11-19,United States,Cuba,4,0,CONCACAF Nations League A,Cayman Islands,True
+2019-11-19,Colombia,Ecuador,1,0,Friendly,United States,True
+2019-11-27,Kuwait,Saudi Arabia,3,1,Gulf Cup,Qatar,True
+2019-11-29,Iraq,United Arab Emirates,2,0,Gulf Cup,Qatar,True
+2019-11-30,Saudi Arabia,Bahrain,2,0,Gulf Cup,Qatar,True
+2019-12-02,Iraq,Yemen,0,0,Gulf Cup,Qatar,True
+2019-12-02,Saudi Arabia,Oman,3,1,Gulf Cup,Qatar,True
+2019-12-05,Bahrain,Iraq,2,2,Gulf Cup,Qatar,True
+2019-12-08,Bahrain,Saudi Arabia,1,0,Gulf Cup,Qatar,True
+2019-12-10,Japan,China,2,1,East Asian Championship,South Korea,True
+2019-12-14,Japan,Hong Kong,5,0,East Asian Championship,South Korea,True
+2020-01-07,Canada,Barbados,4,1,Friendly,United States,True
+2020-01-09,Sweden,Moldova,1,0,Friendly,Qatar,True
+2020-01-10,Canada,Barbados,4,1,Friendly,United States,True
+2020-01-12,Sweden,Kosovo,1,0,Friendly,Qatar,True
+2020-01-15,Iceland,Canada,1,0,Friendly,United States,True
+2020-01-19,Iceland,El Salvador,1,0,Friendly,United States,True
+2020-02-23,Belarus,Uzbekistan,1,0,Friendly,United Arab Emirates,True
+2020-09-03,Finland,Wales,0,1,European Nations League B,Finland,False
+2020-09-03,Turkey,Hungary,0,1,European Nations League B,Turkey,False
+2020-09-03,Ukraine,Switzerland,2,1,European Nations League A,Ukraine,False
+2020-09-03,Germany,Spain,1,1,European Nations League A,Germany,False
+2020-09-03,Russia,Serbia,3,1,European Nations League B,Russia,False
+2020-09-04,Scotland,Israel,1,1,European Nations League B,Scotland,False
+2020-09-04,Norway,Austria,1,2,European Nations League B,Norway,False
+2020-09-04,Netherlands,Poland,1,0,European Nations League A,Netherlands,False
+2020-09-04,Italy,Bosnia and Herzegovina,1,1,European Nations League A,Italy,False
+2020-09-04,Slovakia,Czechia,1,3,European Nations League B,Slovakia,False
+2020-09-05,Iceland,England,0,1,European Nations League A,Iceland,False
+2020-09-05,Denmark,Belgium,0,2,European Nations League A,Denmark,False
+2020-09-05,Sweden,France,0,1,European Nations League A,Sweden,False
+2020-09-05,Portugal,Croatia,4,1,European Nations League A,Portugal,False
+2020-09-06,Wales,Bulgaria,1,0,European Nations League B,Wales,False
+2020-09-06,Hungary,Russia,2,3,European Nations League B,Hungary,False
+2020-09-06,Switzerland,Germany,1,1,European Nations League A,Switzerland,False
+2020-09-06,Spain,Ukraine,4,0,European Nations League A,Spain,False
+2020-09-06,Serbia,Turkey,0,0,European Nations League B,Serbia,False
+2020-09-07,Czechia,Scotland,1,2,European Nations League B,Czechia,False
+2020-09-07,Northern Ireland,Norway,1,5,European Nations League B,Northern Ireland,False
+2020-09-07,Austria,Romania,2,3,European Nations League B,Austria,False
+2020-09-07,Netherlands,Italy,0,1,European Nations League A,Netherlands,False
+2020-09-07,Bosnia and Herzegovina,Poland,1,2,European Nations League A,Bosnia and Herzegovina,False
+2020-09-08,Denmark,England,0,0,European Nations League A,Denmark,False
+2020-09-08,Belgium,Iceland,5,1,European Nations League A,Belgium,False
+2020-09-08,France,Croatia,4,2,European Nations League A,France,False
+2020-09-08,Sweden,Portugal,0,2,European Nations League A,Sweden,False
+2020-10-09,Cameroon,Japan,0,0,Friendly,Netherlands,True
+2020-10-09,Burkina Faso,DR Congo,3,0,Friendly,Morocco,True
+2020-10-09,Algeria,Nigeria,1,0,Friendly,Austria,True
+2020-10-09,Mali,Ghana,3,0,Friendly,Turkey,True
+2020-10-10,Guinea,Cape Verde,2,1,Friendly,Portugal,True
+2020-10-10,Spain,Switzerland,1,0,European Nations League A,Spain,False
+2020-10-10,Ukraine,Germany,1,2,European Nations League A,Ukraine,False
+2020-10-11,Scotland,Slovakia,1,0,European Nations League B,Scotland,False
+2020-10-11,England,Belgium,2,1,European Nations League A,England,False
+2020-10-11,Ireland,Wales,0,0,European Nations League B,Ireland,False
+2020-10-11,Northern Ireland,Austria,0,1,European Nations League B,Northern Ireland,False
+2020-10-11,Serbia,Hungary,0,1,European Nations League B,Serbia,False
+2020-10-11,France,Portugal,0,0,European Nations League A,France,False
+2020-10-11,Bosnia and Herzegovina,Netherlands,0,0,European Nations League A,Bosnia and Herzegovina,False
+2020-10-11,Croatia,Sweden,2,1,European Nations League A,Croatia,False
+2020-10-11,Norway,Romania,4,0,European Nations League B,Norway,False
+2020-10-11,Poland,Italy,0,0,European Nations League A,Poland,False
+2020-10-11,Russia,Turkey,1,1,European Nations League B,Russia,False
+2020-10-11,Iceland,Denmark,0,3,European Nations League A,Iceland,False
+2020-10-11,Israel,Czechia,1,2,European Nations League B,Israel,False
+2020-10-12,Ghana,Qatar,5,1,Friendly,Turkey,True
+2020-10-13,Japan,Ivory Coast,1,0,Friendly,Netherlands,True
+2020-10-13,Nigeria,Tunisia,1,1,Friendly,Austria,True
+2020-10-13,Algeria,Mexico,2,2,Friendly,Netherlands,True
+2020-10-13,Germany,Switzerland,3,3,European Nations League A,Germany,False
+2020-10-13,Ukraine,Spain,1,0,European Nations League A,Ukraine,False
+2020-10-14,Scotland,Czechia,1,0,European Nations League B,Scotland,False
+2020-10-14,England,Denmark,0,1,European Nations League A,England,False
+2020-10-14,Bulgaria,Wales,0,1,European Nations League B,Bulgaria,False
+2020-10-14,Norway,Northern Ireland,1,0,European Nations League B,Norway,False
+2020-10-14,Romania,Austria,0,1,European Nations League B,Romania,False
+2020-10-14,Russia,Hungary,0,0,European Nations League B,Russia,False
+2020-10-14,Iceland,Belgium,1,2,European Nations League A,Iceland,False
+2020-10-14,Croatia,France,1,2,European Nations League A,Croatia,False
+2020-10-14,Italy,Netherlands,1,1,European Nations League A,Italy,False
+2020-10-14,Portugal,Sweden,3,0,European Nations League A,Portugal,False
+2020-10-14,Poland,Bosnia and Herzegovina,3,0,European Nations League A,Poland,False
+2020-10-14,Turkey,Serbia,2,2,European Nations League B,Turkey,False
+2020-11-12,Syria,Uzbekistan,1,0,Friendly,United Arab Emirates,True
+2020-11-12,Iraq,Jordan,0,0,Friendly,United Arab Emirates,True
+2020-11-13,Japan,Panama,1,0,Friendly,Austria,True
+2020-11-13,Costa Rica,Qatar,1,1,Friendly,Austria,True
+2020-11-14,Mexico,South Korea,3,2,Friendly,Austria,True
+2020-11-14,Portugal,France,0,1,European Nations League A,Portugal,False
+2020-11-14,Switzerland,Spain,1,1,European Nations League A,Switzerland,False
+2020-11-14,Germany,Ukraine,3,1,European Nations League A,Germany,False
+2020-11-14,Sweden,Croatia,2,1,European Nations League A,Sweden,False
+2020-11-15,Slovakia,Scotland,1,0,European Nations League B,Slovakia,False
+2020-11-15,Belgium,England,2,0,European Nations League A,Belgium,False
+2020-11-15,Wales,Ireland,1,0,European Nations League B,Wales,False
+2020-11-15,Austria,Northern Ireland,2,1,European Nations League B,Austria,False
+2020-11-15,Hungary,Serbia,1,1,European Nations League B,Hungary,False
+2020-11-15,Netherlands,Bosnia and Herzegovina,3,1,European Nations League A,Netherlands,False
+2020-11-15,Italy,Poland,2,0,European Nations League A,Italy,False
+2020-11-15,Turkey,Russia,3,2,European Nations League B,Turkey,False
+2020-11-15,Denmark,Iceland,2,1,European Nations League A,Denmark,False
+2020-11-15,Czechia,Israel,1,0,European Nations League B,Czechia,False
+2020-11-16,Jordan,Syria,1,0,Friendly,United Arab Emirates,True
+2020-11-16,United States,Panama,6,2,Friendly,Austria,True
+2020-11-17,Mexico,Japan,2,0,Friendly,Austria,True
+2020-11-17,South Korea,Qatar,2,1,Friendly,Austria,True
+2020-11-17,Iraq,Uzbekistan,2,1,Friendly,United Arab Emirates,True
+2020-11-17,Central African Republic,Morocco,0,2,African Nations Cup qualifier,Cameroon,True
+2020-11-17,France,Sweden,4,2,European Nations League A,France,False
+2020-11-17,Spain,Germany,6,0,European Nations League A,Spain,False
+2020-11-17,Croatia,Portugal,2,3,European Nations League A,Croatia,False
+2020-11-18,Israel,Scotland,1,0,European Nations League B,Israel,False
+2020-11-18,England,Iceland,4,0,European Nations League A,England,False
+2020-11-18,Wales,Finland,3,1,European Nations League B,Wales,False
+2020-11-18,Austria,Norway,1,1,European Nations League B,Austria,False
+2020-11-18,Hungary,Turkey,2,0,European Nations League B,Hungary,False
+2020-11-18,Belgium,Denmark,4,2,European Nations League A,Belgium,False
+2020-11-18,Poland,Netherlands,1,2,European Nations League A,Poland,False
+2020-11-18,Bosnia and Herzegovina,Italy,0,2,European Nations League A,Bosnia and Herzegovina,False
+2020-11-18,Serbia,Russia,5,0,European Nations League B,Serbia,False
+2020-11-18,Czechia,Slovakia,2,0,European Nations League B,Czechia,False
+2021-02-01,Jordan,Tajikistan,2,0,Friendly,United Arab Emirates,True
+2021-02-05,Tajikistan,Jordan,1,0,Friendly,United Arab Emirates,True
+2021-02-15,Uzbekistan,Jordan,2,0,Friendly,United Arab Emirates,True
+2021-03-20,Jordan,Oman,0,0,Friendly,United Arab Emirates,True
+2021-03-24,Jordan,Lebanon,1,0,Friendly,United Arab Emirates,True
+2021-03-24,Qatar,Luxembourg,1,0,Friendly,Hungary,True
+2021-03-24,Czechia,Estonia,6,2,World Cup qualifier,Poland,True
+2021-03-24,Portugal,Azerbaijan,1,0,World Cup qualifier,Italy,True
+2021-03-25,United States,Jamaica,4,1,Friendly,Austria,True
+2021-03-25,Canada,Bermuda,5,1,World Cup qualifier,United States,True
+2021-03-25,Panama,Barbados,1,0,World Cup qualifier,Dominican Republic,True
+2021-03-27,Qatar,Azerbaijan,2,1,Friendly,Hungary,True
+2021-03-27,Norway,Turkey,0,3,World Cup qualifier,Spain,True
+2021-03-28,Curaçao,Cuba,2,1,World Cup qualifier,Guatemala,True
+2021-03-28,Panama,Dominica,2,1,World Cup qualifier,Dominican Republic,True
+2021-03-29,Canada,Cayman Islands,11,0,World Cup qualifier,United States,True
+2021-03-30,Ireland,Qatar,1,1,Friendly,Hungary,True
+2021-03-30,Mexico,Costa Rica,1,0,Friendly,Austria,True
+2021-05-29,Mexico,Iceland,2,1,Friendly,United States,True
+2021-05-30,Uzbekistan,Thailand,4,1,Friendly,United Arab Emirates,True
+2021-05-31,Jordan,Vietnam,1,1,Friendly,United Arab Emirates,True
+2021-06-02,Netherlands,Scotland,2,2,Friendly,Portugal,True
+2021-06-02,Denmark,Germany,1,1,Friendly,Austria,True
+2021-06-02,Norway,Luxembourg,1,0,Friendly,Spain,True
+2021-06-03,Iran,Hong Kong,3,1,World Cup and Asian Cup qual,Bahrain,True
+2021-06-03,Costa Rica,Mexico,0,0,CONCACAF Nations League,United States,True
+2021-06-03,Turkey,Moldova,2,0,Friendly,Germany,True
+2021-06-04,Cameroon,Nigeria,1,0,Friendly,Austria,True
+2021-06-05,Canada,Aruba,7,0,World Cup qualifier,United States,True
+2021-06-05,Curaçao,British Virgin Islands,8,0,World Cup qualifier,Guatemala,True
+2021-06-06,Costa Rica,Honduras,2,2,CONCACAF Nations League,United States,True
+2021-06-06,Greece,Norway,2,1,Friendly,Spain,True
+2021-06-07,Australia,Taiwan,5,1,World Cup and Asian Cup qual,Kuwait,True
+2021-06-07,Uzbekistan,Singapore,5,0,World Cup and Asian Cup qual,Saudi Arabia,True
+2021-06-07,Iraq,Cambodia,4,1,World Cup and Asian Cup qual,Bahrain,True
+2021-06-07,Jordan,Nepal,3,0,World Cup and Asian Cup qual,Kuwait,True
+2021-06-07,Jamaica,Serbia,1,1,Friendly,Japan,True
+2021-06-08,Cameroon,Nigeria,0,0,Friendly,Austria,True
+2021-06-08,Canada,Suriname,4,0,World Cup qualifier,United States,True
+2021-06-11,Australia,Nepal,3,0,World Cup and Asian Cup qual,Kuwait,True
+2021-06-11,Iran,Cambodia,10,0,World Cup and Asian Cup qual,Bahrain,True
+2021-06-11,Iraq,Hong Kong,1,0,World Cup and Asian Cup qual,Bahrain,True
+2021-06-11,Uzbekistan,Yemen,1,0,World Cup and Asian Cup qual,Saudi Arabia,True
+2021-06-11,DR Congo,Mali,1,1,Friendly,Tunisia,True
+2021-06-11,Italy,Turkey,3,0,European Championship,Italy,False
+2021-06-12,Honduras,Mexico,0,0,Friendly,United States,True
+2021-06-12,Switzerland,Wales,1,1,European Championship,Azerbaijan,True
+2021-06-12,Russia,Belgium,0,3,European Championship,Russia,False
+2021-06-12,Denmark,Finland,0,1,European Championship,Denmark,False
+2021-06-13,Colombia,Ecuador,1,0,Copa America,Brazil,True
+2021-06-13,England,Croatia,1,0,European Championship,England,False
+2021-06-13,Austria,North Macedonia,3,1,European Championship,Romania,True
+2021-06-13,Netherlands,Ukraine,3,2,European Championship,Netherlands,False
+2021-06-14,Argentina,Chile,1,1,Copa America,Brazil,True
+2021-06-14,Paraguay,Bolivia,3,1,Copa America,Brazil,True
+2021-06-14,Scotland,Czechia,0,2,European Championship,Scotland,False
+2021-06-14,Spain,Sweden,0,0,European Championship,Spain,False
+2021-06-14,Slovakia,Poland,2,1,European Championship,Russia,True
+2021-06-15,Australia,Jordan,1,0,World Cup and Asian Cup qual,Kuwait,True
+2021-06-15,Iran,Iraq,1,0,World Cup and Asian Cup qual,Bahrain,True
+2021-06-15,Canada,Haiti,3,0,World Cup qualifier,United States,True
+2021-06-15,Hungary,Portugal,0,3,European Championship,Hungary,False
+2021-06-15,Germany,France,0,1,European Championship,Germany,False
+2021-06-16,Wales,Turkey,2,0,European Championship,Azerbaijan,True
+2021-06-16,Italy,Switzerland,3,0,European Championship,Italy,False
+2021-06-16,Russia,Finland,1,0,European Championship,Russia,False
+2021-06-17,Colombia,Venezuela,0,0,Copa America,Brazil,True
+2021-06-17,Netherlands,Austria,2,0,European Championship,Netherlands,False
+2021-06-17,Denmark,Belgium,1,2,European Championship,Denmark,False
+2021-06-18,Argentina,Uruguay,1,0,Copa America,Brazil,True
+2021-06-18,England,Scotland,0,0,European Championship,England,False
+2021-06-18,Sweden,Slovakia,1,0,European Championship,Russia,True
+2021-06-18,Croatia,Czechia,1,1,European Championship,Scotland,True
+2021-06-19,Hungary,France,1,1,European Championship,Hungary,False
+2021-06-19,Germany,Portugal,4,2,European Championship,Germany,False
+2021-06-19,Spain,Poland,1,1,European Championship,Spain,False
+2021-06-20,Peru,Colombia,2,1,Copa America,Brazil,True
+2021-06-20,Ecuador,Venezuela,2,2,Copa America,Brazil,True
+2021-06-20,Italy,Wales,1,0,European Championship,Italy,False
+2021-06-20,Switzerland,Turkey,3,1,European Championship,Azerbaijan,True
+2021-06-21,Chile,Uruguay,1,1,Copa America,Brazil,True
+2021-06-21,Argentina,Paraguay,1,0,Copa America,Brazil,True
+2021-06-21,Austria,Ukraine,1,0,European Championship,Romania,True
+2021-06-21,Belgium,Finland,2,0,European Championship,Russia,True
+2021-06-21,Netherlands,North Macedonia,3,0,European Championship,Netherlands,False
+2021-06-21,Denmark,Russia,4,1,European Championship,Denmark,False
+2021-06-22,Scotland,Croatia,1,3,European Championship,Scotland,False
+2021-06-22,England,Czechia,1,0,European Championship,England,False
+2021-06-23,Ecuador,Peru,2,2,Copa America,Brazil,True
+2021-06-23,Germany,Hungary,2,2,European Championship,Germany,False
+2021-06-23,France,Portugal,2,2,European Championship,Hungary,True
+2021-06-23,Sweden,Poland,3,2,European Championship,Russia,True
+2021-06-23,Spain,Slovakia,5,0,European Championship,Spain,False
+2021-06-24,Uruguay,Bolivia,2,0,Copa America,Brazil,True
+2021-06-24,Paraguay,Chile,2,0,Copa America,Brazil,True
+2021-06-26,Denmark,Wales,4,0,European Championship,Netherlands,True
+2021-06-26,Italy,Austria,2,1,European Championship,England,True
+2021-06-27,Peru,Venezuela,1,0,Copa America,Brazil,True
+2021-06-27,Belgium,Portugal,1,0,European Championship,Spain,True
+2021-06-27,Czechia,Netherlands,2,0,European Championship,Hungary,True
+2021-06-28,Uruguay,Paraguay,1,0,Copa America,Brazil,True
+2021-06-28,Argentina,Bolivia,4,1,Copa America,Brazil,True
+2021-06-28,France,Switzerland,3,3,European Championship,Romania,True
+2021-06-28,Spain,Croatia,5,3,European Championship,Denmark,True
+2021-06-29,England,Germany,2,0,European Championship,England,False
+2021-06-29,Ukraine,Sweden,2,1,European Championship,Scotland,True
+2021-06-30,Mexico,Panama,3,0,Friendly,United States,True
+2021-07-02,Haiti,St Vincent & Grenadines,6,1,CONCACAF Champ qual,United States,True
+2021-07-02,Paraguay,Peru,3,3,Copa America,Brazil,True
+2021-07-02,Italy,Belgium,2,1,European Championship,Germany,True
+2021-07-02,Spain,Switzerland,1,1,European Championship,Russia,True
+2021-07-03,Mexico,Nigeria,4,0,Friendly,United States,True
+2021-07-03,Colombia,Uruguay,0,0,Copa America,Brazil,True
+2021-07-03,Argentina,Ecuador,3,0,Copa America,Brazil,True
+2021-07-03,England,Ukraine,4,0,European Championship,Italy,True
+2021-07-03,Denmark,Czechia,2,1,European Championship,Azerbaijan,True
+2021-07-04,Qatar,El Salvador,1,0,Friendly,Croatia,True
+2021-07-06,Haiti,Bermuda,4,1,CONCACAF Champ qual,United States,True
+2021-07-06,Argentina,Colombia,1,1,Copa America,Brazil,True
+2021-07-06,Italy,Spain,1,1,European Championship,England,True
+2021-07-07,Namibia,Senegal,2,1,COSAFA Cup,South Africa,True
+2021-07-07,England,Denmark,2,1,European Championship,England,False
+2021-07-09,Senegal,Mozambique,1,0,COSAFA Cup,South Africa,True
+2021-07-09,Colombia,Peru,3,2,Copa America,Brazil,True
+2021-07-10,Mexico,Trinidad and Tobago,0,0,CONCACAF Championship,United States,True
+2021-07-11,United States,Haiti,1,0,CONCACAF Championship,United States,False
+2021-07-11,Canada,Martinique,4,1,CONCACAF Championship,United States,True
+2021-07-11,England,Italy,1,1,European Championship,England,False
+2021-07-12,Costa Rica,Guadeloupe,3,1,CONCACAF Championship,United States,True
+2021-07-13,Panama,Qatar,3,3,CONCACAF Championship,United States,True
+2021-07-13,Senegal,Zimbabwe,2,1,COSAFA Cup,South Africa,True
+2021-07-14,Senegal,Malawi,2,1,COSAFA Cup,South Africa,True
+2021-07-14,Mexico,Guatemala,3,0,CONCACAF Championship,United States,True
+2021-07-15,United States,Martinique,6,1,CONCACAF Championship,United States,False
+2021-07-15,Canada,Haiti,4,1,CONCACAF Championship,United States,True
+2021-07-16,Eswatini,Senegal,2,2,COSAFA Cup,South Africa,True
+2021-07-16,Costa Rica,Suriname,2,1,CONCACAF Championship,United States,True
+2021-07-17,Qatar,Grenada,4,0,CONCACAF Championship,United States,True
+2021-07-17,Honduras,Panama,3,2,CONCACAF Championship,United States,True
+2021-07-18,United States,Canada,1,0,CONCACAF Championship,United States,False
+2021-07-18,Mexico,El Salvador,1,0,CONCACAF Championship,United States,True
+2021-07-18,Haiti,Martinique,2,1,CONCACAF Championship,United States,True
+2021-07-20,Qatar,Honduras,2,0,CONCACAF Championship,United States,True
+2021-07-20,Costa Rica,Jamaica,1,0,CONCACAF Championship,United States,True
+2021-07-20,Panama,Grenada,3,1,CONCACAF Championship,United States,True
+2021-07-24,Qatar,El Salvador,3,2,CONCACAF Championship,United States,True
+2021-07-24,Mexico,Honduras,3,0,CONCACAF Championship,United States,True
+2021-07-25,United States,Jamaica,1,0,CONCACAF Championship,United States,False
+2021-07-25,Canada,Costa Rica,2,0,CONCACAF Championship,United States,True
+2021-07-29,United States,Qatar,1,0,CONCACAF Championship,United States,False
+2021-07-29,Mexico,Canada,2,1,CONCACAF Championship,United States,True
+2021-08-01,United States,Mexico,1,0,CONCACAF Championship,United States,False
+2021-08-21,Costa Rica,El Salvador,0,0,Friendly,United States,True
+2021-08-26,Algeria,Syria,2,1,Friendly,Qatar,True
+2021-08-29,Algeria,Burundi,3,0,Friendly,Qatar,True
+2021-09-01,Serbia,Qatar,4,0,Friendly,Hungary,True
+2021-09-01,Cape Verde,Central African Republic,1,1,World Cup qualifier,Cameroon,True
+2021-09-02,Australia,China,3,0,World Cup qualifier,Qatar,True
+2021-09-02,Germany,Liechtenstein,2,0,World Cup qualifier,Switzerland,True
+2021-09-04,Haiti,Jordan,2,0,Friendly tournament,Bahrain,True
+2021-09-04,Portugal,Qatar,3,1,Friendly,Hungary,True
+2021-09-05,Wales,Belarus,3,2,World Cup qualifier,Russia,True
+2021-09-07,Japan,China,1,0,World Cup qualifier,Qatar,True
+2021-09-07,Iran,Iraq,3,0,World Cup qualifier,Qatar,True
+2021-09-07,Burkina Faso,Algeria,1,1,World Cup qualifier,Morocco,True
+2021-09-08,Belarus,Belgium,0,1,World Cup qualifier,Russia,True
+2021-10-06,Italy,Spain,1,2,European Nations League,Italy,False
+2021-10-07,Australia,Oman,3,1,World Cup qualifier,Qatar,True
+2021-10-07,Iraq,Lebanon,0,0,World Cup qualifier,Qatar,True
+2021-10-07,Cape Verde,Liberia,2,1,World Cup qualifier,Ghana,True
+2021-10-07,France,Belgium,3,2,European Nations League,Italy,True
+2021-10-08,Ivory Coast,Malawi,3,0,World Cup qualifier,South Africa,True
+2021-10-09,Uzbekistan,Malaysia,5,1,Friendly tournament,Jordan,True
+2021-10-09,New Zealand,Curaçao,2,1,Friendly tournament,Bahrain,True
+2021-10-10,Nigeria,Central African Republic,2,0,World Cup qualifier,Cameroon,True
+2021-10-10,Italy,Belgium,2,1,European Nations League,Italy,False
+2021-10-10,France,Spain,2,1,European Nations League,Italy,True
+2021-10-11,Ivory Coast,Malawi,2,1,World Cup qualifier,Benin,True
+2021-10-11,Cameroon,Mozambique,1,0,World Cup qualifier,Morocco,True
+2021-10-11,Czechia,Belarus,2,0,World Cup qualifier,Russia,True
+2021-10-12,Senegal,Namibia,3,1,World Cup qualifier,South Africa,True
+2021-10-27,Ecuador,Mexico,3,2,Friendly,United States,True
+2021-11-11,Iraq,Syria,1,1,World Cup qualifier,Qatar,True
+2021-11-11,Ethiopia,Ghana,1,1,World Cup qualifier,South Africa,True
+2021-11-12,Algeria,Djibouti,4,0,World Cup qualifier,Egypt,True
+2021-11-13,Nigeria,Liberia,2,0,World Cup qualifier,Morocco,True
+2021-11-13,Cameroon,Malawi,4,0,World Cup qualifier,South Africa,True
+2021-11-13,Ivory Coast,Mozambique,3,0,World Cup qualifier,Benin,True
+2021-11-16,Australia,China,1,1,World Cup qualifier,United Arab Emirates,True
+2021-11-16,Iran,Syria,3,0,World Cup qualifier,Jordan,True
+2021-11-16,South Korea,Iraq,3,0,World Cup qualifier,Qatar,True
+2021-11-16,New Zealand,Gambia,2,0,Friendly,United Arab Emirates,True
+2021-11-30,Iraq,Oman,1,1,Arab Cup,Qatar,True
+2021-11-30,Tunisia,Mauritania,5,1,Arab Cup,Qatar,True
+2021-12-01,Egypt,Lebanon,1,0,Arab Cup,Qatar,True
+2021-12-01,Jordan,Saudi Arabia,1,0,Arab Cup,Qatar,True
+2021-12-01,Morocco,Palestine,4,0,Arab Cup,Qatar,True
+2021-12-01,Algeria,Sudan,4,0,Arab Cup,Qatar,True
+2021-12-03,Syria,Tunisia,2,0,Arab Cup,Qatar,True
+2021-12-03,Bahrain,Iraq,0,0,Arab Cup,Qatar,True
+2021-12-04,Algeria,Lebanon,2,0,Arab Cup,Qatar,True
+2021-12-04,Morocco,Jordan,4,0,Arab Cup,Qatar,True
+2021-12-04,Palestine,Saudi Arabia,1,1,Arab Cup,Qatar,True
+2021-12-04,Egypt,Sudan,5,0,Arab Cup,Qatar,True
+2021-12-04,Ecuador,El Salvador,1,1,Friendly,United States,True
+2021-12-06,Tunisia,United Arab Emirates,1,0,Arab Cup,Qatar,True
+2021-12-07,Jordan,Palestine,5,1,Arab Cup,Qatar,True
+2021-12-07,Morocco,Saudi Arabia,1,0,Arab Cup,Qatar,True
+2021-12-07,Algeria,Egypt,1,1,Arab Cup,Qatar,True
+2021-12-08,Chile,Mexico,2,2,Friendly,United States,True
+2021-12-10,Tunisia,Oman,2,1,Arab Cup,Qatar,True
+2021-12-11,Egypt,Jordan,3,1,Arab Cup,Qatar,True
+2021-12-11,Algeria,Morocco,2,2,Arab Cup,Qatar,True
+2021-12-15,Tunisia,Egypt,1,0,Arab Cup,Qatar,True
+2021-12-18,Algeria,Tunisia,2,0,Arab Cup,Qatar,True
+2022-01-05,Algeria,Ghana,3,0,Friendly,Qatar,True
+2022-01-09,Cape Verde,Ethiopia,1,0,African Nations Cup,Cameroon,True
+2022-01-09,Cameroon,Burkina Faso,2,1,African Nations Cup,Cameroon,False
+2022-01-10,Senegal,Zimbabwe,1,0,African Nations Cup,Cameroon,True
+2022-01-10,Morocco,Ghana,1,0,African Nations Cup,Cameroon,True
+2022-01-11,Nigeria,Egypt,1,0,African Nations Cup,Cameroon,True
+2022-01-11,Algeria,Sierra Leone,0,0,African Nations Cup,Cameroon,True
+2022-01-12,Iceland,Uganda,1,1,Friendly,Turkey,True
+2022-01-12,Mali,Tunisia,1,0,African Nations Cup,Cameroon,True
+2022-01-12,Ivory Coast,Equatorial Guinea,1,0,African Nations Cup,Cameroon,True
+2022-01-13,Cameroon,Ethiopia,4,1,African Nations Cup,Cameroon,False
+2022-01-13,Burkina Faso,Cape Verde,1,0,African Nations Cup,Cameroon,True
+2022-01-14,Gabon,Ghana,1,1,African Nations Cup,Cameroon,True
+2022-01-14,Morocco,Comoros,2,0,African Nations Cup,Cameroon,True
+2022-01-14,Guinea,Senegal,0,0,African Nations Cup,Cameroon,True
+2022-01-15,South Korea,Iceland,5,1,Friendly,Turkey,True
+2022-01-15,Egypt,Guinea-Bissau,1,0,African Nations Cup,Cameroon,True
+2022-01-15,Nigeria,Sudan,3,1,African Nations Cup,Cameroon,True
+2022-01-16,Ivory Coast,Sierra Leone,2,2,African Nations Cup,Cameroon,True
+2022-01-16,Tunisia,Mauritania,4,0,African Nations Cup,Cameroon,True
+2022-01-16,Equatorial Guinea,Algeria,1,0,African Nations Cup,Cameroon,True
+2022-01-16,Colombia,Honduras,2,1,Friendly,United States,True
+2022-01-17,Cameroon,Cape Verde,1,1,African Nations Cup,Cameroon,False
+2022-01-18,Comoros,Ghana,3,2,African Nations Cup,Cameroon,True
+2022-01-18,Malawi,Senegal,0,0,African Nations Cup,Cameroon,True
+2022-01-18,Gabon,Morocco,2,2,African Nations Cup,Cameroon,True
+2022-01-19,Egypt,Sudan,1,0,African Nations Cup,Cameroon,True
+2022-01-19,Nigeria,Guinea-Bissau,2,0,African Nations Cup,Cameroon,True
+2022-01-20,Gambia,Tunisia,1,0,African Nations Cup,Cameroon,True
+2022-01-20,Ivory Coast,Algeria,3,1,African Nations Cup,Cameroon,True
+2022-01-21,South Korea,Moldova,4,0,Friendly,Turkey,True
+2022-01-23,Tunisia,Nigeria,1,0,African Nations Cup,Cameroon,True
+2022-01-24,Cameroon,Comoros,2,1,African Nations Cup,Cameroon,False
+2022-01-25,Morocco,Malawi,2,1,African Nations Cup,Cameroon,True
+2022-01-25,Senegal,Cape Verde,2,0,African Nations Cup,Cameroon,True
+2022-01-26,Egypt,Ivory Coast,0,0,African Nations Cup,Cameroon,True
+2022-01-27,Uzbekistan,South Sudan,3,0,Friendly,United Arab Emirates,True
+2022-01-28,Jordan,New Zealand,3,1,Friendly,United Arab Emirates,True
+2022-01-29,Cameroon,Gambia,2,0,African Nations Cup,Cameroon,False
+2022-01-29,Burkina Faso,Tunisia,1,0,African Nations Cup,Cameroon,True
+2022-01-30,Egypt,Morocco,2,1,African Nations Cup,Cameroon,True
+2022-01-30,Senegal,Equatorial Guinea,3,1,African Nations Cup,Cameroon,True
+2022-01-31,Jordan,South Sudan,2,1,Friendly,United Arab Emirates,True
+2022-02-01,South Korea,Syria,2,0,World Cup qualifier,United Arab Emirates,True
+2022-02-02,Senegal,Burkina Faso,3,1,African Nations Cup,Cameroon,True
+2022-02-03,Cameroon,Egypt,0,0,African Nations Cup,Cameroon,False
+2022-02-05,Cameroon,Burkina Faso,3,3,African Nations Cup,Cameroon,False
+2022-02-06,Egypt,Senegal,0,0,African Nations Cup,Cameroon,True
+2022-03-18,New Zealand,Papua New Guinea,1,0,World Cup qualifier,Qatar,True
+2022-03-21,New Zealand,Fiji,4,0,World Cup qualifier,Qatar,True
+2022-03-23,Cape Verde,Guadeloupe,2,0,Friendly,France,True
+2022-03-24,China,Saudi Arabia,1,1,World Cup qualifier,United Arab Emirates,True
+2022-03-24,Iraq,United Arab Emirates,1,0,World Cup qualifier,Saudi Arabia,True
+2022-03-24,New Zealand,New Caledonia,7,1,World Cup qualifier,Qatar,True
+2022-03-25,Guinea,South Africa,0,0,Friendly,Belgium,True
+2022-03-25,Cape Verde,Liechtenstein,6,0,Friendly,Spain,True
+2022-03-26,Finland,Iceland,1,1,Friendly,Spain,True
+2022-03-26,Croatia,Slovenia,1,1,Friendly,Qatar,True
+2022-03-27,Guatemala,Haiti,2,1,Friendly,United States,True
+2022-03-27,New Zealand,Tahiti,1,0,World Cup qualifier,Qatar,True
+2022-03-28,Cape Verde,San Marino,2,0,Friendly,Spain,True
+2022-03-29,Iraq,Syria,1,1,World Cup qualifier,United Arab Emirates,True
+2022-03-29,Croatia,Bulgaria,2,1,Friendly,Qatar,True
+2022-03-30,New Zealand,Solomon Islands,5,0,World Cup qualifier,Qatar,True
+2022-04-27,Guatemala,Mexico,0,0,Friendly,United States,True
+2022-05-01,El Salvador,Panama,3,2,Friendly,United States,True
+2022-05-28,Jordan,India,2,0,Friendly,Qatar,True
+2022-05-28,Mexico,Nigeria,2,1,Friendly,United States,True
+2022-06-01,Australia,Jordan,2,1,Friendly,Qatar,True
+2022-06-01,Argentina,Italy,3,0,Intercontinental Champ,England,True
+2022-06-01,Poland,Wales,2,1,European Nations League A,Poland,False
+2022-06-02,Ecuador,Nigeria,1,0,Friendly,United States,True
+2022-06-02,Uruguay,Mexico,3,0,Friendly,United States,True
+2022-06-02,Czechia,Switzerland,2,1,European Nations League A,Czechia,False
+2022-06-02,Slovenia,Sweden,0,2,European Nations League B,Slovenia,False
+2022-06-02,Serbia,Norway,0,1,European Nations League B,Serbia,False
+2022-06-02,Spain,Portugal,1,1,European Nations League A,Spain,False
+2022-06-02,Israel,Iceland,2,2,European Nations League B,Israel,False
+2022-06-03,Burkina Faso,Cape Verde,2,0,African Nations Cup qualifier,Morocco,True
+2022-06-03,Croatia,Austria,0,3,European Nations League A,Croatia,False
+2022-06-03,Belgium,Netherlands,1,4,European Nations League A,Belgium,False
+2022-06-03,France,Denmark,1,2,European Nations League A,France,False
+2022-06-04,Hungary,England,1,0,European Nations League A,Hungary,False
+2022-06-04,Italy,Germany,1,1,European Nations League A,Italy,False
+2022-06-04,Finland,Bosnia and Herzegovina,1,1,European Nations League B,Finland,False
+2022-06-04,Turkey,Faroe Islands,4,0,European Nations League C,Turkey,False
+2022-06-05,Colombia,Saudi Arabia,1,0,Friendly,Spain,True
+2022-06-05,Central African Republic,Ghana,1,1,African Nations Cup qualifier,Angola,True
+2022-06-05,Ecuador,Mexico,0,0,Friendly,United States,True
+2022-06-05,Argentina,Estonia,5,0,Friendly,Spain,True
+2022-06-05,Peru,New Zealand,1,0,Friendly,Spain,True
+2022-06-05,Portugal,Switzerland,4,0,European Nations League A,Portugal,False
+2022-06-05,Sweden,Norway,1,2,European Nations League B,Sweden,False
+2022-06-05,Czechia,Spain,2,2,European Nations League A,Czechia,False
+2022-06-05,Serbia,Slovenia,4,1,European Nations League B,Serbia,False
+2022-06-06,Austria,Denmark,1,2,European Nations League A,Austria,False
+2022-06-06,Croatia,France,1,1,European Nations League A,Croatia,False
+2022-06-06,Iceland,Albania,1,1,European Nations League B,Iceland,False
+2022-06-07,Australia,United Arab Emirates,2,1,World Cup qualifier,Qatar,True
+2022-06-07,Cape Verde,Togo,2,0,African Nations Cup qualifier,Morocco,True
+2022-06-07,Haiti,Montserrat,3,2,CONCACAF Nations League B,Dominican Republic,True
+2022-06-07,Germany,England,1,1,European Nations League A,Germany,False
+2022-06-07,Bosnia and Herzegovina,Romania,1,0,European Nations League B,Bosnia and Herzegovina,False
+2022-06-07,Lithuania,Turkey,0,6,European Nations League C,Lithuania,False
+2022-06-08,Jordan,Nepal,2,0,Asian Cup qualifier,Kuwait,True
+2022-06-08,Scotland,Armenia,2,0,European Nations League B,Scotland,False
+2022-06-08,Wales,Netherlands,1,2,European Nations League A,Wales,False
+2022-06-08,Belgium,Poland,6,1,European Nations League A,Belgium,False
+2022-06-09,Venezuela,Saudi Arabia,1,0,Friendly,Spain,True
+2022-06-09,New Zealand,Oman,0,0,Friendly,Qatar,True
+2022-06-09,Ethiopia,Egypt,2,0,African Nations Cup qualifier,Malawi,True
+2022-06-09,Cameroon,Burundi,1,0,African Nations Cup qualifier,Tanzania,True
+2022-06-09,Ivory Coast,Lesotho,0,0,African Nations Cup qualifier,South Africa,True
+2022-06-09,Switzerland,Spain,0,1,European Nations League A,Switzerland,False
+2022-06-09,Sweden,Serbia,0,1,European Nations League B,Sweden,False
+2022-06-09,Norway,Slovenia,0,0,European Nations League B,Norway,False
+2022-06-09,Portugal,Czechia,2,0,European Nations League A,Portugal,False
+2022-06-10,Tunisia,Chile,2,0,Friendly tournament,Japan,True
+2022-06-10,Austria,France,1,1,European Nations League A,Austria,False
+2022-06-10,Denmark,Croatia,0,1,European Nations League A,Denmark,False
+2022-06-11,Jordan,Indonesia,1,0,Asian Cup qualifier,Kuwait,True
+2022-06-11,Ecuador,Cape Verde,1,0,Friendly,United States,True
+2022-06-11,Ireland,Scotland,3,0,European Nations League B,Ireland,False
+2022-06-11,England,Italy,0,0,European Nations League A,England,False
+2022-06-11,Wales,Belgium,1,1,European Nations League A,Wales,False
+2022-06-11,Hungary,Germany,1,1,European Nations League A,Hungary,False
+2022-06-11,Netherlands,Poland,2,2,European Nations League A,Netherlands,False
+2022-06-11,Luxembourg,Turkey,0,2,European Nations League C,Luxembourg,False
+2022-06-11,Montenegro,Bosnia and Herzegovina,1,1,European Nations League B,Montenegro,False
+2022-06-12,Algeria,Iran,2,1,Friendly,Qatar,True
+2022-06-12,Switzerland,Portugal,1,0,European Nations League A,Switzerland,False
+2022-06-12,Norway,Sweden,3,2,European Nations League B,Norway,False
+2022-06-12,Spain,Czechia,2,0,European Nations League A,Spain,False
+2022-06-12,Slovenia,Serbia,2,2,European Nations League B,Slovenia,False
+2022-06-13,Australia,Peru,0,0,World Cup qualifier,Qatar,True
+2022-06-13,Nigeria,São Tomé and Príncipe,10,0,African Nations Cup qualifier,Morocco,True
+2022-06-13,Denmark,Austria,2,0,European Nations League A,Denmark,False
+2022-06-13,France,Croatia,0,1,European Nations League A,France,False
+2022-06-13,Iceland,Israel,2,2,European Nations League B,Iceland,False
+2022-06-14,Chile,Ghana,0,0,Friendly tournament,Japan,True
+2022-06-14,Costa Rica,New Zealand,1,0,World Cup qualifier,Qatar,True
+2022-06-14,Haiti,Guyana,6,0,CONCACAF Nations League B,Dominican Republic,True
+2022-06-14,Armenia,Scotland,1,4,European Nations League B,Armenia,False
+2022-06-14,England,Hungary,0,4,European Nations League A,England,False
+2022-06-14,Netherlands,Wales,3,2,European Nations League A,Netherlands,False
+2022-06-14,Poland,Belgium,0,1,European Nations League A,Poland,False
+2022-06-14,Germany,Italy,5,2,European Nations League A,Germany,False
+2022-06-14,Bosnia and Herzegovina,Finland,3,2,European Nations League B,Bosnia and Herzegovina,False
+2022-06-14,Turkey,Lithuania,2,0,European Nations League C,Turkey,False
+2022-07-13,Eswatini,Senegal,1,1,COSAFA Cup,South Africa,True
+2022-07-15,Zambia,Senegal,4,3,COSAFA Cup,South Africa,True
+2022-07-17,Mozambique,Senegal,1,1,COSAFA Cup,South Africa,True
+2022-07-20,South Korea,China,3,0,East Asian Championship,Japan,True
+2022-07-24,South Korea,Hong Kong,3,0,East Asian Championship,Japan,True
+2022-08-26,Jamaica,Qatar,1,1,Friendly tournament,Austria,True
+2022-08-31,Paraguay,Mexico,1,0,Friendly,United States,True
+2022-09-21,Scotland,Ukraine,3,0,European Nations League B,Scotland,False
+2022-09-22,Tunisia,Comoros,1,0,Friendly,France,True
+2022-09-22,Iceland,Venezuela,1,0,Friendly,Austria,True
+2022-09-22,Belgium,Wales,2,1,European Nations League A,Belgium,False
+2022-09-22,France,Austria,2,0,European Nations League A,France,False
+2022-09-22,Poland,Netherlands,0,2,European Nations League A,Poland,False
+2022-09-22,Turkey,Luxembourg,3,3,European Nations League C,Turkey,False
+2022-09-22,Croatia,Denmark,2,1,European Nations League A,Croatia,False
+2022-09-23,Japan,United States,2,0,Friendly,Germany,True
+2022-09-23,Iran,Uruguay,1,0,Friendly,Austria,True
+2022-09-23,Iraq,Oman,1,1,Friendly tournament,Jordan,True
+2022-09-23,Ecuador,Saudi Arabia,0,0,Friendly,Spain,True
+2022-09-23,Canada,Qatar,2,0,Friendly,Austria,True
+2022-09-23,Paraguay,United Arab Emirates,1,0,Friendly,Austria,True
+2022-09-23,Uzbekistan,Cameroon,2,0,Friendly,South Korea,True
+2022-09-23,Burkina Faso,DR Congo,1,0,Friendly,Morocco,True
+2022-09-23,Brazil,Ghana,3,0,Friendly,France,True
+2022-09-23,Morocco,Chile,2,0,Friendly,Spain,True
+2022-09-23,Argentina,Honduras,3,0,Friendly,United States,True
+2022-09-23,Italy,England,1,0,European Nations League A,Italy,False
+2022-09-23,Germany,Hungary,0,1,European Nations League A,Germany,False
+2022-09-23,Bosnia and Herzegovina,Montenegro,1,0,European Nations League B,Bosnia and Herzegovina,False
+2022-09-24,Ivory Coast,Togo,2,1,Friendly,France,True
+2022-09-24,Senegal,Bolivia,2,0,Friendly,France,True
+2022-09-24,Colombia,Guatemala,4,1,Friendly,United States,True
+2022-09-24,Mexico,Peru,1,0,Friendly,United States,True
+2022-09-24,Scotland,Ireland,2,1,European Nations League B,Scotland,False
+2022-09-24,Spain,Switzerland,1,2,European Nations League A,Spain,False
+2022-09-24,Serbia,Sweden,4,1,European Nations League B,Serbia,False
+2022-09-24,Slovenia,Norway,2,1,European Nations League B,Slovenia,False
+2022-09-24,Czechia,Portugal,0,4,European Nations League A,Czechia,False
+2022-09-25,Wales,Poland,0,1,European Nations League A,Wales,False
+2022-09-25,Austria,Croatia,1,3,European Nations League A,Austria,False
+2022-09-25,Netherlands,Belgium,1,0,European Nations League A,Netherlands,False
+2022-09-25,Denmark,France,2,0,European Nations League A,Denmark,False
+2022-09-25,Faroe Islands,Turkey,2,1,European Nations League C,Faroe Islands,False
+2022-09-26,Iraq,Syria,1,0,Friendly tournament,Jordan,True
+2022-09-26,England,Germany,3,3,European Nations League A,England,False
+2022-09-26,Romania,Bosnia and Herzegovina,4,1,European Nations League B,Romania,False
+2022-09-27,Ecuador,Japan,0,0,Friendly,Germany,True
+2022-09-27,Iran,Senegal,1,1,Friendly,Austria,True
+2022-09-27,Saudi Arabia,United States,0,0,Friendly,Spain,True
+2022-09-27,Chile,Qatar,2,2,Friendly,Austria,True
+2022-09-27,Costa Rica,Uzbekistan,2,1,Friendly,South Korea,True
+2022-09-27,DR Congo,Sierra Leone,3,0,Friendly,Morocco,True
+2022-09-27,Ghana,Nicaragua,1,0,Friendly,Spain,True
+2022-09-27,Brazil,Tunisia,5,1,Friendly,France,True
+2022-09-27,Morocco,Paraguay,0,0,Friendly,Spain,True
+2022-09-27,Ivory Coast,Guinea,3,1,Friendly,France,True
+2022-09-27,Uruguay,Canada,2,0,Friendly,Slovakia,True
+2022-09-27,Peru,El Salvador,4,1,Friendly,United States,True
+2022-09-27,Colombia,Mexico,3,2,Friendly,United States,True
+2022-09-27,Argentina,Jamaica,3,0,Friendly,United States,True
+2022-09-27,Scotland,Ukraine,0,0,European Nations League B,Poland,True
+2022-09-27,Switzerland,Czechia,2,1,European Nations League A,Switzerland,False
+2022-09-27,Sweden,Slovenia,1,1,European Nations League B,Sweden,False
+2022-09-27,Norway,Serbia,0,2,European Nations League B,Norway,False
+2022-09-27,Portugal,Spain,0,1,European Nations League A,Portugal,False
+2022-09-27,Albania,Iceland,1,1,European Nations League B,Albania,False
+2022-10-13,Qatar,Nicaragua,2,1,Friendly,Spain,True
+2022-10-22,Saudi Arabia,North Macedonia,1,0,Friendly,United Arab Emirates,True
+2022-10-23,Qatar,Guatemala,2,0,Friendly,Spain,True
+2022-10-26,Albania,Saudi Arabia,1,1,Friendly,United Arab Emirates,True
+2022-10-27,Qatar,Honduras,1,0,Friendly,Spain,True
+2022-10-30,Honduras,Saudi Arabia,0,0,Friendly,United Arab Emirates,True
+2022-11-05,Qatar,Panama,2,1,Friendly,Spain,True
+2022-11-06,Saudi Arabia,Iceland,1,0,Friendly,United Arab Emirates,True
+2022-11-09,Mexico,Iraq,4,0,Friendly,Spain,True
+2022-11-09,Qatar,Albania,1,0,Friendly,Spain,True
+2022-11-10,Panama,Saudi Arabia,1,1,Friendly,United Arab Emirates,True
+2022-11-12,Ecuador,Iraq,0,0,Friendly,Spain,True
+2022-11-15,Panama,Venezuela,2,2,Friendly,United Arab Emirates,True
+2022-11-16,Tunisia,Iran,2,0,Friendly,Qatar,True
+2022-11-16,Ivory Coast,Burundi,4,0,Friendly,Morocco,True
+2022-11-16,Sweden,Mexico,2,1,Friendly,Spain,True
+2022-11-16,Austria,Andorra,1,0,Friendly,Spain,True
+2022-11-17,Canada,Japan,2,1,Friendly,United Arab Emirates,True
+2022-11-17,Ghana,Switzerland,2,0,Friendly,United Arab Emirates,True
+2022-11-17,Morocco,Georgia,3,0,Friendly,United Arab Emirates,True
+2022-11-18,Egypt,Belgium,2,1,Friendly,Kuwait,True
+2022-11-18,Cameroon,Panama,1,1,Friendly,United Arab Emirates,True
+2022-11-19,Burkina Faso,Ivory Coast,2,1,Friendly,Morocco,True
+2022-11-19,Colombia,Paraguay,2,0,Friendly,United States,True
+2022-11-20,Qatar,Ecuador,0,2,World Cup,Qatar,False
+2022-11-21,England,Iran,6,2,World Cup,Qatar,True
+2022-11-21,Netherlands,Senegal,2,0,World Cup,Qatar,True
+2022-11-21,United States,Wales,1,1,World Cup,Qatar,True
+2022-11-22,France,Australia,4,1,World Cup,Qatar,True
+2022-11-22,Saudi Arabia,Argentina,2,1,World Cup,Qatar,True
+2022-11-22,Denmark,Tunisia,0,0,World Cup,Qatar,True
+2022-11-22,Mexico,Poland,0,0,World Cup,Qatar,True
+2022-11-23,Japan,Germany,2,1,World Cup,Qatar,True
+2022-11-23,Croatia,Morocco,0,0,World Cup,Qatar,True
+2022-11-23,Belgium,Canada,1,0,World Cup,Qatar,True
+2022-11-23,Spain,Costa Rica,7,0,World Cup,Qatar,True
+2022-11-24,South Korea,Uruguay,0,0,World Cup,Qatar,True
+2022-11-24,Portugal,Ghana,3,2,World Cup,Qatar,True
+2022-11-24,Switzerland,Cameroon,1,0,World Cup,Qatar,True
+2022-11-24,Brazil,Serbia,2,0,World Cup,Qatar,True
+2022-11-25,Iran,Wales,2,0,World Cup,Qatar,True
+2022-11-25,Qatar,Senegal,1,3,World Cup,Qatar,False
+2022-11-25,England,United States,0,0,World Cup,Qatar,True
+2022-11-25,Ecuador,Netherlands,1,1,World Cup,Qatar,True
+2022-11-26,Australia,Tunisia,1,0,World Cup,Qatar,True
+2022-11-26,Poland,Saudi Arabia,2,0,World Cup,Qatar,True
+2022-11-26,Argentina,Mexico,2,0,World Cup,Qatar,True
+2022-11-26,France,Denmark,2,1,World Cup,Qatar,True
+2022-11-27,Costa Rica,Japan,1,0,World Cup,Qatar,True
+2022-11-27,Morocco,Belgium,2,0,World Cup,Qatar,True
+2022-11-27,Croatia,Canada,4,1,World Cup,Qatar,True
+2022-11-27,Germany,Spain,1,1,World Cup,Qatar,True
+2022-11-28,Ghana,South Korea,3,2,World Cup,Qatar,True
+2022-11-28,Cameroon,Serbia,3,3,World Cup,Qatar,True
+2022-11-28,Portugal,Uruguay,2,0,World Cup,Qatar,True
+2022-11-28,Brazil,Switzerland,1,0,World Cup,Qatar,True
+2022-11-29,United States,Iran,1,0,World Cup,Qatar,True
+2022-11-29,Qatar,Netherlands,0,2,World Cup,Qatar,False
+2022-11-29,Senegal,Ecuador,2,1,World Cup,Qatar,True
+2022-11-29,England,Wales,3,0,World Cup,Qatar,True
+2022-11-30,Australia,Denmark,1,0,World Cup,Qatar,True
+2022-11-30,Mexico,Saudi Arabia,2,1,World Cup,Qatar,True
+2022-11-30,Tunisia,France,1,0,World Cup,Qatar,True
+2022-11-30,Argentina,Poland,2,0,World Cup,Qatar,True
+2022-12-01,Japan,Spain,2,1,World Cup,Qatar,True
+2022-12-01,Morocco,Canada,2,1,World Cup,Qatar,True
+2022-12-01,Germany,Costa Rica,4,2,World Cup,Qatar,True
+2022-12-01,Belgium,Croatia,0,0,World Cup,Qatar,True
+2022-12-02,South Korea,Portugal,2,1,World Cup,Qatar,True
+2022-12-02,Uruguay,Ghana,2,0,World Cup,Qatar,True
+2022-12-02,Cameroon,Brazil,1,0,World Cup,Qatar,True
+2022-12-02,Switzerland,Serbia,3,2,World Cup,Qatar,True
+2022-12-03,Argentina,Australia,2,1,World Cup,Qatar,True
+2022-12-03,Netherlands,United States,3,1,World Cup,Qatar,True
+2022-12-04,England,Senegal,3,0,World Cup,Qatar,True
+2022-12-04,France,Poland,3,1,World Cup,Qatar,True
+2022-12-05,Croatia,Japan,1,1,World Cup,Qatar,True
+2022-12-05,Brazil,South Korea,4,1,World Cup,Qatar,True
+2022-12-06,Morocco,Spain,0,0,World Cup,Qatar,True
+2022-12-06,Portugal,Switzerland,6,1,World Cup,Qatar,True
+2022-12-09,Argentina,Netherlands,2,2,World Cup,Qatar,True
+2022-12-09,Brazil,Croatia,1,1,World Cup,Qatar,True
+2022-12-10,Morocco,Portugal,1,0,World Cup,Qatar,True
+2022-12-10,France,England,2,1,World Cup,Qatar,True
+2022-12-13,Argentina,Croatia,3,0,World Cup,Qatar,True
+2022-12-14,France,Morocco,2,0,World Cup,Qatar,True
+2022-12-17,Croatia,Morocco,2,1,World Cup,Qatar,True
+2022-12-18,Argentina,France,3,3,World Cup,Qatar,True
+2023-01-06,Saudi Arabia,Yemen,2,0,Gulf Cup,Iraq,True
+2023-01-07,Qatar,Kuwait,2,0,Gulf Cup,Iraq,True
+2023-01-08,Estonia,Iceland,1,1,Friendly,Portugal,True
+2023-01-09,Sweden,Finland,2,0,Friendly,Portugal,True
+2023-01-10,Bahrain,Qatar,2,1,Gulf Cup,Iraq,True
+2023-01-12,Oman,Saudi Arabia,2,1,Gulf Cup,Iraq,True
+2023-01-12,Sweden,Iceland,2,1,Friendly,Portugal,True
+2023-01-13,Qatar,United Arab Emirates,1,1,Gulf Cup,Iraq,True
+2023-03-12,Guatemala,Panama,1,1,Friendly,United States,True
+2023-03-24,Uzbekistan,Bolivia,1,0,Friendly,Saudi Arabia,True
+2023-03-25,Belarus,Switzerland,0,5,European Championship qual,Serbia,True
+2023-03-27,Algeria,Niger,1,0,African Nations Cup qualifier,Tunisia,True
+2023-03-28,Jordan,Philippines,4,0,Friendly,Qatar,True
+2023-03-28,Uzbekistan,Venezuela,1,1,Friendly,Saudi Arabia,True
+2023-03-28,Morocco,Peru,0,0,Friendly,Spain,True
+2023-03-28,Cape Verde,Eswatini,1,0,African Nations Cup qualifier,South Africa,True
+2023-03-28,Namibia,Cameroon,2,1,African Nations Cup qualifier,South Africa,True
+2023-03-28,Haiti,Bermuda,3,1,CONCACAF Nations League B,Dominican Republic,True
+2023-06-10,Cameroon,Mexico,2,2,Friendly,United States,True
+2023-06-13,Iran,Afghanistan,6,1,Central Asian Nations Cup,Kyrgyzstan,True
+2023-06-13,Curaçao,Puerto Rico,0,0,Friendly,United States,True
+2023-06-13,Haiti,Saint Kitts and Nevis,3,1,Friendly,United States,True
+2023-06-14,Egypt,Guinea,2,1,African Nations Cup qualifier,Morocco,True
+2023-06-14,DR Congo,Uganda,1,0,Friendly,Cameroon,True
+2023-06-14,Netherlands,Croatia,2,4,European Nations League,Netherlands,False
+2023-06-15,Argentina,Australia,2,0,Friendly,China,True
+2023-06-15,Qatar,Jamaica,2,1,Friendly,Austria,True
+2023-06-15,Canada,Panama,2,0,CONCACAF Nations League,United States,True
+2023-06-15,Guatemala,Costa Rica,1,0,Friendly,United States,True
+2023-06-15,Spain,Italy,2,1,European Nations League,Netherlands,True
+2023-06-16,Colombia,Iraq,1,0,Friendly,Spain,True
+2023-06-16,Serbia,Jordan,3,2,Friendly,Austria,True
+2023-06-16,Curaçao,Saint Kitts and Nevis,1,1,CONCACAF Champ qual,United States,True
+2023-06-16,France,Gibraltar,3,0,European Championship qual,Portugal,True
+2023-06-17,Brazil,Guinea,4,1,Friendly,Spain,True
+2023-06-17,Ecuador,Bolivia,1,0,Friendly,United States,True
+2023-06-18,Algeria,Uganda,2,1,African Nations Cup qualifier,Cameroon,True
+2023-06-18,Nigeria,Sierra Leone,3,2,African Nations Cup qualifier,Liberia,True
+2023-06-18,Mexico,Panama,1,0,CONCACAF Nations League,United States,True
+2023-06-18,Netherlands,Italy,2,3,European Nations League,Netherlands,False
+2023-06-18,Croatia,Spain,0,0,European Nations League,Netherlands,True
+2023-06-19,Jordan,Jamaica,2,1,Friendly,Austria,True
+2023-06-19,New Zealand,Qatar,1,0,Friendly,Austria,True
+2023-06-20,Senegal,Brazil,4,2,Friendly,Portugal,True
+2023-06-20,Ecuador,Costa Rica,3,1,Friendly,United States,True
+2023-06-20,Haiti,Trinidad and Tobago,0,0,Friendly,United States,True
+2023-06-24,United States,Jamaica,1,1,CONCACAF Championship,United States,False
+2023-06-25,Haiti,Qatar,2,1,CONCACAF Championship,United States,True
+2023-06-25,Mexico,Honduras,4,0,CONCACAF Championship,United States,True
+2023-06-26,Panama,Costa Rica,2,1,CONCACAF Championship,United States,True
+2023-06-27,Canada,Guadeloupe,2,2,CONCACAF Championship,Canada,False
+2023-06-28,United States,Saint Kitts and Nevis,6,0,CONCACAF Championship,United States,False
+2023-06-29,Honduras,Qatar,1,1,CONCACAF Championship,United States,True
+2023-06-29,Mexico,Haiti,3,1,CONCACAF Championship,United States,True
+2023-06-30,Costa Rica,El Salvador,0,0,CONCACAF Championship,United States,True
+2023-06-30,Panama,Martinique,2,1,CONCACAF Championship,United States,True
+2023-07-01,Canada,Guatemala,0,0,CONCACAF Championship,United States,True
+2023-07-02,Qatar,Mexico,1,0,CONCACAF Championship,United States,True
+2023-07-02,United States,Trinidad and Tobago,6,0,CONCACAF Championship,United States,False
+2023-07-02,Honduras,Haiti,2,1,CONCACAF Championship,United States,True
+2023-07-04,Canada,Cuba,4,2,CONCACAF Championship,United States,True
+2023-07-04,Costa Rica,Martinique,6,4,CONCACAF Championship,United States,True
+2023-07-04,El Salvador,Panama,2,2,CONCACAF Championship,United States,True
+2023-07-08,Panama,Qatar,4,0,CONCACAF Championship,United States,True
+2023-07-08,Mexico,Costa Rica,2,0,CONCACAF Championship,United States,True
+2023-07-09,United States,Canada,2,2,CONCACAF Championship,United States,False
+2023-07-12,United States,Panama,1,1,CONCACAF Championship,United States,False
+2023-07-12,Mexico,Jamaica,3,0,CONCACAF Championship,United States,True
+2023-07-16,Mexico,Panama,1,0,CONCACAF Championship,United States,True
+2023-09-07,India,Iraq,2,2,King's Cup,Thailand,True
+2023-09-08,Costa Rica,Saudi Arabia,3,1,Friendly,England,True
+2023-09-08,Cuba,Haiti,0,0,CONCACAF Nations League A,Dominican Republic,True
+2023-09-09,Australia,Mexico,2,2,Friendly,United States,True
+2023-09-09,England,Ukraine,1,1,European Championship qual,Poland,True
+2023-09-12,Japan,Turkey,4,2,Friendly,Belgium,True
+2023-09-12,South Korea,Saudi Arabia,1,0,Friendly,England,True
+2023-09-12,United Arab Emirates,Costa Rica,4,1,Friendly,Croatia,True
+2023-09-12,Mexico,Uzbekistan,3,3,Friendly,United States,True
+2023-09-12,Morocco,Burkina Faso,1,0,Friendly,France,True
+2023-10-12,Egypt,Zambia,1,0,Friendly,United Arab Emirates,True
+2023-10-13,Uzbekistan,Vietnam,2,0,Friendly,China,True
+2023-10-13,Iraq,Qatar,0,0,Friendly tournament,Jordan,True
+2023-10-13,Nigeria,Saudi Arabia,2,2,Friendly,Portugal,True
+2023-10-13,DR Congo,New Zealand,1,1,Friendly,Spain,True
+2023-10-14,Mexico,Ghana,2,0,Friendly,United States,True
+2023-10-15,Jamaica,Haiti,3,2,CONCACAF Nations League A,Trinidad and Tobago,True
+2023-10-16,Algeria,Egypt,1,1,Friendly,United Arab Emirates,True
+2023-10-16,Kenya,Russia,2,2,Friendly,Turkey,True
+2023-10-16,Nigeria,Mozambique,3,2,Friendly,Portugal,True
+2023-10-16,Senegal,Cameroon,1,0,Friendly,France,True
+2023-10-17,Australia,New Zealand,2,0,Friendly tournament,England,True
+2023-10-17,Iran,Qatar,4,0,Friendly tournament,Jordan,True
+2023-10-17,Mali,Saudi Arabia,3,1,Friendly,Portugal,True
+2023-10-17,Angola,DR Congo,0,0,Friendly,Portugal,True
+2023-10-17,Comoros,Cape Verde,2,1,Friendly,France,True
+2023-10-17,Germany,Mexico,2,2,Friendly,United States,True
+2023-11-15,Israel,Switzerland,1,1,European Championship qual,Hungary,True
+2023-11-19,Egypt,Sierra Leone,2,0,World Cup qualifier,Liberia,True
+2023-11-19,Nigeria,Zimbabwe,1,1,World Cup qualifier,Rwanda,True
+2023-11-19,Sudan,DR Congo,1,0,World Cup qualifier,Libya,True
+2023-11-20,Ivory Coast,Gambia,2,0,World Cup qualifier,Tanzania,True
+2023-11-21,Japan,Syria,5,0,World Cup and Asian Cup qual,Saudi Arabia,True
+2023-11-21,Australia,Palestine,1,0,World Cup and Asian Cup qual,Kuwait,True
+2023-11-21,Cape Verde,Eswatini,2,0,World Cup qualifier,South Africa,True
+2023-11-21,Gibraltar,Netherlands,0,6,European Championship qual,Portugal,True
+2023-12-10,Colombia,Venezuela,1,0,Friendly,United States,True
+2023-12-16,Colombia,Mexico,3,2,Friendly,United States,True
+2023-12-25,Uzbekistan,Kyrgyzstan,4,1,Friendly,United Arab Emirates,True
+2024-01-04,Saudi Arabia,Lebanon,1,0,Friendly,Qatar,True
+2024-01-06,Australia,Bahrain,2,0,Friendly,United Arab Emirates,True
+2024-01-06,South Korea,Iraq,1,0,Friendly,United Arab Emirates,True
+2024-01-06,Angola,DR Congo,0,0,Friendly,United Arab Emirates,True
+2024-01-07,Uzbekistan,Palestine,1,0,Friendly,Qatar,True
+2024-01-08,Guinea,Nigeria,2,0,Friendly,United Arab Emirates,True
+2024-01-09,Japan,Jordan,6,1,Friendly,Qatar,True
+2024-01-09,Iran,Indonesia,5,0,Friendly,Qatar,True
+2024-01-09,Palestine,Saudi Arabia,0,0,Friendly,Qatar,True
+2024-01-09,Cameroon,Zambia,1,1,Friendly,Saudi Arabia,True
+2024-01-09,Algeria,Burundi,4,0,Friendly,Togo,True
+2024-01-10,Saudi Arabia,Hong Kong,2,0,Friendly,Qatar,True
+2024-01-10,Burkina Faso,DR Congo,2,1,Friendly,United Arab Emirates,True
+2024-01-11,Morocco,Sierra Leone,3,1,Friendly,Ivory Coast,True
+2024-01-12,Qatar,Lebanon,3,0,Asian Cup,Qatar,False
+2024-01-12,Sweden,Estonia,2,1,Friendly,Cyprus,True
+2024-01-13,Australia,India,2,0,Asian Cup,Qatar,True
+2024-01-13,Syria,Uzbekistan,0,0,Asian Cup,Qatar,True
+2024-01-13,Ivory Coast,Guinea-Bissau,2,0,African Nations Cup,Ivory Coast,False
+2024-01-13,Iceland,Guatemala,1,0,Friendly,United States,True
+2024-01-14,Japan,Vietnam,4,2,Asian Cup,Qatar,True
+2024-01-14,Equatorial Guinea,Nigeria,1,1,African Nations Cup,Ivory Coast,True
+2024-01-14,Iran,Palestine,4,1,Asian Cup,Qatar,True
+2024-01-14,Egypt,Mozambique,2,2,African Nations Cup,Ivory Coast,True
+2024-01-14,Cape Verde,Ghana,2,1,African Nations Cup,Ivory Coast,True
+2024-01-15,South Korea,Bahrain,3,1,Asian Cup,Qatar,True
+2024-01-15,Iraq,Indonesia,3,1,Asian Cup,Qatar,True
+2024-01-15,Senegal,Gambia,3,0,African Nations Cup,Ivory Coast,True
+2024-01-15,Jordan,Malaysia,4,0,Asian Cup,Qatar,True
+2024-01-15,Cameroon,Guinea,1,1,African Nations Cup,Ivory Coast,True
+2024-01-15,Algeria,Angola,1,1,African Nations Cup,Ivory Coast,True
+2024-01-16,Saudi Arabia,Oman,2,1,Asian Cup,Qatar,True
+2024-01-16,Namibia,Tunisia,1,0,African Nations Cup,Ivory Coast,True
+2024-01-16,Mali,South Africa,2,0,African Nations Cup,Ivory Coast,True
+2024-01-17,Qatar,Tajikistan,1,0,Asian Cup,Qatar,False
+2024-01-17,Morocco,Tanzania,3,0,African Nations Cup,Ivory Coast,True
+2024-01-17,DR Congo,Zambia,1,1,African Nations Cup,Ivory Coast,True
+2024-01-17,Iceland,Honduras,2,0,Friendly,United States,True
+2024-01-18,Australia,Syria,1,0,Asian Cup,Qatar,True
+2024-01-18,Uzbekistan,India,3,0,Asian Cup,Qatar,True
+2024-01-18,Ivory Coast,Nigeria,0,1,African Nations Cup,Ivory Coast,False
+2024-01-18,Egypt,Ghana,2,2,African Nations Cup,Ivory Coast,True
+2024-01-19,Iraq,Japan,2,1,Asian Cup,Qatar,True
+2024-01-19,Iran,Hong Kong,1,0,Asian Cup,Qatar,True
+2024-01-19,Senegal,Cameroon,3,1,African Nations Cup,Ivory Coast,True
+2024-01-19,Cape Verde,Mozambique,3,0,African Nations Cup,Ivory Coast,True
+2024-01-20,Jordan,South Korea,2,2,Asian Cup,Qatar,True
+2024-01-20,Algeria,Burkina Faso,2,2,African Nations Cup,Ivory Coast,True
+2024-01-20,Mali,Tunisia,1,1,African Nations Cup,Ivory Coast,True
+2024-01-21,DR Congo,Morocco,1,1,African Nations Cup,Ivory Coast,True
+2024-01-21,Saudi Arabia,Kyrgyzstan,2,0,Asian Cup,Qatar,True
+2024-01-21,South Africa,Namibia,4,0,African Nations Cup,Ivory Coast,True
+2024-01-22,Qatar,China,1,0,Asian Cup,Qatar,False
+2024-01-22,Nigeria,Guinea-Bissau,1,0,African Nations Cup,Ivory Coast,True
+2024-01-22,Ivory Coast,Equatorial Guinea,0,4,African Nations Cup,Ivory Coast,False
+2024-01-22,Ghana,Mozambique,2,2,African Nations Cup,Ivory Coast,True
+2024-01-22,Cape Verde,Egypt,2,2,African Nations Cup,Ivory Coast,True
+2024-01-23,Iran,United Arab Emirates,2,1,Asian Cup,Qatar,True
+2024-01-23,Australia,Uzbekistan,1,1,Asian Cup,Qatar,True
+2024-01-23,Senegal,Guinea,2,0,African Nations Cup,Ivory Coast,True
+2024-01-23,Mauritania,Algeria,1,0,African Nations Cup,Ivory Coast,True
+2024-01-23,Cameroon,Gambia,3,2,African Nations Cup,Ivory Coast,True
+2024-01-24,Japan,Indonesia,3,1,Asian Cup,Qatar,True
+2024-01-24,Iraq,Vietnam,3,2,Asian Cup,Qatar,True
+2024-01-24,South Africa,Tunisia,0,0,African Nations Cup,Ivory Coast,True
+2024-01-24,Morocco,Zambia,1,0,African Nations Cup,Ivory Coast,True
+2024-01-24,DR Congo,Tanzania,0,0,African Nations Cup,Ivory Coast,True
+2024-01-25,Saudi Arabia,Thailand,0,0,Asian Cup,Qatar,True
+2024-01-25,Malaysia,South Korea,3,3,Asian Cup,Qatar,True
+2024-01-25,Bahrain,Jordan,1,0,Asian Cup,Qatar,True
+2024-01-27,Nigeria,Cameroon,2,0,African Nations Cup,Ivory Coast,True
+2024-01-28,Australia,Indonesia,4,0,Asian Cup,Qatar,True
+2024-01-28,DR Congo,Egypt,1,1,African Nations Cup,Ivory Coast,True
+2024-01-29,Qatar,Palestine,2,1,Asian Cup,Qatar,False
+2024-01-29,Jordan,Iraq,3,2,Asian Cup,Qatar,True
+2024-01-29,Cape Verde,Mauritania,1,0,African Nations Cup,Ivory Coast,True
+2024-01-29,Ivory Coast,Senegal,1,1,African Nations Cup,Ivory Coast,False
+2024-01-30,Uzbekistan,Thailand,2,1,Asian Cup,Qatar,True
+2024-01-30,Saudi Arabia,South Korea,1,1,Asian Cup,Qatar,True
+2024-01-30,South Africa,Morocco,2,0,African Nations Cup,Ivory Coast,True
+2024-01-31,Japan,Bahrain,3,1,Asian Cup,Qatar,True
+2024-01-31,Iran,Syria,1,1,Asian Cup,Qatar,True
+2024-02-02,Jordan,Tajikistan,1,0,Asian Cup,Qatar,True
+2024-02-02,South Korea,Australia,2,1,Asian Cup,Qatar,True
+2024-02-02,Nigeria,Angola,1,0,African Nations Cup,Ivory Coast,True
+2024-02-02,DR Congo,Guinea,3,1,African Nations Cup,Ivory Coast,True
+2024-02-03,Iran,Japan,2,1,Asian Cup,Qatar,True
+2024-02-03,Qatar,Uzbekistan,1,1,Asian Cup,Qatar,False
+2024-02-03,Ivory Coast,Mali,2,1,African Nations Cup,Ivory Coast,False
+2024-02-03,Cape Verde,South Africa,0,0,African Nations Cup,Ivory Coast,True
+2024-02-06,Jordan,South Korea,2,0,Asian Cup,Qatar,True
+2024-02-07,Qatar,Iran,3,2,Asian Cup,Qatar,False
+2024-02-07,Nigeria,South Africa,1,1,African Nations Cup,Ivory Coast,True
+2024-02-07,Ivory Coast,DR Congo,1,0,African Nations Cup,Ivory Coast,False
+2024-02-10,Qatar,Jordan,3,1,Asian Cup,Qatar,False
+2024-02-10,DR Congo,South Africa,0,0,African Nations Cup,Ivory Coast,True
+2024-02-11,Ivory Coast,Nigeria,2,1,African Nations Cup,Ivory Coast,False
+2024-03-21,Iceland,Israel,4,1,European Championship qual,Hungary,True
+2024-03-21,Cape Verde,Guyana,1,0,Friendly tournament,Saudi Arabia,True
+2024-03-21,Mexico,Panama,3,0,CONCACAF Nations League,United States,True
+2024-03-21,Ecuador,Guatemala,2,0,Friendly,United States,True
+2024-03-21,Andorra,South Africa,1,1,Friendly tournament,Algeria,True
+2024-03-22,Colombia,Spain,1,0,Friendly,England,True
+2024-03-22,Nigeria,Ghana,2,1,Friendly,Morocco,True
+2024-03-22,Senegal,Gabon,3,0,Friendly,France,True
+2024-03-22,Argentina,El Salvador,3,0,Friendly,United States,True
+2024-03-23,Benin,Ivory Coast,2,2,Friendly,France,True
+2024-03-23,Croatia,Tunisia,0,0,Friendly tournament,Egypt,True
+2024-03-23,Canada,Trinidad and Tobago,2,0,Copa América qualifier,United States,True
+2024-03-23,Costa Rica,Honduras,3,1,Copa América qualifier,United States,True
+2024-03-24,Italy,Ecuador,2,0,Friendly,United States,True
+2024-03-24,Jamaica,Panama,1,0,CONCACAF Nations League,United States,True
+2024-03-25,Cape Verde,Equatorial Guinea,1,0,Friendly tournament,Saudi Arabia,True
+2024-03-26,Ukraine,Iceland,2,1,European Championship qual,Poland,True
+2024-03-26,Ivory Coast,Uruguay,2,1,Friendly,France,True
+2024-03-26,Senegal,Benin,1,0,Friendly,France,True
+2024-03-26,New Zealand,Tunisia,0,0,Friendly tournament,Egypt,True
+2024-03-26,Mali,Nigeria,2,0,Friendly,Morocco,True
+2024-03-26,Ghana,Uganda,2,2,Friendly,Morocco,True
+2024-03-26,Colombia,Romania,3,2,Friendly,Spain,True
+2024-03-26,Argentina,Costa Rica,3,1,Friendly,United States,True
+2024-05-31,Mexico,Bolivia,1,0,Friendly,United States,True
+2024-06-03,Scotland,Gibraltar,2,0,Friendly,Portugal,True
+2024-06-05,Uruguay,Mexico,4,0,Friendly,United States,True
+2024-06-06,Afghanistan,Qatar,0,0,World Cup and Asian Cup qual,Saudi Arabia,True
+2024-06-06,Gibraltar,Wales,0,0,Friendly,Portugal,True
+2024-06-07,Czechia,Malta,7,1,Friendly,Austria,True
+2024-06-06,Haiti,Saint Lucia,2,1,World Cup qualifier,Barbados,True
+2024-06-08,Brazil,Mexico,3,2,Friendly,United States,True
+2024-06-09,Namibia,Tunisia,0,0,World Cup qualifier,South Africa,True
+2024-06-09,Argentina,Ecuador,1,0,Friendly,United States,True
+2024-06-10,Benin,Nigeria,2,1,World Cup qualifier,Ivory Coast,True
+2024-06-09,Panama,Montserrat,3,1,World Cup qualifier,Nicaragua,True
+2024-06-11,Ivory Coast,Kenya,0,0,World Cup qualifier,Malawi,True
+2024-06-12,Ecuador,Bolivia,3,1,Friendly,United States,True
+2024-06-14,Germany,Scotland,5,1,European Championship,Germany,False
+2024-06-14,Peru,El Salvador,1,0,Friendly,United States,True
+2024-06-14,Argentina,Guatemala,4,1,Friendly,United States,True
+2024-06-15,Colombia,Bolivia,3,0,Friendly,United States,True
+2024-06-15,Switzerland,Hungary,3,1,European Championship,Germany,True
+2024-06-15,Spain,Croatia,3,0,European Championship,Germany,True
+2024-06-16,Ecuador,Honduras,2,1,Friendly,United States,True
+2024-06-16,Netherlands,Poland,2,1,European Championship,Germany,True
+2024-06-16,England,Serbia,1,0,European Championship,Germany,True
+2024-06-16,Denmark,Slovenia,1,1,European Championship,Germany,True
+2024-06-17,Slovakia,Belgium,1,0,European Championship,Germany,True
+2024-06-17,France,Austria,1,0,European Championship,Germany,True
+2024-06-18,New Zealand,Solomon Islands,3,0,Oceania Nations Cup,Vanuatu,True
+2024-06-18,Turkey,Georgia,3,1,European Championship,Germany,True
+2024-06-18,Portugal,Czechia,2,1,European Championship,Germany,True
+2024-06-19,Scotland,Switzerland,1,1,European Championship,Germany,True
+2024-06-19,Germany,Hungary,2,0,European Championship,Germany,False
+2024-06-19,Albania,Croatia,2,2,European Championship,Germany,True
+2024-06-20,Spain,Italy,1,0,European Championship,Germany,True
+2024-06-20,Serbia,Slovenia,1,1,European Championship,Germany,True
+2024-06-20,Denmark,England,1,1,European Championship,Germany,True
+2024-06-20,Argentina,Canada,2,0,Copa América,United States,True
+2024-06-21,Vanuatu,New Zealand,0,4,Oceania Nations Cup,Vanuatu,False
+2024-06-21,France,Netherlands,0,0,European Championship,Germany,True
+2024-06-21,Austria,Poland,3,1,European Championship,Germany,True
+2024-06-21,Chile,Peru,0,0,Copa América,United States,True
+2024-06-22,Portugal,Turkey,3,0,European Championship,Germany,True
+2024-06-22,Czechia,Georgia,1,1,European Championship,Germany,True
+2024-06-22,Belgium,Romania,2,0,European Championship,Germany,True
+2024-06-22,Venezuela,Ecuador,2,1,Copa América,United States,True
+2024-06-22,Mexico,Jamaica,1,0,Copa América,United States,True
+2024-06-23,Hungary,Scotland,1,0,European Championship,Germany,True
+2024-06-23,Germany,Switzerland,1,1,European Championship,Germany,False
+2024-06-23,United States,Bolivia,2,0,Copa América,United States,False
+2024-06-23,Uruguay,Panama,3,1,Copa América,United States,True
+2024-06-24,Spain,Albania,1,0,European Championship,Germany,True
+2024-06-24,Croatia,Italy,1,1,European Championship,Germany,True
+2024-06-24,Colombia,Paraguay,2,1,Copa América,United States,True
+2024-06-24,Brazil,Costa Rica,0,0,Copa América,United States,True
+2024-06-25,France,Poland,1,1,European Championship,Germany,True
+2024-06-25,England,Slovenia,0,0,European Championship,Germany,True
+2024-06-25,Denmark,Serbia,0,0,European Championship,Germany,True
+2024-06-25,Austria,Netherlands,3,2,European Championship,Germany,True
+2024-06-25,Canada,Peru,1,0,Copa América,United States,True
+2024-06-25,Argentina,Chile,1,0,Copa América,United States,True
+2024-06-26,Turkey,Czechia,2,1,European Championship,Germany,True
+2024-06-26,Georgia,Portugal,2,0,European Championship,Germany,True
+2024-06-26,Belgium,Ukraine,0,0,European Championship,Germany,True
+2024-06-26,Ecuador,Jamaica,3,1,Copa América,United States,True
+2024-06-26,Venezuela,Mexico,1,0,Copa América,United States,True
+2024-06-27,New Zealand,Tahiti,5,0,Oceania Nations Cup,Vanuatu,True
+2024-06-27,United States,Panama,1,2,Copa América,United States,False
+2024-06-27,Uruguay,Bolivia,5,0,Copa América,United States,True
+2024-06-28,Colombia,Costa Rica,3,0,Copa América,United States,True
+2024-06-28,Brazil,Paraguay,4,1,Copa América,United States,True
+2024-06-29,Switzerland,Italy,2,0,European Championship,Germany,True
+2024-06-29,Germany,Denmark,2,0,European Championship,Germany,False
+2024-06-29,Canada,Chile,0,0,Copa América,United States,True
+2024-06-29,Argentina,Peru,2,0,Copa América,United States,True
+2024-06-30,Vanuatu,New Zealand,0,3,Oceania Nations Cup,Vanuatu,False
+2024-06-30,Spain,Georgia,4,1,European Championship,Germany,True
+2024-06-30,England,Slovakia,2,1,European Championship,Germany,True
+2024-06-30,Ecuador,Mexico,0,0,Copa América,United States,True
+2024-07-01,Portugal,Slovenia,0,0,European Championship,Germany,True
+2024-07-01,France,Belgium,1,0,European Championship,Germany,True
+2024-07-01,United States,Uruguay,0,1,Copa América,United States,False
+2024-07-01,Panama,Bolivia,3,1,Copa América,United States,True
+2024-07-02,Turkey,Austria,2,1,European Championship,Germany,True
+2024-07-02,Netherlands,Romania,3,0,European Championship,Germany,True
+2024-07-02,Brazil,Colombia,1,1,Copa América,United States,True
+2024-07-02,Costa Rica,Paraguay,2,1,Copa América,United States,True
+2024-07-04,Argentina,Ecuador,1,1,Copa América,United States,True
+2024-07-05,Germany,Spain,1,2,European Championship,Germany,False
+2024-07-05,France,Portugal,0,0,European Championship,Germany,True
+2024-07-05,Canada,Venezuela,1,1,Copa América,United States,True
+2024-07-06,Netherlands,Turkey,2,1,European Championship,Germany,True
+2024-07-06,England,Switzerland,1,1,European Championship,Germany,True
+2024-07-06,Colombia,Panama,5,0,Copa América,United States,True
+2024-07-06,Brazil,Uruguay,0,0,Copa América,United States,True
+2024-07-09,Spain,France,2,1,European Championship,Germany,True
+2024-07-09,Argentina,Canada,2,0,Copa América,United States,True
+2024-07-10,England,Netherlands,2,1,European Championship,Germany,True
+2024-07-10,Colombia,Uruguay,1,0,Copa América,United States,True
+2024-07-13,Canada,Uruguay,2,2,Copa América,United States,True
+2024-07-14,Spain,England,2,1,European Championship,Germany,True
+2024-07-14,Argentina,Colombia,1,0,Copa América,United States,True
+2024-09-01,Guatemala,Uruguay,1,1,Friendly,United States,True
+2024-09-05,Denmark,Switzerland,2,0,European Nations League A,Denmark,False
+2024-09-05,Serbia,Spain,0,0,European Nations League A,Serbia,False
+2024-09-05,Scotland,Poland,2,3,European Nations League A,Scotland,False
+2024-09-05,Portugal,Croatia,2,1,European Nations League A,Portugal,False
+2024-09-05,Azerbaijan,Sweden,1,3,European Nations League C,Azerbaijan,False
+2024-09-06,Slovenia,Austria,1,1,European Nations League B,Slovenia,False
+2024-09-06,Kazakhstan,Norway,0,0,European Nations League B,Kazakhstan,False
+2024-09-06,Iceland,Montenegro,2,0,European Nations League B,Iceland,False
+2024-09-06,Belgium,Israel,3,1,European Nations League A,Hungary,True
+2024-09-06,Saint Lucia,Curaçao,2,1,CONCACAF Nations League B,Grenada,True
+2024-09-06,Wales,Turkey,0,0,European Nations League B,Wales,False
+2024-09-06,France,Italy,1,3,European Nations League A,France,False
+2024-09-07,Germany,Hungary,5,0,European Nations League A,Germany,False
+2024-09-07,Netherlands,Bosnia and Herzegovina,5,2,European Nations League A,Netherlands,False
+2024-09-07,Georgia,Czechia,4,1,European Nations League B,Georgia,False
+2024-09-07,Ireland,England,0,2,European Nations League B,Ireland,False
+2024-09-07,Mexico,New Zealand,3,0,Friendly,United States,True
+2024-09-08,Croatia,Poland,1,0,European Nations League A,Croatia,False
+2024-09-08,Denmark,Serbia,2,0,European Nations League A,Denmark,False
+2024-09-08,Portugal,Scotland,2,1,European Nations League A,Portugal,False
+2024-09-08,Switzerland,Spain,1,4,European Nations League A,Switzerland,False
+2024-09-08,Sweden,Estonia,3,0,European Nations League C,Sweden,False
+2024-09-08,Gambia,Tunisia,1,2,African Nations Cup qualifier,Morocco,True
+2024-09-09,Norway,Austria,2,1,European Nations League B,Norway,False
+2024-09-09,Montenegro,Wales,1,2,European Nations League B,Montenegro,False
+2024-09-09,Curaçao,Saint Martin,4,0,CONCACAF Nations League B,Grenada,True
+2024-09-09,France,Belgium,2,0,European Nations League A,France,False
+2024-09-09,Haiti,Sint Maarten,6,0,CONCACAF Nations League B,Puerto Rico,True
+2024-09-09,Turkey,Iceland,3,1,European Nations League B,Turkey,False
+2024-09-09,DR Congo,Ethiopia,2,0,African Nations Cup qualifier,Tanzania,True
+2024-09-09,Ghana,Niger,1,1,African Nations Cup qualifier,Morocco,True
+2024-09-09,Senegal,Burundi,1,0,African Nations Cup qualifier,Malawi,True
+2024-09-10,Czechia,Ukraine,3,2,European Nations League B,Czechia,False
+2024-09-10,England,Finland,2,0,European Nations League B,England,False
+2024-09-10,Hungary,Bosnia and Herzegovina,0,0,European Nations League A,Hungary,False
+2024-09-10,Jordan,Palestine,3,1,World Cup qualifier,Malaysia,True
+2024-09-10,Netherlands,Germany,2,2,European Nations League A,Netherlands,False
+2024-09-10,North Korea,Qatar,2,2,World Cup qualifier,Laos,True
+2024-09-10,Ivory Coast,Chad,2,0,African Nations Cup qualifier,Cameroon,True
+2024-09-10,Cameroon,Zimbabwe,0,0,African Nations Cup qualifier,Uganda,True
+2024-09-10,Canada,Mexico,0,0,Friendly,United States,True
+2024-10-10,England,Greece,1,2,European Nations League B,England,False
+2024-10-10,Norway,Slovenia,3,0,European Nations League B,Norway,False
+2024-10-10,Austria,Kazakhstan,4,0,European Nations League B,Austria,False
+2024-10-10,France,Israel,4,1,European Nations League A,Hungary,True
+2024-10-10,Italy,Belgium,2,2,European Nations League A,Italy,False
+2024-10-11,Slovakia,Sweden,2,2,European Nations League C,Slovakia,False
+2024-10-11,Turkey,Montenegro,1,0,European Nations League B,Turkey,False
+2024-10-11,Bosnia and Herzegovina,Germany,1,2,European Nations League A,Bosnia and Herzegovina,False
+2024-10-11,Czechia,Albania,2,0,European Nations League B,Czechia,False
+2024-10-11,Hungary,Netherlands,1,1,European Nations League A,Hungary,False
+2024-10-11,Curaçao,Grenada,0,0,CONCACAF Nations League B,Saint Lucia,True
+2024-10-11,Iceland,Wales,2,2,European Nations League B,Iceland,False
+2024-10-11,New Zealand,Tahiti,3,0,World Cup qualifier,Vanuatu,True
+2024-10-12,Croatia,Scotland,2,1,European Nations League A,Croatia,False
+2024-10-12,Poland,Portugal,1,3,European Nations League A,Poland,False
+2024-10-12,Serbia,Switzerland,2,0,European Nations League A,Serbia,False
+2024-10-12,Spain,Denmark,1,0,European Nations League A,Spain,False
+2024-10-13,Austria,Norway,5,1,European Nations League B,Austria,False
+2024-10-13,Finland,England,1,3,European Nations League B,Finland,False
+2024-10-14,Belgium,France,1,2,European Nations League A,Belgium,False
+2024-10-14,Bosnia and Herzegovina,Hungary,0,2,European Nations League A,Bosnia and Herzegovina,False
+2024-10-14,Germany,Netherlands,1,0,European Nations League A,Germany,False
+2024-10-14,Czechia,Ukraine,1,1,European Nations League B,Poland,True
+2024-10-14,Iceland,Turkey,2,4,European Nations League B,Iceland,False
+2024-10-14,Wales,Montenegro,1,0,European Nations League B,Wales,False
+2024-10-14,Cameroon,Kenya,1,0,African Nations Cup qualifier,Uganda,True
+2024-10-14,Estonia,Sweden,0,3,European Nations League C,Estonia,False
+2024-10-14,Curaçao,Grenada,1,0,CONCACAF Nations League B,Saint Lucia,True
+2024-10-15,Comoros,Tunisia,1,1,African Nations Cup qualifier,Ivory Coast,True
+2024-10-15,Spain,Serbia,3,0,European Nations League A,Spain,False
+2024-10-15,Scotland,Portugal,0,0,European Nations League A,Scotland,False
+2024-10-15,Poland,Croatia,3,3,European Nations League A,Poland,False
+2024-10-15,Switzerland,Denmark,2,2,European Nations League A,Switzerland,False
+2024-10-15,Sudan,Ghana,2,0,African Nations Cup qualifier,Libya,True
+2024-10-15,Sierra Leone,Ivory Coast,1,0,African Nations Cup qualifier,Liberia,True
+2024-10-15,Iran,Qatar,4,1,World Cup qualifier,United Arab Emirates,True
+2024-11-13,Cameroon,Namibia,0,0,African Nations Cup qualifier,South Africa,True
+2024-11-14,Belgium,Italy,0,1,European Nations League A,Belgium,False
+2024-11-14,France,Israel,0,0,European Nations League A,France,False
+2024-11-14,Iran,North Korea,3,2,World Cup qualifier,Laos,True
+2024-11-14,Greece,England,0,3,European Nations League B,Greece,False
+2024-11-14,Slovenia,Norway,1,4,European Nations League B,Slovenia,False
+2024-11-14,Tunisia,Madagascar,3,2,African Nations Cup qualifier,South Africa,True
+2024-11-14,Senegal,Burkina Faso,1,0,African Nations Cup qualifier,Mali,True
+2024-11-14,Benin,Nigeria,1,1,African Nations Cup qualifier,Ivory Coast,True
+2024-11-14,Kazakhstan,Austria,0,2,European Nations League B,Kazakhstan,False
+2024-11-15,Switzerland,Serbia,1,1,European Nations League A,Switzerland,False
+2024-11-15,Scotland,Croatia,1,0,European Nations League A,Scotland,False
+2024-11-15,Denmark,Spain,1,2,European Nations League A,Denmark,False
+2024-11-15,Haiti,Sint Maarten,8,0,CONCACAF Nations League B,Puerto Rico,True
+2024-11-15,Portugal,Poland,5,1,European Nations League A,Portugal,False
+2024-11-16,Montenegro,Iceland,0,2,European Nations League B,Montenegro,False
+2024-11-16,Germany,Bosnia and Herzegovina,7,0,European Nations League A,Germany,False
+2024-11-16,Netherlands,Hungary,4,0,European Nations League A,Netherlands,False
+2024-11-16,Albania,Czechia,0,0,European Nations League B,Albania,False
+2024-11-16,Sweden,Slovakia,2,1,European Nations League C,Sweden,False
+2024-11-16,Guinea,DR Congo,1,0,African Nations Cup qualifier,Ivory Coast,True
+2024-11-16,Turkey,Wales,0,0,European Nations League B,Turkey,False
+2024-11-17,Israel,Belgium,1,0,European Nations League A,Hungary,True
+2024-11-17,Italy,France,1,3,European Nations League A,Italy,False
+2024-11-17,Austria,Slovenia,1,1,European Nations League B,Austria,False
+2024-11-17,England,Ireland,5,0,European Nations League B,England,False
+2024-11-17,Norway,Kazakhstan,5,0,European Nations League B,Norway,False
+2024-11-18,Croatia,Portugal,1,1,European Nations League A,Croatia,False
+2024-11-18,Poland,Scotland,1,2,European Nations League A,Poland,False
+2024-11-18,Serbia,Denmark,0,0,European Nations League A,Serbia,False
+2024-11-18,Spain,Switzerland,3,2,European Nations League A,Spain,False
+2024-11-19,Hungary,Germany,1,1,European Nations League A,Hungary,False
+2024-11-19,Bosnia and Herzegovina,Netherlands,1,1,European Nations League A,Bosnia and Herzegovina,False
+2024-11-19,Uzbekistan,North Korea,1,0,World Cup qualifier,Laos,True
+2024-11-19,Palestine,South Korea,1,1,World Cup qualifier,Jordan,True
+2024-11-19,Czechia,Georgia,2,1,European Nations League B,Czechia,False
+2024-11-19,Montenegro,Turkey,3,1,European Nations League B,Montenegro,False
+2024-11-19,Wales,Iceland,4,1,European Nations League B,Wales,False
+2024-11-19,Sweden,Azerbaijan,6,0,European Nations League C,Sweden,False
+2024-12-21,Qatar,United Arab Emirates,1,1,Gulf Cup,Kuwait,True
+2024-12-22,Iraq,Yemen,1,0,Gulf Cup,Kuwait,True
+2024-12-22,Bahrain,Saudi Arabia,3,2,Gulf Cup,Kuwait,True
+2024-12-24,Oman,Qatar,2,1,Gulf Cup,Kuwait,True
+2024-12-25,Saudi Arabia,Yemen,3,2,Gulf Cup,Kuwait,True
+2024-12-25,Bahrain,Iraq,2,0,Gulf Cup,Kuwait,True
+2024-12-28,Saudi Arabia,Iraq,3,1,Gulf Cup,Kuwait,True
+2024-12-31,Oman,Saudi Arabia,2,1,Gulf Cup,Kuwait,True
+2025-01-27,Jordan,Uzbekistan,0,0,Friendly,Qatar,True
+2025-03-19,Kazakhstan,Curaçao,2,0,Friendly,Turkey,True
+2025-03-19,Cameroon,Eswatini,0,0,World Cup qualifier,South Africa,True
+2025-03-20,Kosovo,Iceland,2,1,European Nations League B/C,Kosovo,False
+2025-03-20,Ukraine,Belgium,3,1,European Nations League A/B,Spain,True
+2025-03-20,Turkey,Hungary,3,1,European Nations League A/B,Turkey,False
+2025-03-20,Greece,Scotland,0,1,European Nations League A/B,Greece,False
+2025-03-20,Austria,Serbia,1,1,European Nations League A/B,Austria,False
+2025-03-20,Denmark,Portugal,1,0,European Nations League,Denmark,False
+2025-03-20,Croatia,France,2,0,European Nations League,Croatia,False
+2025-03-20,Mexico,Canada,2,0,CONCACAF Nations League,United States,True
+2025-03-20,Netherlands,Spain,2,2,European Nations League,Netherlands,False
+2025-03-20,Italy,Germany,1,2,European Nations League,Italy,False
+2025-03-21,Egypt,Ethiopia,2,0,World Cup qualifier,Morocco,True
+2025-03-21,Ivory Coast,Burundi,1,0,World Cup qualifier,Morocco,True
+2025-03-22,Senegal,Sudan,0,0,World Cup qualifier,Libya,True
+2025-03-23,France,Croatia,2,0,European Nations League,France,False
+2025-03-23,Germany,Italy,3,3,European Nations League,Germany,False
+2025-03-23,Portugal,Denmark,5,2,European Nations League,Portugal,False
+2025-03-23,Spain,Netherlands,3,3,European Nations League,Spain,False
+2025-03-23,Belgium,Ukraine,3,0,European Nations League A/B,Belgium,False
+2025-03-23,Hungary,Turkey,0,3,European Nations League A/B,Hungary,False
+2025-03-23,Serbia,Austria,2,0,European Nations League A/B,Serbia,False
+2025-03-23,Iceland,Kosovo,1,3,European Nations League B/C,Spain,True
+2025-03-23,Scotland,Greece,0,3,European Nations League A/B,Scotland,False
+2025-03-23,Mexico,Panama,2,1,CONCACAF Nations League,United States,True
+2025-03-24,Ghana,Madagascar,3,0,World Cup qualifier,Morocco,True
+2025-03-25,South Africa,Benin,2,0,World Cup qualifier,Ivory Coast,True
+2025-03-25,Norway,Israel,4,2,World Cup qualifier,Hungary,True
+2025-03-25,Czechia,Gibraltar,4,0,World Cup qualifier,Portugal,True
+2025-03-25,Palestine,Iraq,2,1,World Cup qualifier,Jordan,True
+2025-05-28,Nigeria,Ghana,2,1,Friendly tournament,England,True
+2025-05-31,Jamaica,Nigeria,2,2,Friendly tournament,England,True
+2025-05-31,Ghana,Trinidad and Tobago,4,0,Friendly tournament,England,True
+2025-06-04,Germany,Portugal,1,2,European Nations League,Germany,False
+2025-06-05,Spain,France,5,4,European Nations League,Germany,True
+2025-06-05,DR Congo,Mali,1,0,Friendly,France,True
+2025-06-06,Croatia,Gibraltar,7,0,World Cup qualifier,Portugal,True
+2025-06-06,Cameroon,Uganda,3,0,Friendly,Morocco,True
+2025-06-07,England,Andorra,1,0,World Cup qualifier,Spain,True
+2025-06-07,Costa Rica,Bahamas,8,0,World Cup qualifier,Barbados,True
+2025-06-07,New Zealand,Ivory Coast,1,0,Friendly tournament,Canada,True
+2025-06-07,Switzerland,Mexico,4,2,Friendly,United States,True
+2025-06-08,DR Congo,Madagascar,3,1,Friendly,France,True
+2025-06-08,Portugal,Spain,2,2,European Nations League,Germany,True
+2025-06-08,Germany,France,0,2,European Nations League,Germany,False
+2025-06-09,Cameroon,Equatorial Guinea,1,1,Friendly,Morocco,True
+2025-06-10,Curaçao,Haiti,5,1,World Cup qualifier,Aruba,True
+2025-06-10,Ukraine,New Zealand,2,1,Friendly tournament,Canada,True
+2025-06-10,Mexico,Turkey,1,0,Friendly,United States,True
+2025-06-14,Mexico,Dominican Republic,3,2,CONCACAF Championship,United States,True
+2025-06-15,United States,Trinidad and Tobago,5,0,CONCACAF Championship,United States,False
+2025-06-15,Saudi Arabia,Haiti,1,0,CONCACAF Championship,United States,True
+2025-06-15,Costa Rica,Suriname,4,3,CONCACAF Championship,United States,True
+2025-06-16,Panama,Guadeloupe,5,2,CONCACAF Championship,United States,True
+2025-06-17,Curaçao,El Salvador,0,0,CONCACAF Championship,United States,True
+2025-06-17,Canada,Honduras,6,0,CONCACAF Championship,Canada,False
+2025-06-18,Costa Rica,Dominican Republic,2,1,CONCACAF Championship,United States,True
+2025-06-18,Mexico,Suriname,2,0,CONCACAF Championship,United States,True
+2025-06-19,Haiti,Trinidad and Tobago,1,1,CONCACAF Championship,United States,True
+2025-06-19,United States,Saudi Arabia,1,0,CONCACAF Championship,United States,False
+2025-06-20,Panama,Guatemala,1,0,CONCACAF Championship,United States,True
+2025-06-21,Canada,Curaçao,1,1,CONCACAF Championship,United States,True
+2025-06-22,United States,Haiti,2,1,CONCACAF Championship,United States,False
+2025-06-22,Saudi Arabia,Trinidad and Tobago,1,1,CONCACAF Championship,United States,True
+2025-06-22,Costa Rica,Mexico,0,0,CONCACAF Championship,United States,True
+2025-06-24,Panama,Jamaica,4,1,CONCACAF Championship,United States,True
+2025-06-24,Honduras,Curaçao,2,1,CONCACAF Championship,United States,True
+2025-06-24,Canada,El Salvador,2,0,CONCACAF Championship,United States,True
+2025-06-28,Panama,Honduras,1,1,CONCACAF Championship,United States,True
+2025-06-28,Mexico,Saudi Arabia,2,0,CONCACAF Championship,United States,True
+2025-06-29,United States,Costa Rica,2,2,CONCACAF Championship,United States,False
+2025-06-29,Canada,Guatemala,1,1,CONCACAF Championship,United States,True
+2025-07-02,United States,Guatemala,2,1,CONCACAF Championship,United States,False
+2025-07-02,Mexico,Honduras,1,0,CONCACAF Championship,United States,True
+2025-07-06,United States,Mexico,1,2,CONCACAF Championship,United States,False
+2025-07-08,Japan,Hong Kong,6,1,East Asian Championship,South Korea,True
+2025-07-12,Japan,China,2,0,East Asian Championship,South Korea,True
+2025-08-29,Iran,Afghanistan,3,1,Central Asian Nations Cup,Tajikistan,True
+2025-09-01,Iran,India,3,0,Central Asian Nations Cup,Tajikistan,True
+2025-09-04,Saudi Arabia,North Macedonia,2,1,Friendly,Czechia,True
+2025-09-04,Iraq,Hong Kong,2,1,King's Cup,Thailand,True
+2025-09-05,France,Ukraine,2,0,World Cup qualifier,Poland,True
+2025-09-05,Haiti,Honduras,0,0,World Cup qualifier,Curaçao,True
+2025-09-06,Japan,Mexico,0,0,Friendly,United States,True
+2025-09-08,Algeria,Guinea,0,0,World Cup qualifier,Morocco,True
+2025-09-08,Scotland,Belarus,2,0,World Cup qualifier,Hungary,True
+2025-09-09,Mexico,South Korea,2,2,Friendly,United States,True
+2025-10-08,Egypt,Djibouti,3,0,World Cup qualifier,Morocco,True
+2025-10-08,Ghana,Central African Republic,5,0,World Cup qualifier,Morocco,True
+2025-10-09,Denmark,Belarus,6,0,World Cup qualifier,Hungary,True
+2025-10-10,Ivory Coast,Seychelles,7,0,World Cup qualifier,Mauritius,True
+2025-10-10,Bolivia,Jordan,1,0,Friendly,Turkey,True
+2025-10-10,Nigeria,Lesotho,2,1,World Cup qualifier,South Africa,True
+2025-10-10,Uruguay,Dominican Republic,1,0,Friendly,Malaysia,True
+2025-10-10,Argentina,Venezuela,1,0,Friendly,United States,True
+2025-10-11,Iraq,Indonesia,1,0,World Cup qualifier,Saudi Arabia,True
+2025-10-11,Colombia,Mexico,4,0,Friendly,United States,True
+2025-10-13,Uruguay,Uzbekistan,2,1,Friendly,Malaysia,True
+2025-10-14,Iran,Tanzania,2,0,Friendly,United Arab Emirates,True
+2025-10-14,Canada,Colombia,0,0,Friendly,United States,True
+2025-10-14,Argentina,Puerto Rico,6,0,Friendly,United States,True
+2025-11-13,DR Congo,Cameroon,1,0,World Cup qualifier,Morocco,True
+2025-11-13,Nigeria,Gabon,4,1,World Cup qualifier,Morocco,True
+2025-11-13,Algeria,Zimbabwe,3,1,Friendly,Saudi Arabia,True
+2025-11-13,Cape Verde,Iran,0,0,Friendly tournament,United Arab Emirates,True
+2025-11-13,Haiti,Costa Rica,1,0,World Cup qualifier,Curaçao,True
+2025-11-14,Uzbekistan,Egypt,2,0,Friendly tournament,United Arab Emirates,True
+2025-11-14,Venezuela,Australia,1,0,Friendly,United States,True
+2025-11-15,Brazil,Senegal,2,0,Friendly,England,True
+2025-11-15,Colombia,New Zealand,2,1,Friendly,United States,True
+2025-11-16,DR Congo,Nigeria,1,1,World Cup qualifier,Morocco,True
+2025-11-16,Ukraine,Iceland,2,0,World Cup qualifier,Poland,True
+2025-11-17,Cape Verde,Egypt,1,1,Friendly tournament,United Arab Emirates,True
+2025-11-18,Senegal,Kenya,8,0,Friendly,Turkey,True
+2025-11-18,Jordan,Mali,0,0,Friendly,Tunisia,True
+2025-11-18,Iran,Uzbekistan,0,0,Friendly tournament,United Arab Emirates,True
+2025-11-18,Chile,Peru,2,1,Friendly,Russia,True
+2025-11-18,Brazil,Tunisia,1,1,Friendly,France,True
+2025-11-18,Haiti,Nicaragua,2,0,World Cup qualifier,Curaçao,True
+2025-11-18,Paraguay,Mexico,2,1,Friendly,United States,True
+2025-11-18,Ecuador,New Zealand,2,0,Friendly,United States,True
+2025-11-18,Colombia,Australia,3,0,Friendly,United States,True
+2025-11-18,Canada,Venezuela,2,0,Friendly,United States,True
+2025-12-01,Syria,Tunisia,1,0,Arab Cup,Qatar,True
+2025-12-02,Saudi Arabia,Oman,2,1,Arab Cup,Qatar,True
+2025-12-02,Morocco,Comoros,3,1,Arab Cup,Qatar,True
+2025-12-02,Egypt,Kuwait,1,1,Arab Cup,Qatar,True
+2025-12-03,Jordan,United Arab Emirates,2,1,Arab Cup,Qatar,True
+2025-12-03,Iraq,Bahrain,2,1,Arab Cup,Qatar,True
+2025-12-03,Algeria,Sudan,0,0,Arab Cup,Qatar,True
+2025-12-04,Palestine,Tunisia,2,2,Arab Cup,Qatar,True
+2025-12-05,Saudi Arabia,Comoros,3,1,Arab Cup,Qatar,True
+2025-12-05,Morocco,Oman,0,0,Arab Cup,Qatar,True
+2025-12-06,Jordan,Kuwait,3,1,Arab Cup,Qatar,True
+2025-12-06,Iraq,Sudan,2,0,Arab Cup,Qatar,True
+2025-12-06,Egypt,United Arab Emirates,1,1,Arab Cup,Qatar,True
+2025-12-06,Algeria,Bahrain,5,1,Arab Cup,Qatar,True
+2025-12-08,Morocco,Saudi Arabia,1,0,Arab Cup,Qatar,True
+2025-12-09,Jordan,Egypt,3,0,Arab Cup,Qatar,True
+2025-12-09,Algeria,Iraq,2,0,Arab Cup,Qatar,True
+2025-12-11,Saudi Arabia,Palestine,2,1,Arab Cup,Qatar,True
+2025-12-11,Morocco,Syria,1,0,Arab Cup,Qatar,True
+2025-12-12,Jordan,Iraq,1,0,Arab Cup,Qatar,True
+2025-12-12,Algeria,United Arab Emirates,1,1,Arab Cup,Qatar,True
+2025-12-15,Morocco,United Arab Emirates,3,0,Arab Cup,Qatar,True
+2025-12-15,Jordan,Saudi Arabia,1,0,Arab Cup,Qatar,True
+2025-12-16,DR Congo,Zambia,2,0,Friendly,Spain,True
+2025-12-18,Saudi Arabia,United Arab Emirates,0,0,Arab Cup,Qatar,True
+2025-12-18,Morocco,Jordan,3,2,Arab Cup,Qatar,True
+2025-12-21,Morocco,Comoros,2,0,African Nations Cup,Morocco,False
+2025-12-22,South Africa,Angola,2,1,African Nations Cup,Morocco,True
+2025-12-22,Egypt,Zimbabwe,2,1,African Nations Cup,Morocco,True
+2025-12-23,Tunisia,Uganda,3,1,African Nations Cup,Morocco,True
+2025-12-23,Senegal,Botswana,3,0,African Nations Cup,Morocco,True
+2025-12-23,Nigeria,Tanzania,2,1,African Nations Cup,Morocco,True
+2025-12-23,DR Congo,Benin,1,0,African Nations Cup,Morocco,True
+2025-12-24,Ivory Coast,Mozambique,1,0,African Nations Cup,Morocco,True
+2025-12-24,Cameroon,Gabon,1,0,African Nations Cup,Morocco,True
+2025-12-24,Algeria,Sudan,3,0,African Nations Cup,Morocco,True
+2025-12-26,Morocco,Mali,1,1,African Nations Cup,Morocco,False
+2025-12-26,Egypt,South Africa,1,0,African Nations Cup,Morocco,True
+2025-12-27,Nigeria,Tunisia,3,2,African Nations Cup,Morocco,True
+2025-12-27,DR Congo,Senegal,1,1,African Nations Cup,Morocco,True
+2025-12-28,Cameroon,Ivory Coast,1,1,African Nations Cup,Morocco,True
+2025-12-28,Algeria,Burkina Faso,1,0,African Nations Cup,Morocco,True
+2025-12-29,South Africa,Zimbabwe,3,2,African Nations Cup,Morocco,True
+2025-12-29,Morocco,Zambia,3,0,African Nations Cup,Morocco,False
+2025-12-29,Angola,Egypt,0,0,African Nations Cup,Morocco,True
+2025-12-30,Tanzania,Tunisia,1,1,African Nations Cup,Morocco,True
+2025-12-30,Senegal,Benin,3,0,African Nations Cup,Morocco,True
+2025-12-30,Nigeria,Uganda,3,1,African Nations Cup,Morocco,True
+2025-12-30,DR Congo,Botswana,3,0,African Nations Cup,Morocco,True
+2025-12-31,Ivory Coast,Gabon,3,2,African Nations Cup,Morocco,True
+2025-12-31,Cameroon,Mozambique,2,1,African Nations Cup,Morocco,True
+2025-12-31,Algeria,Equatorial Guinea,3,1,African Nations Cup,Morocco,True
+2026-01-03,Senegal,Sudan,3,1,African Nations Cup,Morocco,True
+2026-01-03,Mali,Tunisia,1,1,African Nations Cup,Morocco,True
+2026-01-04,Morocco,Tanzania,1,0,African Nations Cup,Morocco,False
+2026-01-04,Cameroon,South Africa,2,1,African Nations Cup,Morocco,True
+2026-01-05,Nigeria,Mozambique,4,0,African Nations Cup,Morocco,True
+2026-01-05,Egypt,Benin,3,1,African Nations Cup,Morocco,True
+2026-01-06,Ivory Coast,Burkina Faso,3,0,African Nations Cup,Morocco,True
+2026-01-06,Algeria,DR Congo,1,0,African Nations Cup,Morocco,True
+2026-01-09,Senegal,Mali,1,0,African Nations Cup,Morocco,True
+2026-01-09,Morocco,Cameroon,2,0,African Nations Cup,Morocco,False
+2026-01-10,Nigeria,Algeria,2,0,African Nations Cup,Morocco,True
+2026-01-10,Egypt,Ivory Coast,3,2,African Nations Cup,Morocco,True
+2026-01-14,Senegal,Egypt,1,0,African Nations Cup,Morocco,True
+2026-01-14,Morocco,Nigeria,0,0,African Nations Cup,Morocco,False
+2026-01-17,Egypt,Nigeria,0,0,African Nations Cup,Morocco,True
+2026-01-17,Canada,Guatemala,1,0,Friendly,United States,True
+2026-01-18,Morocco,Senegal,0,1,African Nations Cup,Morocco,False
+2026-01-26,China,Uzbekistan,2,2,Friendly,United Arab Emirates,True
+2026-03-25,DR Congo,Bermuda,2,0,Friendly,Mexico,True
+2026-03-26,Sweden,Ukraine,3,1,World Cup qualifier,Spain,True
+2026-03-26,France,Brazil,2,1,Friendly,United States,True
+2026-03-26,Croatia,Colombia,2,1,Friendly,United States,True
+2026-03-27,China,Curaçao,2,0,FIFA Series,Australia,True
+2026-03-27,Chile,Cape Verde,4,2,FIFA Series,New Zealand,True
+2026-03-27,Algeria,Guatemala,7,0,Friendly,Italy,True
+2026-03-27,Nigeria,Iran,2,1,Friendly tournament,Turkey,True
+2026-03-27,Ecuador,Morocco,1,1,Friendly,Spain,True
+2026-03-27,Costa Rica,Jordan,2,2,Friendly tournament,Turkey,True
+2026-03-28,Ivory Coast,South Korea,4,0,Friendly,England,True
+2026-03-28,Senegal,Peru,2,0,Friendly,France,True
+2026-03-28,Tunisia,Haiti,1,0,Friendly tournament,Canada,True
+2026-03-29,France,Colombia,3,1,Friendly,United States,True
+2026-03-30,Cape Verde,Finland,1,1,FIFA Series,New Zealand,True
+2026-03-31,Cameroon,China,2,0,FIFA Series,Australia,True
+2026-03-31,Algeria,Uruguay,0,0,Friendly,Italy,True
+2026-03-31,DR Congo,Jamaica,1,0,World Cup qualifier,Mexico,True
+2026-03-31,Brazil,Croatia,3,1,Friendly,United States,True
+2026-03-31,Jordan,Nigeria,2,2,Friendly tournament,Turkey,True
+2026-03-31,Ivory Coast,Scotland,1,0,Friendly,England,True
+2026-03-31,Honduras,Peru,2,2,Friendly,Spain,True
+2026-03-31,Haiti,Iceland,1,1,Friendly tournament,Canada,True
+2026-03-31,Costa Rica,Iran,0,5,Friendly tournament,Turkey,True
+2026-03-31,Morocco,Paraguay,2,1,Friendly,France,True
+2026-03-31,Iraq,Bolivia,2,1,World Cup qualifier,Mexico,True
+2026-03-31,Belgium,Mexico,1,1,Friendly,United States,True
+2026-03-27,Nigeria,Iran,2,1,Al-Nashama Tournament,Turkey,True
+2026-03-27,Costa Rica,Jordan,2,2,Al-Nashama Tournament,Turkey,True
+2026-03-31,Jordan,Nigeria,2,2,Al-Nashama Tournament,Turkey,True
+2026-03-31,Costa Rica,Iran,0,5,Al-Nashama Tournament,Turkey,True
+2026-05-26,Nigeria,Zimbabwe,2,0,Unity Cup,England,True
+2026-05-29,Iraq,Andorra,1,0,Friendly,Spain,True
+2026-05-29,Iran,Gambia,3,1,Friendly,Turkey,True
+2026-05-30,Nigeria,Jamaica,3,0,Unity Cup,England,True
+2026-05-30,Ecuador,Saudi Arabia,2,1,Friendly,United States,True
+2026-05-30,South Korea,Trinidad and Tobago,5,0,Friendly,United States,True
+2026-05-30,Mexico,Australia,1,0,Friendly,United States,True
+2026-05-31,Cape Verde,Serbia,3,0,Friendly,Portugal,True
+2026-06-02,Haiti,New Zealand,4,0,Friendly,United States,True
+2026-06-03,Denmark,DR Congo,0,0,Friendly,Belgium,True
+2026-06-03,South Korea,El Salvador,1,0,Friendly,United States,True
+2026-06-04,Czechia,Guatemala,3,1,Friendly,United States,True
+2026-06-04,Iran,Mali,2,0,Friendly,Turkey,True
+2026-06-05,Peru,Haiti,2,1,Friendly,United States,True
+2026-06-05,Saudi Arabia,Puerto Rico,3,0,Friendly,United States,True
+2026-06-06,Bosnia and Herzegovina,Panama,1,1,Friendly,United States,True
+2026-06-06,Cape Verde,Bermuda,3,0,Friendly,United States,True
+2026-06-06,Australia,Switzerland,1,1,Friendly,United States,True
+2026-06-06,El Salvador,Qatar,0,0,Friendly,United States,True
+2026-06-06,Scotland,Bolivia,4,0,Friendly,United States,True
+2026-06-06,England,New Zealand,1,0,Friendly,United States,True
+2026-06-06,Brazil,Egypt,2,1,Friendly,United States,True
+2026-06-06,Argentina,Honduras,2,0,Friendly,United States,True
+2026-06-06,South Africa,Jamaica,1,0,Friendly,Mexico,True
+2026-06-06,Turkey,Venezuela,2,1,Friendly,United States,True
+2026-06-06,Jamaica,South Africa,1,1,Friendly,Mexico,True
+2026-06-07,Colombia,Jordan,2,0,Friendly,United States,True
+2026-06-07,Ecuador,Guatemala,3,0,Friendly,United States,True
+2026-06-07,Morocco,Norway,1,1,Friendly,United States,True
+2026-06-08,Netherlands,Uzbekistan,2,1,Friendly,United States,True
+2026-06-08,Spain,Peru,3,1,Friendly,Mexico,True
+2026-06-09,Chile,DR Congo,2,1,Friendly,France,True
+2026-06-09,Saudi Arabia,Senegal,0,0,Friendly,United States,True
+2026-06-09,Argentina,Iceland,3,0,Friendly,United States,True
+2026-06-09,Venezuela,Iraq,2,0,Friendly,United States,True
+2026-06-10,England,Costa Rica,3,0,Friendly,United States,True

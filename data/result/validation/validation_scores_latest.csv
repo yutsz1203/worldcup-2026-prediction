@@ -1,0 +1,3 @@
+year,half_life_years,weight_floor,lookback_years,use_home_adv,sparse_threshold,n_sims,seed,match_n,match_brier,match_brier_uniform,match_rps,match_rps_uniform,match_accuracy,tourn_n_teams,tourn_E1,tourn_E2,tourn_brier,tourn_rps
+2018,12,0.1,7.0,False,20,100000,2026,64,0.537,0.6667,0.1843,0.2439,0.6094,32,27.0,32.481,18.258,3.406
+2022,12,0.1,7.0,False,20,100000,2026,64,0.5795,0.6667,0.2004,0.2387,0.5938,32,25.0,32.006,19.674,3.263

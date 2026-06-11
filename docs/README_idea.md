@@ -1,0 +1,2 @@
+- Show elo ratings of each team, by group, before the tournament starts
+- Show the Sxxxxx graph, as in the paper
