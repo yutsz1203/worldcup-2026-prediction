@@ -20,7 +20,7 @@ independent phases. This file details Phase A concretely and sketches B–F as a
   Real engine: `play_match(...)` (mutates an Elo dict). Per-match probabilities come from
   `model/rates.py::get_independent_rates()` → `model/probabilities.py::generate_probabilities()`.
 - **No `tournament_probs_before_validation.csv`.** The locked pre-tournament per-team stage file
-  is `data/result/forecast/tournament_probs_latest.csv` (cols `team,r32,r16,qf,sf,final,champion`).
+  is `data/result/forecast/tournament_probs_initial.csv` (cols `team,r32,r16,qf,sf,final,champion`).
 - **`generate_probabilities()` has no BTTS** — emits 1X2 + O/U 2.5/3.5 only. Needs a small add.
 - **Knockout fixtures use slot tokens** (`wc26_knockout_matches.csv` `match_label` = `"2A vs 2B"`),
   so per-match probs can only be precomputed for the **48 group matches**; knockout teams are
@@ -46,7 +46,7 @@ this order; each phase is independently committable.
   predictions. = `future-plan.md` Task 3.
 - **Phase B — Live re-simulation** *(before matchday 2)*. Wrap the existing `monte_carlo` to
   seed completed matches at their real scorelines + updated Elo and re-sim only remaining
-  fixtures; re-snapshot `tournament_probs_latest`-style table per matchday. Reuses `play_match`.
+  fixtures; re-snapshot `tournament_probs_initial`-style table per matchday. Reuses `play_match`.
 - **Phase C — Error tracking / benchmark ladder / calibration** *(from match 1, ongoing)*.
   Extend the Phase-A scorer with benchmarks: uniform (already in `score_matches`), then an
   Elo-only logistic baseline, then market closing prices. Reuse `calibration_table`.

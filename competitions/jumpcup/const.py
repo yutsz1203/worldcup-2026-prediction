@@ -1,6 +1,6 @@
 """Paths and API constants for the Jump Probability Cup pipeline.
 
-Jump Cup artifacts are self-contained under ``jumpcup/data/`` (not the
+Jump Cup artifacts are self-contained under ``competitions/jumpcup/data/`` (not the
 project-wide ``data/`` tree): ``raw/`` cached API JSON, ``cleaned/`` rates CSVs,
 ``live/`` hand-written specs + priced probabilities.
 """
@@ -8,6 +8,9 @@ project-wide ``data/`` tree): ``raw/`` cached API JSON, ``cleaned/`` rates CSVs,
 from pathlib import Path
 
 BZZOIRO_API_BASE = "https://sports.bzzoiro.com/api/v2"
+SPORTSPREDICT_API_BASE = "https://api.sportspredict.com/api/v1"
+JUMPCUP_EVENT_ID = "aa5572ec-5930-4d99-b06b-f8966333d172"
+JUMPCUP_LOBBY_ID = "8df8038c-fd2c-4a5f-be4e-0e11d5966c05"
 
 _DATA_ROOT = Path(__file__).resolve().parent / "data"
 JUMPCUP_RAW_PATH = str(_DATA_ROOT / "raw")  # cached raw JSON, one dir per object

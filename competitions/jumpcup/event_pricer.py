@@ -1,7 +1,7 @@
 """Monte Carlo stat-line simulator + event pricer.
 
 Loads a base-rates CSV (:mod:`jumpcup.event_rates`) and a hand-written event spec
-JSON (grammar in ``jumpcup/jump-probability-cup.md``), simulates ``n`` per-match
+JSON (grammar in ``competitions/jumpcup/jump-probability-cup.md``), simulates ``n`` per-match
 stat lines, and prices every event as the mean of its indicator.
 
 What gets drawn, per team per half (H1/H2 atomic; FT = sum):
@@ -37,8 +37,8 @@ from typing import Any, Optional
 import numpy as np
 import pandas as pd
 
-from jumpcup.const import probs_path, rates_path, spec_path
-from jumpcup.fetch import _norm_name
+from competitions.jumpcup.const import probs_path, rates_path, spec_path
+from competitions.jumpcup.fetch import _abbrev_matches, _norm_name
 from model.probabilities import generate_probabilities
 from src.const import CON
 
@@ -134,10 +134,14 @@ def load_spec(path: str, rates: Rates) -> dict:
     """Load + validate a spec file; resolves player refs against the rates CSV.
 
     Player entities gain a ``_key``/``_norm`` annotation used by the simulator.
-    Fails loudly on unknown stats/windows/ops/players.
+    Fails loudly on unknown stats/windows/ops and on *ambiguous* player names. A
+    player who simply isn't in the lineup (e.g. dropped to the bench on a refresh)
+    is not an error: the event is tagged ``_unresolved`` and skipped at pricing,
+    so the rest of the slate still prices.
     """
     spec = json.loads(open(path).read())
     for ev in spec["events"]:
+        ev.pop("_unresolved", None)
         for atom in _walk_atoms(ev["spec"]):
             kind = atom.get("atom")
             if kind not in {"threshold", "compare", "first"}:
@@ -145,6 +149,14 @@ def load_spec(path: str, rates: Rates) -> dict:
             if atom["stat"] not in STATS:
                 raise ValueError(f"event {ev['id']}: unknown stat {atom['stat']!r}")
             if kind != "first" and atom["window"] not in WINDOWS:
+                raise ValueError(f"event {ev['id']}: bad window {atom['window']!r}")
+            if kind == "compare":
+                for wk in ("left_window", "right_window"):
+                    if wk in atom and atom[wk] not in WINDOWS:
+                        raise ValueError(
+                            f"event {ev['id']}: bad {wk} {atom[wk]!r}"
+                        )
+            if kind == "first" and atom.get("window", "FT") not in WINDOWS:
                 raise ValueError(f"event {ev['id']}: bad window {atom['window']!r}")
             if kind == "threshold" and atom["op"] not in OPS:
                 raise ValueError(f"event {ev['id']}: bad op {atom['op']!r}")
@@ -159,18 +171,35 @@ def load_spec(path: str, rates: Rates) -> dict:
                         )
                     norm = _norm_name(ent["player"])
                     keys = [ent["team"][-1]] if "team" in ent else ["A", "B"]
-                    hits = [k for k in keys if norm in rates.players[k]]
-                    if len(hits) != 1:
+                    # exact normalized match first, then abbreviation fallback: the
+                    # feed's name format varies (confirmed lineups abbreviate, e.g.
+                    # "Scott McTominay" -> "S. McTominay"), so a spec written with
+                    # full names must still resolve after a lineup refresh.
+                    hits = [(k, norm) for k in keys if norm in rates.players[k]]
+                    if not hits:
+                        hits = [
+                            (k, pn)
+                            for k in keys
+                            for pn in rates.players[k]
+                            if _abbrev_matches(norm, pn)
+                            or _abbrev_matches(pn, norm)
+                        ]
+                    if len(hits) == 0:  # not in lineup -> skip, don't crash
+                        ev["_unresolved"] = (
+                            f"player {ent['player']!r} not in lineup"
+                        )
+                        break
+                    if len(hits) > 1:  # genuinely ambiguous -> author must fix
                         known = sorted(
                             rates.players["A"][n]["name"] for n in rates.players["A"]
                         ) + sorted(
                             rates.players["B"][n]["name"] for n in rates.players["B"]
                         )
                         raise ValueError(
-                            f"event {ev['id']}: player {ent['player']!r} not "
-                            f"resolved (hits={hits}). Lineup players: {known}"
+                            f"event {ev['id']}: player {ent['player']!r} ambiguous "
+                            f"(hits={hits}). Lineup players: {known}"
                         )
-                    ent["_key"], ent["_norm"] = hits[0], norm
+                    ent["_key"], ent["_norm"] = hits[0]
                 elif ent not in {"team_A", "team_B", "match_total"}:
                     raise ValueError(f"event {ev['id']}: bad entity {ent!r}")
                 if kind == "first" and not (
@@ -179,6 +208,8 @@ def load_spec(path: str, rates: Rates) -> dict:
                     raise ValueError(
                         f"event {ev['id']}: FIRST entity must be team_A/team_B"
                     )
+            if ev.get("_unresolved"):
+                break
     return spec
 
 
@@ -243,6 +274,8 @@ def simulate(
     # Which players does the spec reference, and with which stats?
     refs: dict[str, dict[str, set]] = {"A": {}, "B": {}}
     for ev in spec["events"]:
+        if ev.get("_unresolved"):
+            continue
         for atom in _walk_atoms(ev["spec"]):
             for ent in _entity_refs(atom):
                 if isinstance(ent, dict):
@@ -334,17 +367,23 @@ def _count(sim: SimState, stat: str, entity: Any, window: str) -> np.ndarray:
 
 
 def _eval_first(
-    sim: SimState, stat: str, entity: str, rng: np.random.Generator
+    sim: SimState, stat: str, entity: str, window: str, rng: np.random.Generator
 ) -> np.ndarray:
-    """P(entity records the first occurrence): the deciding half is the first
-    with any occurrence; within it, exchangeable arrivals give P = own/(own+opp)."""
+    """P(entity records the first occurrence within ``window``): the deciding half
+    is the first (in the window) with any occurrence; within it, exchangeable
+    arrivals give P = own/(own+opp). ``window`` H1/H2 scope to a single half."""
     key = entity[-1]
     opp = "B" if key == "A" else "A"
     own_h1, opp_h1 = sim.team[(key, stat, "H1")], sim.team[(opp, stat, "H1")]
     own_h2, opp_h2 = sim.team[(key, stat, "H2")], sim.team[(opp, stat, "H2")]
-    h1_any = (own_h1 + opp_h1) > 0
-    own = np.where(h1_any, own_h1, own_h2)
-    tot = np.where(h1_any, own_h1 + opp_h1, own_h2 + opp_h2)
+    if window == "H1":
+        own, tot = own_h1, own_h1 + opp_h1
+    elif window == "H2":
+        own, tot = own_h2, own_h2 + opp_h2
+    else:  # FT: first occurrence falls in H1 iff H1 has any, else H2
+        h1_any = (own_h1 + opp_h1) > 0
+        own = np.where(h1_any, own_h1, own_h2)
+        tot = np.where(h1_any, own_h1 + opp_h1, own_h2 + opp_h2)
     p = np.divide(own, tot, out=np.zeros(sim.n), where=tot > 0)
     return (tot > 0) & (rng.random(sim.n) < p)
 
@@ -366,11 +405,17 @@ def eval_node(node: dict, sim: SimState, rng: np.random.Generator) -> np.ndarray
             _count(sim, node["stat"], node["entity"], node["window"]), node["k"]
         )
     if kind == "compare":
+        # optional per-side window overrides let a compare span two windows
+        # (e.g. "2nd-half goals > 1st-half goals"); both default to `window`.
+        lw = node.get("left_window", node["window"])
+        rw = node.get("right_window", node["window"])
         return OPS[node["op"]](
-            _count(sim, node["stat"], node["left"], node["window"]),
-            _count(sim, node["stat"], node["right"], node["window"]),
+            _count(sim, node["stat"], node["left"], lw),
+            _count(sim, node["stat"], node["right"], rw),
         )
-    return _eval_first(sim, node["stat"], node["entity"], rng)
+    return _eval_first(
+        sim, node["stat"], node["entity"], node.get("window", "FT"), rng
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -378,7 +423,8 @@ def eval_node(node: dict, sim: SimState, rng: np.random.Generator) -> np.ndarray
 # ---------------------------------------------------------------------------
 
 
-def crosscheck(rates: Rates, sim: SimState) -> None:
+def crosscheck(rates: Rates, sim: SimState) -> bool:
+    """Print the MC-vs-closed-form comparison; return False if any line mismatches."""
     lam_a = sum(rates.team[("A", "goal", h)] for h in ("H1", "H2"))
     lam_b = sum(rates.team[("B", "goal", h)] for h in ("H1", "H2"))
     long_info, _ = generate_probabilities(
@@ -398,10 +444,14 @@ def crosscheck(rates: Rates, sim: SimState) -> None:
     }
     assert abs((ga > gb).mean() + (ga == gb).mean() + (ga < gb).mean() - 1.0) < 1e-12
     CON.print("[bold]Cross-check (MC vs closed-form score matrix):[/]")
+    ok_all = True
     for k in mc:
         diff = abs(mc[k] - cf[k])
-        flag = "[red]MISMATCH[/]" if diff > CROSSCHECK_TOL else "ok"
+        mismatch = diff > CROSSCHECK_TOL
+        ok_all = ok_all and not mismatch
+        flag = "[red]MISMATCH[/]" if mismatch else "ok"
         CON.print(f"  {k:11s}  MC {mc[k]:.4f}  CF {cf[k]:.4f}  |Δ| {diff:.4f}  {flag}")
+    return ok_all
 
 
 def _model_version() -> str:
@@ -435,13 +485,17 @@ def price(
     # simulation draws so adding events never perturbs the stat line itself.
     rng = np.random.default_rng(seed + 1)
 
-    crosscheck(rates, sim)
+    crosscheck_ok = crosscheck(rates, sim)
 
     version = _model_version()
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     rows = []
+    skipped = []
     for ev in spec["events"]:
-        p = eval_node(ev["spec"], sim, rng).mean()
+        reason = ev.get("_unresolved")
+        p = None if reason else round(float(eval_node(ev["spec"], sim, rng).mean()), 4)
+        if reason:
+            skipped.append((ev["id"], reason))
         rows.append(
             {
                 "event_id": event_id,
@@ -451,7 +505,8 @@ def price(
                 "canonical_spec": json.dumps(
                     ev["spec"], ensure_ascii=False, separators=(",", ":")
                 ),
-                "probability": round(float(p), 4),
+                "probability": p,
+                "note": reason or "",
                 "n_sims": n,
                 "seed": seed,
                 "model_version": version,
@@ -459,8 +514,20 @@ def price(
             }
         )
     df = pd.DataFrame(rows)
+    df.attrs["crosscheck_ok"] = crosscheck_ok
     out = out or probs_path(event_id)
     df.to_csv(out, index=False)
+    if skipped:
+        CON.print(
+            f"[yellow]jumpcup: {len(skipped)} event(s) not priced "
+            f"(blank probability):[/]"
+        )
+        for eid, reason in skipped:
+            CON.print(f"  [yellow]event {eid}: {reason}[/]")
     CON.print(f"[green]jumpcup:[/] wrote {len(df)} event probabilities to {out}")
-    CON.print(df[["jump_event_id", "text", "probability"]].to_string(index=False))
+    CON.print(
+        df[["jump_event_id", "text", "probability"]].to_string(
+            index=False, na_rep="—"
+        )
+    )
     return df

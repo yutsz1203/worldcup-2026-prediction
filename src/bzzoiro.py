@@ -34,6 +34,7 @@ from typing import Optional
 
 import pandas as pd
 import requests
+from dotenv import load_dotenv
 
 from src.const import (
     BZZOIRO_EVENTS_URL,
@@ -140,22 +141,14 @@ RESULTS_COLUMNS = [
 ]
 
 
-def _load_token() -> str:
-    """Return ``BZZOIRO_TOKEN`` from the environment or the project-root ``.env``."""
-    token = os.environ.get("BZZOIRO_TOKEN")
+def _load_token(key: str = "BZZOIRO_TOKEN") -> str:
+    """Return ``key`` from the environment, loading the project-root ``.env`` first."""
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env")
+    token = os.environ.get(key)
     if token:
         return token.strip()
-    env_path = Path(__file__).resolve().parent.parent / ".env"
-    if env_path.exists():
-        for line in env_path.read_text().splitlines():
-            line = line.strip()
-            if line.startswith("#") or "=" not in line:
-                continue
-            key, _, value = line.partition("=")
-            if key.strip() == "BZZOIRO_TOKEN" and value.strip():
-                return value.strip()
     raise RuntimeError(
-        "BZZOIRO_TOKEN not set. Add it to a project-root .env (see .env.example) "
+        f"{key} not set. Add it to a project-root .env (see .env.example) "
         "or export it in your environment."
     )
 

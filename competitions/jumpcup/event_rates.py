@@ -1,7 +1,7 @@
 """Turn a fetched :class:`~jumpcup.fetch.MatchBundle` into the base-rates CSV.
 
 One tidy row per (entity, stat, half): ``rates_{event_id}.csv`` under
-``jumpcup/data/cleaned/``. Every full-time λ is split evenly across H1/H2 (v1
+``competitions/jumpcup/data/cleaned/``. Every full-time λ is split evenly across H1/H2 (v1
 simplification — empirically H2 carries ~56% of goals; refinement is on the
 roadmap), so the CSV only stores H1/H2 rows and FT is always their sum.
 
@@ -34,8 +34,8 @@ from typing import Optional
 
 import pandas as pd
 
-from jumpcup.const import rates_path
-from jumpcup.fetch import MatchBundle, SideBundle
+from competitions.jumpcup.const import rates_path
+from competitions.jumpcup.fetch import MatchBundle, SideBundle
 from model.rates import get_independent_rates
 from src.bzzoiro import make_match_uid
 from src.const import CON

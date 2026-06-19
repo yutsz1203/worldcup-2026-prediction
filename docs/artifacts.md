@@ -37,7 +37,7 @@ Supporting files:
 
 ## 2. The 2026 forecast (the deliverable)
 
-**`forecast/tournament_probs_latest.csv`** — full Monte Carlo tournament projection: each team's
+**`forecast/tournament_probs_initial.csv`** — full Monte Carlo tournament projection: each team's
 probability of reaching R32 / R16 / QF / SF / Final and of winning the title. Top contenders:
 
 | Team | Champion | Final | SF |

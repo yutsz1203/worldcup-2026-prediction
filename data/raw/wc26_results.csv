@@ -1,100 +1,100 @@
 round,round_id,group,date,home_team,away_team,home_score,away_score,winner,is_knockout,played,match_uid,event_id,status,home_score_ht,away_score_ht,et_home,et_away,pens_home,pens_away,is_neutral_ground
-,G1,A,2026-06-11,Mexico,South Africa,,,,False,False,GRP|Mexico|South Africa,8287,notstarted,,,,,,,False
-,G1,A,2026-06-12,South Korea,Czechia,,,,False,False,GRP|Czechia|South Korea,8288,notstarted,,,,,,,False
-,G1,B,2026-06-12,Canada,Bosnia and Herzegovina,,,,False,False,GRP|Bosnia and Herzegovina|Canada,8289,notstarted,,,,,,,False
-,G1,D,2026-06-13,United States,Paraguay,,,,False,False,GRP|Paraguay|United States,8290,notstarted,,,,,,,False
-,G1,B,2026-06-13,Qatar,Switzerland,,,,False,False,GRP|Qatar|Switzerland,8292,notstarted,,,,,,,False
-,G1,C,2026-06-13,Brazil,Morocco,,,,False,False,GRP|Brazil|Morocco,8293,notstarted,,,,,,,False
-,G1,C,2026-06-14,Haiti,Scotland,,,,False,False,GRP|Haiti|Scotland,8294,notstarted,,,,,,,False
-,G1,D,2026-06-14,Australia,Turkey,,,,False,False,GRP|Australia|Turkey,8291,notstarted,,,,,,,False
-,G1,E,2026-06-14,Germany,Curaçao,,,,False,False,GRP|Curaçao|Germany,8295,notstarted,,,,,,,False
-,G1,F,2026-06-14,Netherlands,Japan,,,,False,False,GRP|Japan|Netherlands,8296,notstarted,,,,,,,False
-,G1,E,2026-06-14,Ivory Coast,Ecuador,,,,False,False,GRP|Ecuador|Ivory Coast,8297,notstarted,,,,,,,False
-,G1,H,2026-06-15,Saudi Arabia,Uruguay,,,,False,False,GRP|Saudi Arabia|Uruguay,8301,notstarted,,,,,,,False
-,G1,G,2026-06-15,Belgium,Egypt,,,,False,False,GRP|Belgium|Egypt,8300,notstarted,,,,,,,False
-,G1,F,2026-06-15,Sweden,Tunisia,,,,False,False,GRP|Sweden|Tunisia,8298,notstarted,,,,,,,False
-,G1,H,2026-06-15,Spain,Cape Verde,,,,False,False,GRP|Cape Verde|Spain,8299,notstarted,,,,,,,False
-,G1,G,2026-06-16,Iran,New Zealand,,,,False,False,GRP|Iran|New Zealand,8302,notstarted,,,,,,,False
-,G1,I,2026-06-16,France,Senegal,,,,False,False,GRP|France|Senegal,8304,notstarted,,,,,,,False
-,G1,I,2026-06-16,Iraq,Norway,,,,False,False,GRP|Iraq|Norway,8305,notstarted,,,,,,,False
-,G1,J,2026-06-17,Argentina,Algeria,,,,False,False,GRP|Algeria|Argentina,8306,notstarted,,,,,,,False
-,G1,J,2026-06-17,Austria,Jordan,,,,False,False,GRP|Austria|Jordan,8303,notstarted,,,,,,,False
-,G1,K,2026-06-17,Portugal,DR Congo,,,,False,False,GRP|DR Congo|Portugal,8307,notstarted,,,,,,,False
-,G1,L,2026-06-17,England,Croatia,,,,False,False,GRP|Croatia|England,8308,notstarted,,,,,,,False
-,G1,L,2026-06-17,Ghana,Panama,,,,False,False,GRP|Ghana|Panama,8309,notstarted,,,,,,,False
-,G2,B,2026-06-18,Switzerland,Bosnia and Herzegovina,,,,False,False,GRP|Bosnia and Herzegovina|Switzerland,8312,notstarted,,,,,,,False
+,G1,A,2026-06-11,Mexico,South Africa,2.0,0.0,Mexico,False,True,GRP|Mexico|South Africa,8287,finished,1.0,0.0,,,,,False
+,G1,B,2026-06-12,Canada,Bosnia and Herzegovina,1.0,1.0,,False,True,GRP|Bosnia and Herzegovina|Canada,8289,finished,0.0,1.0,,,,,False
+,G1,A,2026-06-12,South Korea,Czechia,2.0,1.0,South Korea,False,True,GRP|Czechia|South Korea,8288,finished,0.0,0.0,,,,,False
+,G1,C,2026-06-13,Brazil,Morocco,1.0,1.0,,False,True,GRP|Brazil|Morocco,8293,finished,1.0,1.0,,,,,False
+,G1,B,2026-06-13,Qatar,Switzerland,1.0,1.0,,False,True,GRP|Qatar|Switzerland,8292,finished,0.0,1.0,,,,,False
+,G1,D,2026-06-13,United States,Paraguay,4.0,1.0,United States,False,True,GRP|Paraguay|United States,8290,finished,2.0,1.0,,,,,False
+,G1,E,2026-06-14,Ivory Coast,Ecuador,1.0,0.0,Ivory Coast,False,True,GRP|Ecuador|Ivory Coast,8297,finished,0.0,0.0,,,,,False
+,G1,F,2026-06-14,Netherlands,Japan,2.0,2.0,,False,True,GRP|Japan|Netherlands,8296,finished,0.0,0.0,,,,,False
+,G1,E,2026-06-14,Germany,Curaçao,7.0,1.0,Germany,False,True,GRP|Curaçao|Germany,8295,finished,4.0,1.0,,,,,False
+,G1,D,2026-06-14,Australia,Turkey,2.0,0.0,Australia,False,True,GRP|Australia|Turkey,8291,finished,1.0,0.0,,,,,False
+,G1,C,2026-06-14,Haiti,Scotland,0.0,1.0,Scotland,False,True,GRP|Haiti|Scotland,8294,finished,0.0,1.0,,,,,False
+,G1,H,2026-06-15,Saudi Arabia,Uruguay,1.0,1.0,,False,True,GRP|Saudi Arabia|Uruguay,8301,finished,1.0,0.0,,,,,False
+,G1,G,2026-06-15,Belgium,Egypt,1.0,1.0,,False,True,GRP|Belgium|Egypt,8300,finished,0.0,1.0,,,,,False
+,G1,H,2026-06-15,Spain,Cape Verde,0.0,0.0,,False,True,GRP|Cape Verde|Spain,8299,finished,0.0,0.0,,,,,False
+,G1,F,2026-06-15,Sweden,Tunisia,5.0,1.0,Sweden,False,True,GRP|Sweden|Tunisia,8298,finished,2.0,1.0,,,,,False
+,G1,I,2026-06-16,Iraq,Norway,1.0,4.0,Norway,False,True,GRP|Iraq|Norway,8305,finished,1.0,2.0,,,,,False
+,G1,I,2026-06-16,France,Senegal,3.0,1.0,France,False,True,GRP|France|Senegal,8304,finished,0.0,0.0,,,,,False
+,G1,G,2026-06-16,Iran,New Zealand,2.0,2.0,,False,True,GRP|Iran|New Zealand,8302,finished,1.0,1.0,,,,,False
+,G1,L,2026-06-17,Ghana,Panama,1.0,0.0,Ghana,False,True,GRP|Ghana|Panama,8309,finished,0.0,0.0,,,,,False
+,G1,L,2026-06-17,England,Croatia,4.0,2.0,England,False,True,GRP|Croatia|England,8308,finished,3.0,2.0,,,,,False
+,G1,K,2026-06-17,Portugal,DR Congo,1.0,1.0,,False,True,GRP|DR Congo|Portugal,8307,finished,1.0,1.0,,,,,False
+,G1,J,2026-06-17,Austria,Jordan,3.0,1.0,Austria,False,True,GRP|Austria|Jordan,8303,finished,1.0,0.0,,,,,False
+,G1,J,2026-06-17,Argentina,Algeria,3.0,0.0,Argentina,False,True,GRP|Algeria|Argentina,8306,finished,1.0,0.0,,,,,False
 ,G2,B,2026-06-18,Canada,Qatar,,,,False,False,GRP|Canada|Qatar,8313,notstarted,,,,,,,False
-,G1,K,2026-06-18,Uzbekistan,Colombia,,,,False,False,GRP|Colombia|Uzbekistan,8310,notstarted,,,,,,,False
+,G2,B,2026-06-18,Switzerland,Bosnia and Herzegovina,,,,False,False,GRP|Bosnia and Herzegovina|Switzerland,8312,notstarted,,,,,,,False
 ,G2,A,2026-06-18,Czechia,South Africa,,,,False,False,GRP|Czechia|South Africa,8311,notstarted,,,,,,,False
-,G2,A,2026-06-19,Mexico,South Korea,,,,False,False,GRP|Mexico|South Korea,8314,notstarted,,,,,,,False
-,G2,D,2026-06-19,United States,Australia,,,,False,False,GRP|Australia|United States,8316,notstarted,,,,,,,False
+,G1,K,2026-06-18,Uzbekistan,Colombia,1.0,3.0,Colombia,False,True,GRP|Colombia|Uzbekistan,8310,finished,0.0,1.0,,,,,False
 ,G2,C,2026-06-19,Scotland,Morocco,,,,False,False,GRP|Morocco|Scotland,8317,notstarted,,,,,,,False
-,G2,C,2026-06-20,Brazil,Haiti,,,,False,False,GRP|Brazil|Haiti,8318,notstarted,,,,,,,False
-,G2,D,2026-06-20,Turkey,Paraguay,,,,False,False,GRP|Paraguay|Turkey,8315,notstarted,,,,,,,False
-,G2,F,2026-06-20,Netherlands,Sweden,,,,False,False,GRP|Netherlands|Sweden,8320,notstarted,,,,,,,False
+,G2,D,2026-06-19,United States,Australia,,,,False,False,GRP|Australia|United States,8316,notstarted,,,,,,,False
+,G2,A,2026-06-19,Mexico,South Korea,,,,False,False,GRP|Mexico|South Korea,8314,notstarted,,,,,,,False
 ,G2,E,2026-06-20,Germany,Ivory Coast,,,,False,False,GRP|Germany|Ivory Coast,8321,notstarted,,,,,,,False
-,G2,E,2026-06-21,Ecuador,Curaçao,,,,False,False,GRP|Curaçao|Ecuador,8322,notstarted,,,,,,,False
-,G2,F,2026-06-21,Tunisia,Japan,,,,False,False,GRP|Japan|Tunisia,8319,notstarted,,,,,,,False
-,G2,H,2026-06-21,Spain,Saudi Arabia,,,,False,False,GRP|Saudi Arabia|Spain,8323,notstarted,,,,,,,False
-,G2,G,2026-06-21,Belgium,Iran,,,,False,False,GRP|Belgium|Iran,8324,notstarted,,,,,,,False
+,G2,F,2026-06-20,Netherlands,Sweden,,,,False,False,GRP|Netherlands|Sweden,8320,notstarted,,,,,,,False
+,G2,D,2026-06-20,Turkey,Paraguay,,,,False,False,GRP|Paraguay|Turkey,8315,notstarted,,,,,,,False
+,G2,C,2026-06-20,Brazil,Haiti,,,,False,False,GRP|Brazil|Haiti,8318,notstarted,,,,,,,False
 ,G2,H,2026-06-21,Uruguay,Cape Verde,,,,False,False,GRP|Cape Verde|Uruguay,8325,notstarted,,,,,,,False
+,G2,G,2026-06-21,Belgium,Iran,,,,False,False,GRP|Belgium|Iran,8324,notstarted,,,,,,,False
+,G2,H,2026-06-21,Spain,Saudi Arabia,,,,False,False,GRP|Saudi Arabia|Spain,8323,notstarted,,,,,,,False
+,G2,F,2026-06-21,Tunisia,Japan,,,,False,False,GRP|Japan|Tunisia,8319,notstarted,,,,,,,False
+,G2,E,2026-06-21,Ecuador,Curaçao,,,,False,False,GRP|Curaçao|Ecuador,8322,notstarted,,,,,,,False
 ,G2,I,2026-06-22,France,Iraq,,,,False,False,GRP|France|Iraq,8328,notstarted,,,,,,,False
-,G2,G,2026-06-22,New Zealand,Egypt,,,,False,False,GRP|Egypt|New Zealand,8326,notstarted,,,,,,,False
 ,G2,J,2026-06-22,Argentina,Austria,,,,False,False,GRP|Argentina|Austria,8327,notstarted,,,,,,,False
-,G2,I,2026-06-23,Norway,Senegal,,,,False,False,GRP|Norway|Senegal,8329,notstarted,,,,,,,False
-,G2,J,2026-06-23,Jordan,Algeria,,,,False,False,GRP|Algeria|Jordan,8330,notstarted,,,,,,,False
-,G2,K,2026-06-23,Portugal,Uzbekistan,,,,False,False,GRP|Portugal|Uzbekistan,8331,notstarted,,,,,,,False
-,G2,L,2026-06-23,England,Ghana,,,,False,False,GRP|England|Ghana,8332,notstarted,,,,,,,False
+,G2,G,2026-06-22,New Zealand,Egypt,,,,False,False,GRP|Egypt|New Zealand,8326,notstarted,,,,,,,False
 ,G2,L,2026-06-23,Panama,Croatia,,,,False,False,GRP|Croatia|Panama,8333,notstarted,,,,,,,False
-,G2,K,2026-06-24,Colombia,DR Congo,,,,False,False,GRP|Colombia|DR Congo,8334,notstarted,,,,,,,False
-,G3,B,2026-06-24,Bosnia and Herzegovina,Qatar,,,,False,False,GRP|Bosnia and Herzegovina|Qatar,8336,notstarted,,,,,,,False
-,G3,B,2026-06-24,Switzerland,Canada,,,,False,False,GRP|Canada|Switzerland,8335,notstarted,,,,,,,False
-,G3,C,2026-06-24,Morocco,Haiti,,,,False,False,GRP|Haiti|Morocco,8337,notstarted,,,,,,,False
+,G2,L,2026-06-23,England,Ghana,,,,False,False,GRP|England|Ghana,8332,notstarted,,,,,,,False
+,G2,K,2026-06-23,Portugal,Uzbekistan,,,,False,False,GRP|Portugal|Uzbekistan,8331,notstarted,,,,,,,False
+,G2,J,2026-06-23,Jordan,Algeria,,,,False,False,GRP|Algeria|Jordan,8330,notstarted,,,,,,,False
+,G2,I,2026-06-23,Norway,Senegal,,,,False,False,GRP|Norway|Senegal,8329,notstarted,,,,,,,False
 ,G3,C,2026-06-24,Scotland,Brazil,,,,False,False,GRP|Brazil|Scotland,8338,notstarted,,,,,,,False
-,G3,A,2026-06-25,Czechia,Mexico,,,,False,False,GRP|Czechia|Mexico,8340,notstarted,,,,,,,False
-,G3,E,2026-06-25,Ecuador,Germany,,,,False,False,GRP|Ecuador|Germany,8342,notstarted,,,,,,,False
+,G3,C,2026-06-24,Morocco,Haiti,,,,False,False,GRP|Haiti|Morocco,8337,notstarted,,,,,,,False
+,G3,B,2026-06-24,Switzerland,Canada,,,,False,False,GRP|Canada|Switzerland,8335,notstarted,,,,,,,False
+,G3,B,2026-06-24,Bosnia and Herzegovina,Qatar,,,,False,False,GRP|Bosnia and Herzegovina|Qatar,8336,notstarted,,,,,,,False
+,G2,K,2026-06-24,Colombia,DR Congo,,,,False,False,GRP|Colombia|DR Congo,8334,notstarted,,,,,,,False
 ,G3,F,2026-06-25,Tunisia,Netherlands,,,,False,False,GRP|Netherlands|Tunisia,8344,notstarted,,,,,,,False
-,G3,A,2026-06-25,South Africa,South Korea,,,,False,False,GRP|South Africa|South Korea,8339,notstarted,,,,,,,False
-,G3,E,2026-06-25,Curaçao,Ivory Coast,,,,False,False,GRP|Curaçao|Ivory Coast,8341,notstarted,,,,,,,False
 ,G3,F,2026-06-25,Japan,Sweden,,,,False,False,GRP|Japan|Sweden,8343,notstarted,,,,,,,False
-,G3,D,2026-06-26,Paraguay,Australia,,,,False,False,GRP|Australia|Paraguay,8345,notstarted,,,,,,,False
-,G3,D,2026-06-26,Turkey,United States,,,,False,False,GRP|Turkey|United States,8346,notstarted,,,,,,,False
+,G3,E,2026-06-25,Curaçao,Ivory Coast,,,,False,False,GRP|Curaçao|Ivory Coast,8341,notstarted,,,,,,,False
+,G3,E,2026-06-25,Ecuador,Germany,,,,False,False,GRP|Ecuador|Germany,8342,notstarted,,,,,,,False
+,G3,A,2026-06-25,Czechia,Mexico,,,,False,False,GRP|Czechia|Mexico,8340,notstarted,,,,,,,False
+,G3,A,2026-06-25,South Africa,South Korea,,,,False,False,GRP|South Africa|South Korea,8339,notstarted,,,,,,,False
 ,G3,I,2026-06-26,Norway,France,,,,False,False,GRP|France|Norway,8347,notstarted,,,,,,,False
 ,G3,I,2026-06-26,Senegal,Iraq,,,,False,False,GRP|Iraq|Senegal,8348,notstarted,,,,,,,False
-,G3,K,2026-06-27,Colombia,Portugal,,,,False,False,GRP|Colombia|Portugal,8355,notstarted,,,,,,,False
-,G3,L,2026-06-27,Panama,England,,,,False,False,GRP|England|Panama,8354,notstarted,,,,,,,False
+,G3,D,2026-06-26,Turkey,United States,,,,False,False,GRP|Turkey|United States,8346,notstarted,,,,,,,False
+,G3,D,2026-06-26,Paraguay,Australia,,,,False,False,GRP|Australia|Paraguay,8345,notstarted,,,,,,,False
 ,G3,K,2026-06-27,DR Congo,Uzbekistan,,,,False,False,GRP|DR Congo|Uzbekistan,8356,notstarted,,,,,,,False
-,G3,G,2026-06-27,Egypt,Iran,,,,False,False,GRP|Egypt|Iran,8351,notstarted,,,,,,,False
-,G3,H,2026-06-27,Uruguay,Spain,,,,False,False,GRP|Spain|Uruguay,8350,notstarted,,,,,,,False
-,G3,H,2026-06-27,Cape Verde,Saudi Arabia,,,,False,False,GRP|Cape Verde|Saudi Arabia,8349,notstarted,,,,,,,False
-,G3,G,2026-06-27,New Zealand,Belgium,,,,False,False,GRP|Belgium|New Zealand,8352,notstarted,,,,,,,False
+,G3,K,2026-06-27,Colombia,Portugal,,,,False,False,GRP|Colombia|Portugal,8355,notstarted,,,,,,,False
 ,G3,L,2026-06-27,Croatia,Ghana,,,,False,False,GRP|Croatia|Ghana,8353,notstarted,,,,,,,False
-,G3,J,2026-06-28,Algeria,Austria,,,,False,False,GRP|Algeria|Austria,8357,notstarted,,,,,,,False
-,G3,J,2026-06-28,Jordan,Argentina,,,,False,False,GRP|Argentina|Jordan,8358,notstarted,,,,,,,False
+,G3,L,2026-06-27,Panama,England,,,,False,False,GRP|England|Panama,8354,notstarted,,,,,,,False
+,G3,G,2026-06-27,New Zealand,Belgium,,,,False,False,GRP|Belgium|New Zealand,8352,notstarted,,,,,,,False
+,G3,G,2026-06-27,Egypt,Iran,,,,False,False,GRP|Egypt|Iran,8351,notstarted,,,,,,,False
+,G3,H,2026-06-27,Cape Verde,Saudi Arabia,,,,False,False,GRP|Cape Verde|Saudi Arabia,8349,notstarted,,,,,,,False
+,G3,H,2026-06-27,Uruguay,Spain,,,,False,False,GRP|Spain|Uruguay,8350,notstarted,,,,,,,False
 Round of 32,R32,,2026-06-28,2A,2B,,,,True,False,KO|2A|2B,8359,notstarted,,,,,,,False
-Round of 32,R32,,2026-06-29,1C,2F,,,,True,False,KO|1C|2F,8360,notstarted,,,,,,,False
+,G3,J,2026-06-28,Jordan,Argentina,,,,False,False,GRP|Argentina|Jordan,8358,notstarted,,,,,,,False
+,G3,J,2026-06-28,Algeria,Austria,,,,False,False,GRP|Algeria|Austria,8357,notstarted,,,,,,,False
 Round of 32,R32,,2026-06-29,1E,3A/3B/3C/3D/3F,,,,True,False,KO|1E|3A/3B/3C/3D/3F,8361,notstarted,,,,,,,False
-Round of 32,R32,,2026-06-30,1F,2C,,,,True,False,KO|1F|2C,8362,notstarted,,,,,,,False
-Round of 32,R32,,2026-06-30,2E,2I,,,,True,False,KO|2E|2I,8363,notstarted,,,,,,,False
+Round of 32,R32,,2026-06-29,1C,2F,,,,True,False,KO|1C|2F,8360,notstarted,,,,,,,False
 Round of 32,R32,,2026-06-30,1I,3C/3D/3F/3G/3H,,,,True,False,KO|1I|3C/3D/3F/3G/3H,8364,notstarted,,,,,,,False
+Round of 32,R32,,2026-06-30,2E,2I,,,,True,False,KO|2E|2I,8363,notstarted,,,,,,,False
+Round of 32,R32,,2026-06-30,1F,2C,,,,True,False,KO|1F|2C,8362,notstarted,,,,,,,False
 Round of 32,R32,,2026-07-01,G1,3A/3E/3H/3I/3J,,,,True,False,KO|3A/3E/3H/3I/3J|G1,8367,notstarted,,,,,,,False
 Round of 32,R32,,2026-07-01,1L,3E/3H/3I/3J/3K,,,,True,False,KO|1L|3E/3H/3I/3J/3K,8366,notstarted,,,,,,,False
 Round of 32,R32,,2026-07-01,1A,3C/3E/3F/3H/3I,,,,True,False,KO|1A|3C/3E/3F/3H/3I,8365,notstarted,,,,,,,False
-Round of 32,R32,,2026-07-02,1D,3B/3E/3F/3I/3J,,,,True,False,KO|1D|3B/3E/3F/3I/3J,8368,notstarted,,,,,,,False
-Round of 32,R32,,2026-07-02,H1,2J,,,,True,False,KO|2J|H1,8369,notstarted,,,,,,,False
 Round of 32,R32,,2026-07-02,2K,2L,,,,True,False,KO|2K|2L,8370,notstarted,,,,,,,False
-Round of 32,R32,,2026-07-03,1B,3E/3F/3G/3I/3J,,,,True,False,KO|1B|3E/3F/3G/3I/3J,8371,notstarted,,,,,,,False
-Round of 32,R32,,2026-07-03,2D,G2,,,,True,False,KO|2D|G2,8372,notstarted,,,,,,,False
+Round of 32,R32,,2026-07-02,H1,2J,,,,True,False,KO|2J|H1,8369,notstarted,,,,,,,False
+Round of 32,R32,,2026-07-02,1D,3B/3E/3F/3I/3J,,,,True,False,KO|1D|3B/3E/3F/3I/3J,8368,notstarted,,,,,,,False
 Round of 32,R32,,2026-07-03,1J,H2,,,,True,False,KO|1J|H2,8373,notstarted,,,,,,,False
-Round of 32,R32,,2026-07-04,1K,3D/3E/3I/3J/3L,,,,True,False,KO|1K|3D/3E/3I/3J/3L,8374,notstarted,,,,,,,False
-Round of 16,R16,,2026-07-04,W73,W75,,,,True,False,KO|W73|W75,8375,notstarted,,,,,,,False
+Round of 32,R32,,2026-07-03,2D,G2,,,,True,False,KO|2D|G2,8372,notstarted,,,,,,,False
+Round of 32,R32,,2026-07-03,1B,3E/3F/3G/3I/3J,,,,True,False,KO|1B|3E/3F/3G/3I/3J,8371,notstarted,,,,,,,False
 Round of 16,R16,,2026-07-04,W74,W77,,,,True,False,KO|W74|W77,8376,notstarted,,,,,,,False
+Round of 16,R16,,2026-07-04,W73,W75,,,,True,False,KO|W73|W75,8375,notstarted,,,,,,,False
+Round of 32,R32,,2026-07-04,1K,3D/3E/3I/3J/3L,,,,True,False,KO|1K|3D/3E/3I/3J/3L,8374,notstarted,,,,,,,False
 Round of 16,R16,,2026-07-05,W76,W78,,,,True,False,KO|W76|W78,8377,notstarted,,,,,,,False
 Round of 16,R16,,2026-07-06,W83,W84,,,,True,False,KO|W83|W84,8379,notstarted,,,,,,,False
 Round of 16,R16,,2026-07-06,W79,W80,,,,True,False,KO|W79|W80,8378,notstarted,,,,,,,False
-Round of 16,R16,,2026-07-07,W81,W82,,,,True,False,KO|W81|W82,8380,notstarted,,,,,,,False
-Round of 16,R16,,2026-07-07,W86,W88,,,,True,False,KO|W86|W88,8381,notstarted,,,,,,,False
 Round of 16,R16,,2026-07-07,W85,W87,,,,True,False,KO|W85|W87,8382,notstarted,,,,,,,False
+Round of 16,R16,,2026-07-07,W86,W88,,,,True,False,KO|W86|W88,8381,notstarted,,,,,,,False
+Round of 16,R16,,2026-07-07,W81,W82,,,,True,False,KO|W81|W82,8380,notstarted,,,,,,,False
 Quarterfinals,QF,,2026-07-09,W89,W90,,,,True,False,KO|W89|W90,8383,notstarted,,,,,,,False
 Quarterfinals,QF,,2026-07-10,W93,W94,,,,True,False,KO|W93|W94,8384,notstarted,,,,,,,False
 Quarterfinals,QF,,2026-07-11,W91,W92,,,,True,False,KO|W91|W92,8385,notstarted,,,,,,,False

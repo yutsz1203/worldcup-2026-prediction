@@ -7,6 +7,8 @@ the bzzoiro feed (``src/bzzoiro.py``) once the bracket settles upstream.
 
 Predictions are *locked*: a round's probabilities are written once to
 ``wc2026_match_probs.csv`` and never recomputed (the guard in :func:`forecast_round`).
+The Streamlit dashboard (``streamlit run dashboard/app.py``) is the readable view of
+the locked probabilities, for eyeballing against market prices.
 Scoring is deferred — :func:`src.ledger.build_match_ledger` pairs each locked
 prediction with its eventual actual result for later validation.
 """
@@ -20,7 +22,7 @@ from typing import Optional
 import numpy as np
 import pandas as pd
 
-from model.probabilities import generate_probabilities
+from model.probabilities import generate_probabilities, predicted_scoreline
 from model.rates import get_independent_rates
 from src.bzzoiro import GROUP_ROUNDS, load_resolved_fixtures_csv, make_match_uid
 from src.const import (
@@ -44,6 +46,10 @@ PROBS_COLUMNS = [
     "date",
     "home_team",
     "away_team",
+    "pred_home",
+    "pred_away",
+    "xg_home",
+    "xg_away",
     "p_home",
     "p_draw",
     "p_away",
@@ -158,7 +164,12 @@ def _predict_fixture(
         ]
     )
     probs = probs / probs.sum()  # truncated score-matrix can fall a hair short of 1
+    pred_h, pred_a = predicted_scoreline(lam_h, lam_a, probs[0], probs[1], probs[2])
     return {
+        "pred_home": pred_h,
+        "pred_away": pred_a,
+        "xg_home": round(lam_h, 2),
+        "xg_away": round(lam_a, 2),
         "p_home": probs[0],
         "p_draw": probs[1],
         "p_away": probs[2],
@@ -232,6 +243,7 @@ def forecast_round(
         if not existing.empty
         else new_df
     )
+    combined = combined.reindex(columns=PROBS_COLUMNS)
     combined.to_csv(out, index=False)
     CON.print(f"[green]Locked {len(new_df)} match(es) for round {round_id}[/] → {out}")
     return combined

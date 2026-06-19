@@ -3,7 +3,7 @@ from typing import Set
 
 import pandas as pd
 
-from const import CLEANED_DATA_PATH, CON, RAW_DATA_PATH, TEAM_LIST
+from src.const import CLEANED_DATA_PATH, CON, RAW_DATA_PATH, TEAM_LIST
 
 # host_cities.csv spells the host countries as FIFA-style codes; map them to the
 # team-name spelling used in TEAM_LIST so a venue's country can be compared to the
@@ -229,11 +229,3 @@ def change_timezone():
         .dt.tz_localize(None)
     )
     df.to_csv(f"{RAW_DATA_PATH}/wc26_matches.csv", index=False)
-
-
-if __name__ == "__main__":
-    # filter_historical_matches()
-    # format_wc26_teams_dataset()
-    format_wc26_groupstage_matches_dataset()
-    format_wc26_knockout_matches_dataset()
-    # change_timezone()

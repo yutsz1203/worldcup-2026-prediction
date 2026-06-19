@@ -15,7 +15,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-from const import _MONTH_MAP, CON, ELO_URL, RAW_DATA_PATH, TODAY
+from src.const import _MONTH_MAP, CON, ELO_URL, RAW_DATA_PATH, TODAY
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(message)s")

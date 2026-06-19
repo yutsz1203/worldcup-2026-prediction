@@ -1,0 +1,40 @@
+# Claude / Anthropic inspired theme, light and dark variants. The app follows
+# the OS/browser preference; either can be forced from the app's settings menu.
+# Light: ivory canvas, warm cream surfaces. Dark: warm charcoal, like Claude's
+# dark mode. Both: terracotta accent, serif headings.
+
+[theme]
+font = "-apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif"
+headingFont = "Georgia, 'Times New Roman', serif"
+
+[theme.light]
+primaryColor = "#D97757"             # Claude terracotta (buttons, focus, accents)
+backgroundColor = "#F8F8F6"          # ivory canvas
+secondaryBackgroundColor = "#EFEEEB" # warm cream (widgets, expanders, editors)
+textColor = "#373734"                # dark warm slate
+linkColor = "#D97757"
+borderColor = "#E5E1D5"
+dataframeHeaderBackgroundColor = "#FFFFFF"
+dataframeBorderColor = "#2c2c2b"
+codeBackgroundColor = "#F0EEE6"
+
+[theme.light.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#E8E4D8"
+borderColor = "#DDD8C8"
+
+[theme.dark]
+primaryColor = "#D97757"             # same terracotta accent
+backgroundColor = "#201F1E"          # deep warm charcoal canvas
+secondaryBackgroundColor = "#30302E" # raised warm-grey surfaces
+textColor = "#C3C2B7"                # warm off-white
+linkColor = "#E5836A"                # terracotta lightened for contrast
+borderColor = "#3E3D3A"
+dataframeHeaderBackgroundColor = "#2C2C2B"
+dataframeBorderColor = "#3E3D3A"
+codeBackgroundColor = "#30302E"
+
+[theme.dark.sidebar]
+backgroundColor = "#2C2C2B"
+secondaryBackgroundColor = "#343432"
+borderColor = "#454440"

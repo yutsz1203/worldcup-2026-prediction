@@ -29,7 +29,7 @@ def _save(fig, name: str) -> str:
 def champion_prob_bar(top: int = 20) -> str:
     """Horizontal bar of the ``top`` teams by championship probability."""
     df = (
-        P._read("tournament_probs_latest.csv")
+        P._read("tournament_probs_initial.csv")
         .sort_values("champion", ascending=False)
         .head(top)
         .iloc[::-1]

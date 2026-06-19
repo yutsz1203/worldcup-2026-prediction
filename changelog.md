@@ -1,5 +1,12 @@
 ## Changelog
 
+### Jun 18
+- Fetched all round 1 results, built the match ledger, and scored model predictions.
+- Built running-scorers pipeline, calculating Brier, RPS, and Accuracy for Overall, 1X2, 2.5/3.5 O/U markets.
+- Cleaned `main.py`, moved modules calling to a standardised `cli.py`
+- Added the biggest-surprise log (`src/surprises.py`, `cli surprises`): top model surprises by `1 − model_p` of the actual result, plus biggest underdog wins by Elo gap.
+- Reported the running-scorers, biggest-surprise log in `docs/live_scorecard.md`
+
 ### Jun 10
 - Added `src/bzzoiro.py`: pulls all 104 WC26 matches (`league_id=27`, `season_id=188`) from the
   free bzzoiro API into `data/raw/wc26_results.csv` — re-runnable anytime, carrying scores,

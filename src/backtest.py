@@ -29,9 +29,9 @@ from src.const import (
     FORECAST_PATH,
     GROUPPING,
     RAW_DATA_PATH,
+    TEAM_LIST,
     TUNING_PATH,
     VALIDATION_PATH,
-    TEAM_LIST,
 )
 from src.simulation import LEGACY_FORMAT, build_legacy_sim_inputs, monte_carlo
 
@@ -340,6 +340,160 @@ def _champion_diagnostics(probs: pd.DataFrame, actual: dict[str, str]) -> dict:
     }
 
 
+def run_backtests_scored(
+    years: tuple[int, ...] = (2018, 2022),
+    n_sims: int = 100000,
+    seed: int = 2026,
+) -> pd.DataFrame:
+    """Run the backtests on the current tuned params and persist a consolidated score table.
+
+    :func:`run_backtest` writes per-match / per-team / calibration CSVs but only *prints*
+    the summary metrics; this collects the match- and tournament-level score functions
+    (tagged with the params that produced them) for each year into a single tidy table at
+    ``data/result/validation/validation_scores_latest.csv``.
+    """
+    rows = []
+    for year in years:
+        res = run_backtest(year, n_sims=n_sims, seed=seed)
+        m, t = res["match"], res["tournament"]
+        rows.append(
+            {
+                "year": year,
+                # provenance: which params produced these scores
+                "half_life_years": HALF_LIFE_YEAR,
+                "weight_floor": WEIGHT_FLOOR,
+                "lookback_years": LOOKBACK_YEARS,
+                "use_home_adv": USE_HOME_ADV,
+                "sparse_threshold": SPARSE_THRESHOLD,
+                "n_sims": n_sims,
+                "seed": seed,
+                # match-level 1X2 score functions
+                "match_n": m["n_matches"],
+                "match_brier": round(m["brier"], 4),
+                "match_brier_uniform": round(m["baseline_brier"], 4),
+                "match_rps": round(m["rps"], 4),
+                "match_rps_uniform": round(m["baseline_rps"], 4),
+                "match_accuracy": round(m["accuracy"], 4),
+                # tournament-level stage-reached score functions (totals over teams)
+                "tourn_n_teams": t["n_teams"],
+                "tourn_E1": round(t["E1"], 3),
+                "tourn_E2": round(t["E2"], 3),
+                "tourn_brier": round(t["brier"], 3),
+                "tourn_rps": round(t["rps"], 3),
+            }
+        )
+
+    scores = pd.DataFrame(rows)
+    out = f"{VALIDATION_PATH}/validation_scores_latest.csv"
+    scores.to_csv(out, index=False)
+    CON.rule("Saved score functions")
+    CON.log(f"Consolidated score functions → {out}")
+    CON.print(scores.to_string(index=False))
+    return scores
+
+
+# Teams in the 10–19 neutral band — they flip between neutral-only and the broadened
+# fallback as SPARSE_THRESHOLD crosses them (for focused diffing in the sweep).
+_FLIP_BAND = [
+    "Spain",
+    "Croatia",
+    "England",
+    "Belgium",
+    "Switzerland",
+    "Portugal",
+    "Netherlands",
+    "Sweden",
+    "Czechia",
+    "Turkey",
+    "Norway",
+    "Austria",
+    "Germany",
+    "France",
+    "Scotland",
+]
+
+
+def sweep_sparse_threshold(
+    thresholds: tuple[int, ...] = (10, 12, 15, 20, 25),
+    sanity_thresholds: tuple[int, int] = (10, 20),
+    n_sims: int = 100000,
+    seed: int = 2026,
+) -> pd.DataFrame:
+    """Empirically decide SPARSE_THRESHOLD (the sparse-team neutral-match cutoff).
+
+    Step 1 sweeps the backtest over ``thresholds`` at the production knob
+    (``use_home_adv=False``) → ``data/result/tuning/config_comparison.csv``. Step 2 refits
+    the live 2026 model (:func:`redeploy_2026`) at each of the two ``sanity_thresholds``,
+    recomputes :func:`team_strengths`, and diffs the flip-band teams' fitted attack/defense
+    rates → ``threshold_strength_diff.csv``. Production ``baseline_params.csv`` /
+    ``team_strengths.csv`` are snapshotted first and restored at the end, so this is
+    read-only with respect to the deployed artifacts.
+    """
+    import shutil
+
+    base_csv = f"{CLEANED_DATA_PATH}/baseline_params.csv"
+    strengths_csv = f"{FORECAST_PATH}/team_strengths.csv"
+    prod_base_backup = f"{CLEANED_DATA_PATH}/baseline_params_prod_backup.csv"
+    prod_strengths_backup = f"{FORECAST_PATH}/team_strengths_prod_backup.csv"
+
+    # Snapshot the deployed fits up front so Step 2's refits can be rolled back.
+    shutil.copy(base_csv, prod_base_backup)
+    shutil.copy(strengths_csv, prod_strengths_backup)
+
+    # --- Step 1: threshold sweep (production knob: home_adv=False) ---------------
+    CON.rule("Step 1 — threshold sweep")
+    compare_configs(
+        threshold_options=thresholds,
+        home_adv_options=(False,),
+        n_sims=n_sims,
+        seed=seed,
+    )
+
+    # --- Step 2: refit + strengths at each candidate threshold -------------------
+    strengths = {}
+    for th in sanity_thresholds:
+        CON.rule(f"Step 2 — redeploy + strengths at thr={th}")
+        redeploy_2026(n_sims=n_sims, sparse_threshold=th)
+        df = team_strengths()
+        scratch = f"{TUNING_PATH}/team_strengths_thr{th}.csv"
+        shutil.copy(strengths_csv, scratch)
+        strengths[th] = df.set_index("team")
+        CON.log(f"thr={th} strengths → {scratch}")
+
+    # --- Diff the flip-band teams between the two thresholds ---------------------
+    lo, hi = sanity_thresholds
+    a, b = strengths[lo], strengths[hi]
+    rows = []
+    for t in _FLIP_BAND:
+        if t not in a.index or t not in b.index:
+            continue
+        rows.append(
+            {
+                "team": t,
+                f"xgf_thr{lo}": a.loc[t, "xgf_vs_avg"],
+                f"xgf_thr{hi}": b.loc[t, "xgf_vs_avg"],
+                "d_xgf": round(a.loc[t, "xgf_vs_avg"] - b.loc[t, "xgf_vs_avg"], 3),
+                f"xga_thr{lo}": a.loc[t, "xga_vs_avg"],
+                f"xga_thr{hi}": b.loc[t, "xga_vs_avg"],
+                "d_xga": round(a.loc[t, "xga_vs_avg"] - b.loc[t, "xga_vs_avg"], 3),
+            }
+        )
+    diff = pd.DataFrame(rows).sort_values(
+        "d_xgf", key=lambda s: s.abs(), ascending=False
+    )
+    diff_out = f"{TUNING_PATH}/threshold_strength_diff.csv"
+    diff.to_csv(diff_out, index=False)
+    CON.rule(f"Flip-band rate diff (thr={lo} vs thr={hi})")
+    CON.print(diff.to_string(index=False))
+    CON.log(f"Diff → {diff_out}")
+
+    # --- Restore production fits -------------------------------------------------
+    shutil.copy(prod_base_backup, base_csv)
+    shutil.copy(prod_strengths_backup, strengths_csv)
+    CON.rule("Restored production baseline_params.csv / team_strengths.csv")
+    return diff
+
+
 def compare_configs(
     years: tuple[int, ...] = (2018, 2022),
     n_sims: int = 100000,
@@ -565,7 +719,7 @@ def redeploy_2026(
     )
 
     inputs = load_sim_inputs()  # reads the freshly-written baseline_params.csv
-    out = f"{FORECAST_PATH}/tournament_probs_latest.csv"
+    out = f"{FORECAST_PATH}/tournament_probs_initial.csv"
     return monte_carlo(inputs, n=n_sims, out=out)
 
 
@@ -677,7 +831,3 @@ def rebuild_backtest_dataset(start_date: str = "2014-01-01") -> None:
     elo_hist = historical_elo(filtered, start_date=start_date)
     append_historical_elo(filtered, elo_hist)
     CON.log("Rebuilt matches.csv for backtesting.")
-
-
-if __name__ == "__main__":
-    run_backtest(2022)

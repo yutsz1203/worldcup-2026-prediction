@@ -1,32 +1,20 @@
-# ruff: noqa: F401 — imports feed the commented-out pipeline stages below; kept at the
+# ruff: noqa: F401 — imports feed the commented-out setup stages below; kept at the
 # top so each stage is runnable as-is once uncommented.
+#
+# This file is the documented runbook for the ONE-TIME data-build / tuning setup
+# (Stages 1–6 thread in-memory frames; Stage 9 redeploy is destructive) — uncomment a
+# stage and `uv run python main.py`. Every RECURRING stage (the live layer, sim,
+# backtests, diagnostics, showcase) has a no-edit-source command in src/cli.py; its
+# docstring stays here as documentation with the command to run it.
+#     uv run python -m src.cli --help
 import pandas as pd
 
-from model.evaluation import strength_inspection
 from model.glm import fit_baseline_all, fit_nested_all
-from model.probabilities import generate_probabilities
-from model.rates import get_independent_rates, get_nested_rates
-from src.backtest import (
-    fitted_match_counts,
-    redeploy_2026,
-    run_backtest,
-    team_strengths,
-    tune_hyperparameters,
-)
-from src.bzzoiro import load_actual_results_csv, write_results
-from src.const import (
-    CLEANED_DATA_PATH,
-    FORECAST_PATH,
-    LIVE_PATH,
-    RAW_DATA_PATH,
-    TEAM_LIST,
-)
+from model.rates import get_nested_rates
+from src.backtest import redeploy_2026, tune_hyperparameters
+from src.const import CLEANED_DATA_PATH, RAW_DATA_PATH, TEAM_LIST
 from src.data_preprocess import append_historical_elo, filter_historical_matches
-from src.forecast import forecast_next_round
-from src.ledger import build_match_ledger
 from src.scraper import historical_elo, historical_matches, latest_elo
-from src.showcase import build_showcase
-from src.simulation import load_sim_inputs, monte_carlo
 
 if __name__ == "__main__":
     """
@@ -84,36 +72,25 @@ if __name__ == "__main__":
     # baseline_params.to_csv(f"{CLEANED_DATA_PATH}/baseline_params.csv", index=False)
 
     """
-    Stage 7 — Monte Carlo tournament simulation.
+    Stage 7 — Monte Carlo tournament simulation.  →  uv run python -m src.cli simulate
 
     Run the full tournament simulation and write per-team stage probabilities. The
-    independent model is the default; pass load_sim_inputs(use_nested=True) for the
-    nested model. This active run additionally writes per-team average goals-for/against
-    (split into group-stage and pooled-knockout buckets) to forecast/team_goal_stats.csv
-    — a Fantasy player-selection aid — and the per-team probability of finishing the
-    group 1st/2nd/3rd/4th to forecast/group_position_probs.csv. The three projection
-    artifacts (r32_slot_occupancy, opponent_distribution, eliminations) feed the
-    Stage 12 showcase; they are accumulated in the same loop at no extra sim cost.
+    independent model is the default; pass --nested for the nested model. The run also
+    writes per-team average goals-for/against (split into group-stage and pooled-knockout
+    buckets) to forecast/team_goal_stats.csv — a Fantasy player-selection aid — and the
+    per-team probability of finishing the group 1st/2nd/3rd/4th to
+    forecast/group_position_probs.csv. The three projection artifacts (r32_slot_occupancy,
+    opponent_distribution, eliminations) feed the Stage 12 showcase; they are accumulated
+    in the same loop at no extra sim cost.
     """
-    # monte_carlo(
-    #     load_sim_inputs(),
-    #     n=100000,
-    #     goals_out=f"{FORECAST_PATH}/team_goal_stats.csv",
-    #     group_pos_out=f"{FORECAST_PATH}/group_position_probs.csv",
-    #     r32_slots_out=f"{FORECAST_PATH}/r32_slot_occupancy.csv",
-    #     opponent_dist_out=f"{FORECAST_PATH}/opponent_distribution.csv",
-    #     eliminations_out=f"{FORECAST_PATH}/eliminations.csv",
-    # )
 
     """
-    Stage 8 — Validation / backtesting (src/backtest.py).
+    Stage 8 — Validation / backtesting.  →  uv run python -m src.cli backtest
 
     Retrospective Brier/RPS/E1/E2 against the 2018 & 2022 World Cups using the tuned
     adaptive training filter. matches.csv is already rebuilt to 2010+ over the broader
     team set (rebuild_backtest_dataset re-scrapes Elo via Chrome if needed).
     """
-    # run_backtest(2018, 100000)
-    # run_backtest(2022, 100000)
 
     """
     Stage 9 — Hyperparameter tuning + 2026 redeploy (src/backtest.py).
@@ -128,20 +105,20 @@ if __name__ == "__main__":
     # redeploy_2026(n_sims=100000)
 
     """
-    Stage 10 — Model diagnostics.
+    Stage 10 — Model diagnostics.  →  uv run python -m src.cli diagnostics
 
     Inspect the fitted baseline model. strength_inspection prints each team's attack/
     defense strength; fitted_match_counts and team_strengths write per-team fitted-match
     counts and attack/defense strength (xGF/xGA vs an average WC26 opponent) to
     data/result/forecast/{model_match_counts,team_strengths}.csv.
     """
-    # baseline_params = pd.read_csv(f"{CLEANED_DATA_PATH}/baseline_params.csv")
-    # strength_inspection(elo_ratings, baseline_params)
-    # fitted_match_counts()
-    # team_strengths()
 
     """
     Stage 11 — Live WC2026 layer (src/forecast.py, src/bzzoiro.py, src/ledger.py).
+      uv run python -m src.cli forecast   # before a round: re-scrape Elo, lock the round
+      uv run python -m src.cli results    # after matches finish: refresh actuals
+      uv run python -m src.cli ledger     # join locked forecasts onto actuals
+      uv run python -m src.cli score      # grade Brier/RPS/accuracy by market
 
     Rolling round-by-round forecaster: the covariate is live, the GLM is frozen. Run the
     per-round forecast once before each round kicks off — it re-scrapes Elo (reflecting
@@ -149,20 +126,23 @@ if __name__ == "__main__":
     locked probabilities to data/result/live/wc2026_match_probs.csv (written once, never
     recomputed; knockout matchups are read resolved from the bzzoiro feed). Refresh the
     predictions+actuals ledger as matches finish — it left-joins the locked forecasts
-    onto ingested results for future validation (no scoring yet; that is deferred — see
-    the plan roadmap).
+    onto ingested results for validation. Once a round's results are in the ledger,
+    score_ledger (src/scoring.py) grades every match with match-level Brier/RPS/accuracy
+    across the 1X2, O/U 2.5 and O/U 3.5 markets (plus a pooled Overall), prints a table
+    per market, and writes data/result/live/wc2026_match_scores.csv.
 
-    write_results refreshes data/raw/wc26_results.csv from the bzzoiro API (the live
-    source of truth) — run it before forecasting a round or rebuilding the ledger.
+    write_results (the `results` command) refreshes data/raw/wc26_results.csv from the
+    bzzoiro API (the live source of truth) — run it before forecasting a round or
+    rebuilding the ledger.
+
+    The Streamlit dashboard (`uv run python -m src.cli dashboard`) is the readable view of
+    the live layer: the locked round probabilities with fair odds and a market-comparison
+    panel, plus an HKJC HDC EV tab that scrapes the posted lines + odds on demand
+    (headless Chrome, src/hkjc.py) and prices each side with the model.
     """
-    # write_results()
-    forecast_next_round()
-    # build_match_ledger(
-    #     pd.read_csv(f"{LIVE_PATH}/wc2026_match_probs.csv"), load_actual_results_csv()
-    # )
 
     """
-    Stage 12 — Projections + showcase (src/projections.py, src/charts.py, src/showcase.py).
+    Stage 12 — Projections + showcase.  →  uv run python -m src.cli showcase
 
     Render the headline derived deliverables (group-of-death, expected elimination,
     dark-horse index, R32 marginals, marquee matchups, path difficulty, the favorite's
@@ -171,7 +151,6 @@ if __name__ == "__main__":
     is fast and safe to re-run any time after a sim. (project_modal_bracket re-simulates
     each knockout tie with play_match to chain the modal bracket.)
     """
-    # build_showcase()
 
     # ────────────────────────────────────────────────────────────────────────────
     # Nested model — parked. Not part of the current pipeline; the independent model

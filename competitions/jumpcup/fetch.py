@@ -5,7 +5,7 @@ Everything the rates stage needs for one match is collected by
 per-match stat history, and each team's recent finished-match team stats (the
 corners/offsides fallback source). Roughly 65 API calls on a cold cache (~30 s with
 the politeness sleep); reruns are free — every response is cached as JSON under
-``jumpcup/data/raw/`` and only refetched with ``refresh=True``.
+``competitions/jumpcup/data/raw/`` and only refetched with ``refresh=True``.
 
 Two API quirks drive the design here:
 
@@ -33,7 +33,13 @@ from typing import Any, Callable, Optional
 
 import requests
 
-from jumpcup.const import BZZOIRO_API_BASE, JUMPCUP_RAW_PATH
+from competitions.jumpcup.const import (
+    BZZOIRO_API_BASE,
+    JUMPCUP_EVENT_ID,
+    JUMPCUP_LOBBY_ID,
+    JUMPCUP_RAW_PATH,
+    SPORTSPREDICT_API_BASE,
+)
 from src.bzzoiro import TEAM_NAME_MAP, _load_token
 from src.const import CON, TEAM_LIST, WC26_LEAGUE_ID, WC26_SEASON_ID
 
@@ -406,3 +412,42 @@ def fetch_match_bundle(
         f"team-stats matches: {len(bundle.a.team_stat_rows)}/{len(bundle.b.team_stat_rows)}."
     )
     return bundle
+
+
+# ---------------------------------------------------------------------------
+# SportsPredict (Jump Cup question source)
+# ---------------------------------------------------------------------------
+# SportsPredict is a separate API from bzzoiro: different base URL and a Bearer
+# token (JUMPCUP_API_KEY) rather than bzzoiro's ``Token`` header. Responses are
+# cached under ``data/raw/sportspredict/`` like the bzzoiro ones.
+
+
+def _sp_get(path: str, params: Optional[dict] = None) -> Any:
+    headers = {"Authorization": f"Bearer {_load_token('JUMPCUP_API_KEY')}"}
+    resp = requests.get(
+        f"{SPORTSPREDICT_API_BASE}{path}", headers=headers, params=params, timeout=30
+    )
+    resp.raise_for_status()
+    time.sleep(REQUEST_SLEEP_S)
+    return resp.json()
+
+
+def fetch_sportspredict_matches(refresh: bool = False) -> list[dict]:
+    """The Jump Cup match list (date-ordered, same order as bzzoiro upcoming)."""
+    return _cached(
+        "sportspredict/matches.json",
+        lambda: _sp_get("/matches", {"event_id": JUMPCUP_EVENT_ID}),
+        refresh,
+    )
+
+
+def fetch_sportspredict_questions(match_id: str, refresh: bool = False) -> list[str]:
+    """The free-text market questions Jump publishes for one match."""
+    markets = _cached(
+        f"sportspredict/markets_{match_id}.json",
+        lambda: _sp_get(
+            "/markets", {"lobby_id": JUMPCUP_LOBBY_ID, "match_id": match_id}
+        ),
+        refresh,
+    )
+    return [m["question"] for m in markets]

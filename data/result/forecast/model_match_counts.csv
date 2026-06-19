@@ -1,49 +1,49 @@
 team,group,elo,n_fitted_matches,n_neutral,sparse,mean_gf,mean_ga
-Bosnia and Herzegovina,B,1591.0,18,0,True,0.83,2.0
-Paraguay,D,1833.0,19,19,True,1.11,1.47
-South Africa,A,1518.0,20,20,False,1.0,0.75
-Curaçao,E,1433.0,20,20,False,1.55,0.9
-Norway,I,1917.0,21,4,True,1.9,1.19
-New Zealand,G,1563.0,23,23,False,1.7,0.83
-Brazil,C,1988.0,25,25,False,1.8,0.96
-Cape Verde,H,1576.0,27,27,False,1.37,0.81
-Austria,J,1830.0,29,8,True,1.48,1.21
-Australia,D,1774.0,29,29,False,1.59,0.86
+Paraguay,D,1834.0,19,19,True,1.11,1.47
+Bosnia and Herzegovina,B,1595.0,19,1,True,0.84,1.95
+Spain,H,2157.0,20,20,False,2.1,1.1
+Curaçao,E,1434.0,20,20,False,1.55,0.9
+South Africa,A,1517.0,22,22,False,1.0,0.73
+Norway,I,1914.0,22,5,True,1.86,1.18
+New Zealand,G,1562.0,25,25,False,1.56,0.96
+Brazil,C,1991.0,26,26,False,1.81,0.96
 Uruguay,H,1892.0,29,29,False,1.59,0.59
-Scotland,C,1770.0,30,7,True,1.1,1.17
-France,I,2062.0,30,23,False,2.03,1.07
-Czechia,A,1740.0,30,11,True,1.7,1.27
-South Korea,A,1758.0,30,30,False,1.77,1.23
+Austria,J,1830.0,29,8,True,1.48,1.21
+Cape Verde,H,1578.0,29,29,False,1.48,0.76
+France,I,2063.0,30,23,False,2.03,1.07
+Scotland,C,1782.0,31,8,True,1.19,1.13
+Australia,D,1777.0,31,31,False,1.52,0.87
 Sweden,F,1712.0,31,12,True,1.65,1.26
-Turkey,D,1906.0,32,11,True,1.72,1.28
-Uzbekistan,K,1718.0,33,33,False,1.67,0.76
+Czechia,A,1740.0,31,12,True,1.74,1.26
+South Korea,A,1758.0,32,32,False,1.84,1.16
+Turkey,D,1911.0,33,12,True,1.73,1.27
 Ghana,L,1510.0,33,33,False,1.36,1.36
-United States,D,1733.0,35,9,True,2.14,0.71
-Egypt,G,1699.0,35,35,False,1.31,0.86
+Uzbekistan,K,1714.0,34,34,False,1.65,0.79
+United States,D,1726.0,35,9,True,2.14,0.71
 Japan,F,1906.0,35,35,False,1.94,0.97
-DR Congo,K,1661.0,36,36,False,1.14,0.78
-Panama,L,1734.0,36,36,False,1.58,1.67
-Haiti,C,1554.0,36,36,False,2.0,1.19
-Ecuador,E,1935.0,36,36,False,1.06,1.19
-Belgium,G,1888.0,37,17,True,1.49,1.11
-Germany,E,1925.0,37,6,True,1.97,1.43
-Switzerland,B,1894.0,37,17,True,1.35,1.65
-Iran,G,1772.0,38,38,False,2.42,0.82
-Colombia,K,1977.0,39,39,False,1.56,0.69
-Morocco,C,1824.0,39,39,False,1.51,0.56
-Portugal,K,1984.0,40,15,True,1.93,0.9
+Egypt,G,1696.0,36,36,False,1.31,0.89
+Belgium,G,1894.0,37,17,True,1.49,1.11
+Germany,E,1932.0,37,6,True,1.97,1.43
+Panama,L,1730.0,37,37,False,1.57,1.65
+DR Congo,K,1652.0,38,38,False,1.11,0.79
+Ecuador,E,1938.0,38,38,False,1.13,1.16
+Haiti,C,1548.0,38,38,False,2.03,1.18
+Switzerland,B,1891.0,38,18,True,1.34,1.63
 Ivory Coast,E,1695.0,40,40,False,1.88,0.75
-England,L,2020.0,41,17,True,1.51,0.8
-Argentina,J,2113.0,41,41,False,2.2,0.59
-Netherlands,F,1944.0,41,14,True,2.0,1.17
-Croatia,L,1908.0,42,19,True,1.48,1.45
-Canada,B,1793.0,42,42,False,2.17,0.88
-Tunisia,F,1633.0,44,44,False,1.07,0.89
-Spain,H,2155.0,44,19,True,2.0,0.93
-Algeria,J,1760.0,46,46,False,1.89,0.63
-Iraq,I,1618.0,46,46,False,1.07,1.02
-Qatar,B,1423.0,47,47,False,1.36,1.28
-Senegal,I,1867.0,49,49,False,1.65,0.65
-Jordan,J,1685.0,53,53,False,1.47,1.0
-Saudi Arabia,H,1566.0,55,55,False,1.07,1.05
-Mexico,A,1875.0,74,74,False,1.7,1.03
+Morocco,C,1827.0,40,40,False,1.5,0.57
+Colombia,K,1982.0,40,40,False,1.57,0.68
+Iran,G,1772.0,40,40,False,2.42,0.8
+Portugal,K,1989.0,40,15,True,1.93,0.9
+Netherlands,F,1948.0,42,15,True,2.0,1.17
+Croatia,L,1912.0,42,19,True,1.48,1.45
+Canada,B,1788.0,42,42,False,2.17,0.88
+England,L,2024.0,43,19,True,1.53,0.77
+Argentina,J,2115.0,43,43,False,2.21,0.56
+Tunisia,F,1628.0,44,44,False,1.07,0.89
+Algeria,J,1772.0,46,46,False,1.89,0.63
+Iraq,I,1607.0,48,48,False,1.04,1.02
+Qatar,B,1421.0,48,48,False,1.33,1.25
+Senegal,I,1860.0,50,50,False,1.62,0.64
+Jordan,J,1680.0,54,54,False,1.44,1.02
+Saudi Arabia,H,1576.0,58,58,False,1.09,1.03
+Mexico,A,1875.0,75,75,False,1.69,1.01

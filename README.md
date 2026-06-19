@@ -242,9 +242,9 @@ multiclass Brier and RPS. The last two rows are the reference values from their 
 ## Project Structure
 
 ```
-├── main.py                   # Pipeline entry point (scrape → fit → simulate → showcase)
-├── run_backtests.py          # 2018/2022 out-of-sample validation
+├── main.py                   # One-time setup runbook (scrape → fit → tune; commented stages)
 ├── src/                      # Data & simulation layer
+│   ├── cli.py                #   CLI — all runnable ops (`uv run -m src.cli --help`)
 │   ├── scraper.py            #   Elo scraping (eloratings.net)
 │   ├── data_preprocess.py    #   Cleaning / joining Kaggle datasets
 │   ├── simulation.py         #   Match engine + Monte Carlo tournament sim
@@ -252,7 +252,11 @@ multiclass Brier and RPS. The last two rows are the reference values from their 
 │   ├── forecast.py           #   Live 2026 forecast assembly
 │   ├── backtest.py           #   Backtest harness & tuned hyperparameters
 │   ├── ledger.py             #   Predictions-vs-actuals ledger
+│   ├── scoring.py            #   Match-level ledger scoring (Brier/RPS/accuracy by market)
+│   ├── surprises.py          #   Biggest model surprises + underdog wins from the ledger
+│   ├── report.py             #   Live scorecard generator (docs/live_scorecard.md)
 │   ├── bzzoiro.py            #   Match-stats API client (h2h, player xG)
+│   ├── hkjc.py               #   HKJC handicap scraper + EV pricing (dashboard HDC tab)
 │   ├── projections.py        #   Derived projections (bracket, paths, indices)
 │   ├── charts.py             #   Figure generation
 │   └── showcase.py           #   showcase.md generator
@@ -262,6 +266,15 @@ multiclass Brier and RPS. The last two rows are the reference values from their 
 │   ├── probabilities.py      #   Score matrix → 1X2 / over-under probabilities
 │   ├── evaluation.py         #   Brier / RPS scoring
 │   └── validation.py         #   Tournament-level scoring (Gilch & Müller rules)
+├── dashboard/                # Streamlit dashboard (`streamlit run dashboard/app.py`)
+│   ├── app.py                #   Entry point + tab layout
+│   ├── match_probs.py        #   Round-by-round match probabilities tab
+│   ├── hdc_ev.py             #   HKJC handicap EV tab
+│   └── common.py             #   Shared loaders/formatting
+├── competitions/             # External competition entries (consume the core model)
+│   ├── datacamp/             #   DataCamp forecasting competition
+│   ├── drw/                  #   DRW trading challenge (client + fair values)
+│   └── jumpcup/              #   Jump Probability Cup (`uv run -m competitions.jumpcup.predict`)
 ├── data/
 │   ├── raw/                  # Kaggle downloads (match results, Elo ratings)
 │   ├── cleaned/              # Filtered, joined datasets + fitted params
@@ -270,7 +283,7 @@ multiclass Brier and RPS. The last two rows are the reference values from their 
 │       ├── live/             # In-tournament ledger & re-sim outputs
 │       ├── validation/       # Backtest scores & per-match outputs
 │       └── tuning/           # Hyperparameter sweeps
-├── docs/                     # Roadmap & development plans
+├── docs/                     # Roadmap, scoring methodology, HDC pricing, live scorecard
 ├── notebooks/                # Exploration
 └── showcase.md               # Generated projections report
 ```
@@ -288,25 +301,113 @@ multiclass Brier and RPS. The last two rows are the reference values from their 
 
 ```bash
 uv sync
-python main.py
 ```
+
+## Running the pipeline
+
+The project has two entry points, split by how often a step runs:
+
+- **`main.py` — one-time setup runbook.** The data-build chain (Stages 1–6: scrape →
+  filter → fit) threads in-memory frames between stages, and the tuning/redeploy step
+  (Stage 9) is destructive. These are run once when bootstrapping or rebuilding the
+  dataset, so they live as commented, numbered, documented stages you uncomment and run
+  with `uv run python main.py`. Read the docstrings top-to-bottom — it doubles as the
+  pipeline's narrative.
+
+- **`src/cli.py` — every runnable operation.** Everything you re-run (the per-round live
+  layer, the sim, backtests, tuning sweeps, preprocessing, diagnostics, the showcase) is a
+  subcommand, so you never edit source to run it:
+
+  ```bash
+  uv run python -m src.cli --help            # list commands
+  uv run python -m src.cli <command> [opts]
+  ```
+
+  | Command | Stage | What it does |
+  |---|---|---|
+  | `forecast` | 11 | Re-scrape Elo and lock the next not-yet-played round's probabilities (`--no-rescrape` to reuse cached Elo) |
+  | `results` | 11 | Refresh actual results from the bzzoiro API (`wc26_results.csv`) |
+  | `ledger` | 11 | Join locked forecasts onto actuals → the match ledger |
+  | `score` | 11 | Grade the ledger: per-market Brier/RPS/accuracy + `wc2026_match_scores.csv` |
+  | `surprises` | 11 | Top model surprises + biggest underdog wins from the ledger (`-n`) |
+  | `report` | 11 | Render `docs/live_scorecard.md` (scoring + surprise tables) from the ledger (`-n`) |
+  | `resim` | 11 | Live re-sim: seed finished group matches + re-scraped Elo, re-simulate the remainder → `data/result/live/tournament_probs_updated.csv` + `updated_simulation_showcase.md` (`-n`, `--no-rescrape`, `--nested`) |
+  | `simulate` | 7 | Monte Carlo tournament sim + projection artifacts (`-n`, `--nested`) |
+  | `backtest` | 8 | Retrospective 2018/2022 validation → consolidated `validation_scores_latest.csv` (`backtest 2022`, `-n`, `--seed`) |
+  | `sweep` | 9 | Sweep `SPARSE_THRESHOLD` (backtest + flip-band strength diff); restores prod fits |
+  | `preprocess` | 1–6 | Re-run WC26 preprocessing steps: `teams groupstage knockout timezone` (`timezone` first if combined) |
+  | `diagnostics` | 10 | Write fitted-match counts and team attack/defense strengths |
+  | `showcase` | 12 | Render `showcase.md` from the latest sim artifacts |
+  | `dashboard` | — | Launch the Streamlit dashboard (`dashboard/app.py`) |
+
+  **Per-round routine:**
+
+  ```bash
+  # before a round kicks off — lock the predictions
+  uv run python -m src.cli forecast
+
+  # after its matches finish — ingest results, then grade
+  uv run python -m src.cli results
+  uv run python -m src.cli ledger
+  uv run python -m src.cli score
+  uv run python -m src.cli surprises     # biggest model surprises + underdog wins
+  uv run python -m src.cli report        # refresh docs/live_scorecard.md
+  uv run python -m src.cli resim         # re-sim the remainder → updated reach-probs + showcase
+  ```
+
+### `backtest` vs `sweep` — validate vs tune
+
+They sit on opposite sides of "decide the model" and are easy to confuse:
+
+- **`sweep` is *tuning*** — an experiment to **choose** the `SPARSE_THRESHOLD` knob. It
+  runs the backtest across thresholds {10,12,15,20,25}, refits the live model at the two
+  finalists, and diffs the teams the knob actually moves (`config_comparison.csv`,
+  `threshold_strength_diff.csv` under `data/result/tuning/`). It **snapshots and restores**
+  the deployed fits, so it changes nothing in production — you read its CSVs, pick the
+  winner, and hardcode it as the module default in `src/backtest.py`. Pair it with
+  `tune_hyperparameters()` (main.py Stage 9), which grids the *continuous* knobs (decay
+  half-life / weight floor / lookback). Run only when (re)choosing hyperparameters.
+
+- **`backtest` is *validation*** — it scores the **current, already-chosen** params against
+  the 2018 & 2022 World Cups (re-fit at each tournament's start, no leakage) and writes the
+  consolidated `validation_scores_latest.csv`. It's read-only w.r.t. params. Run it after
+  *any* change to params, training data, or model code to confirm the config still beats
+  the no-skill baseline and hasn't regressed.
+
+The rule of thumb: **tune (`sweep` + `tune_hyperparameters`) → lock the knobs → `backtest`
+to confirm → deploy.**
+
+### Reproducing the full pipeline for a future World Cup
+
+The model is tournament-agnostic; porting it to e.g. WC2030 is a fixed sequence. Steps in
+`main.py` are uncommented stages (`uv run python main.py`); steps in `src/cli.py` are
+commands. Run top-to-bottom:
+
+| # | Phase | Where | Command / action |
+|---|---|---|---|
+| 0 | **Tournament constants** | `src/const.py` | Update `TEAM_LIST`, `GROUPPING`, and the fixtures/pots paths for the new field & draw (the start-date cutoff is passed to `redeploy_2026`/`backtest` at steps 5–6, not stored here) |
+| 1 | **Fixtures** | CLI | `preprocess timezone groupstage knockout teams` — format the new tournament's teams, group + knockout fixtures (run `timezone` first) |
+| 2 | **Training data** | main.py (Stages 1–5) | `latest_elo` → `historical_matches` (Kaggle) → `filter_historical_matches` → `historical_elo` → `append_historical_elo` (builds `matches_with_elo.csv`) |
+| 3 | **Backtest dataset** | `src.backtest.rebuild_backtest_dataset()` | One-off: rebuild `matches.csv` over the broader 2010+ team set so the backtests have full coverage |
+| 4 | **Tune** | CLI + main.py (Stage 9) | `sweep` (→ pick `SPARSE_THRESHOLD`) and `tune_hyperparameters()` (→ pick half-life/floor/lookback); hardcode the winners as the defaults in `src/backtest.py` |
+| 5 | **Validate** | CLI | `backtest` — confirm the tuned config beats the no-skill baseline on 2018/2022 |
+| 6 | **Fit & deploy** | main.py (Stage 9) | `redeploy_2026(cutoff="<start-date>")` refits `baseline_params.csv` with the tuned recipe (or Stage 6 `fit_baseline_all` for an untuned fit) |
+| 7 | **Simulate** | CLI | `simulate` — Monte Carlo the tournament → per-team stage probabilities + projection artifacts |
+| 8 | **Inspect** | CLI | `diagnostics` (fitted-match counts, team strengths) and `showcase` (render `showcase.md`) |
+| 9 | **Run live** | CLI | Each round: `forecast` → `results` → `ledger` → `score` → `surprises` → `report` → `resim` (the per-round routine above); `dashboard` to view |
+
+Steps 0–6 are the one-time per-tournament build; steps 7–9 are re-run throughout the
+tournament as results land.
 
 ## Roadmap
 
-- [ ] **Market comparison / value-bet discovery** — compare Polymarket (and other) odds
-      against model outputs; capture opening lines now to track closing-line value.
+- [ ] **Market comparison / value-bet discovery** — fetch Polymarket odds automatically from its Gamma API / bzzoiro API.
 - [ ] **Match preview** — per-match preview from the bzzoiro data source: h2h results,
       team top-xG players, team Elo.
-
-- [ ] **Running scorer** — score the predictions-vs-actuals ledger as results land
-      (Brier/RPS vs uniform baseline, cumulative, plus calibration checks).
-- [ ] **Live tournament re-sim** — seed completed matches + re-scraped Elo, re-simulate the
-      remainder, refresh reach-probabilities each matchday (first run before MD2).
-- [ ] **Biggest surprise log** — capture the largest `|model_p − outcome|` matches and
-      tournament-level upsets.
-
-- [ ] **Visualization / dashboard** — web interface for upcoming-match model output.
-
+- [ ] **Knockout-stage re-sim** — extend `resim` past the group stage. The current
+      `completed` seam (`load_completed_group_results`) is **group-stage only**: seed the
+      confirmed bracket + completed knockout matches so reach-probabilities update as each
+      knockout round is played.
 - [ ] **Final validation wrap-up** — post-mortem scorecard vs. the locked pre-tournament
       forecast: final Brier/RPS, calibration, champion-prob rank of the actual winner.
 - [ ] **Post-tournament data + narrative** — append finalized WC2026 results to

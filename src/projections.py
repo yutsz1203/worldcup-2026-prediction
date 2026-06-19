@@ -28,7 +28,7 @@ import pandas as pd
 
 from src.const import CUSTOM_PROGRESS, FORECAST_PATH, WC26_POTS_PATH
 
-# Cumulative reach-probability columns in tournament_probs_latest.csv, weakest to
+# Cumulative reach-probability columns in tournament_probs_initial.csv, weakest to
 # strongest stage (the ordinal "stage reached" GROUP=0 … CHAMPION=6 is applied
 # inline in expected_elimination_table).
 _STAGE_COLS = ["r32", "r16", "qf", "sf", "final", "champion"]
@@ -37,18 +37,31 @@ _KO_STAGES = ["R32", "R16", "QF", "SF", "FINAL"]
 
 
 # ── artifact loaders ─────────────────────────────────────────────────────────
-def _read(name: str) -> pd.DataFrame:
-    return pd.read_csv(f"{FORECAST_PATH}/{name}")
+def _read(name: str, src_dir: str = FORECAST_PATH) -> pd.DataFrame:
+    return pd.read_csv(f"{src_dir}/{name}")
 
 
 def _strength() -> pd.Series:
     """Per-team model strength (net expected goals vs an average WC26 opponent)."""
-    s = _read("team_strengths.csv")
+    s = _read("team_strengths.csv")  # static (result-independent), always in forecast
     return s.set_index("team")["net_xg"]
 
 
+def _probs_filename(src_dir: str = FORECAST_PATH) -> str:
+    """Name of the reach-probability CSV in ``src_dir``.
+
+    The live re-sim writes ``tournament_probs_updated.csv``; the pre-tournament
+    forecast writes ``tournament_probs_initial.csv``. Prefer the updated file when
+    present so projections transparently pick up a live re-sim.
+    """
+    import os
+
+    updated = "tournament_probs_updated.csv"
+    return updated if os.path.exists(f"{src_dir}/{updated}") else "tournament_probs_initial.csv"
+
+
 # ── 1. group standings + group-of-death ──────────────────────────────────────
-def group_standings_table() -> pd.DataFrame:
+def group_standings_table(src_dir: str = FORECAST_PATH) -> pd.DataFrame:
     """Per-team group-stage marginals, expected points, and a group-of-death index.
 
     Columns: ``team, group, p1, p2, p3_qualify, p3_out, p4, exp_points,
@@ -63,7 +76,7 @@ def group_standings_table() -> pd.DataFrame:
     non-negative and readable). A high value means the group is likely to send
     strong teams home — the literal "group of death".
     """
-    g = _read("group_position_probs.csv")
+    g = _read("group_position_probs.csv", src_dir)
     strength = _strength()
     strength = strength - strength.min()  # rebase: weakest team -> 0, all >= 0
     g["p3_qualify"] = g["p_best_third"]
@@ -93,9 +106,9 @@ def group_standings_table() -> pd.DataFrame:
     )
 
 
-def group_difficulty_table() -> pd.DataFrame:
+def group_difficulty_table(src_dir: str = FORECAST_PATH) -> pd.DataFrame:
     """One row per group ranked by ``death_index`` (the group-of-death ranking)."""
-    g = group_standings_table()
+    g = group_standings_table(src_dir)
     out = (
         g.groupby("group")
         .agg(
@@ -121,7 +134,7 @@ def expected_elimination_table() -> pd.DataFrame:
     then ``expected_finish = Σ p(reach stage S) · ordinal(S)`` with GROUP = 0 …
     CHAMPION = 6. Higher = expected to go further; rank is ascending in finish.
     """
-    t = _read("tournament_probs_latest.csv").copy()
+    t = _read("tournament_probs_initial.csv").copy()
     exits = pd.DataFrame({"team": t["team"]})
     exits["exit_group"] = 1 - t["r32"]
     for cur, nxt in zip(_STAGE_COLS[:-1], _STAGE_COLS[1:]):
@@ -153,7 +166,7 @@ def dark_horse_table() -> pd.DataFrame:
     gap. Positive = the model is more bullish than the seeding implies — the
     contrarian dark horses. Sorted by ``overperformance`` descending.
     """
-    t = _read("tournament_probs_latest.csv")[["team", "sf", "champion"]].copy()
+    t = _read("tournament_probs_initial.csv")[["team", "sf", "champion"]].copy()
     pots = pd.read_csv(WC26_POTS_PATH)
     df = t.merge(pots, on="team", how="left").rename(columns={"sf": "deep_run"})
     df["pot_baseline"] = df.groupby("pot")["deep_run"].transform("mean")
@@ -199,7 +212,7 @@ def r32_bracket_marginals(top_k: int = 3) -> pd.DataFrame:
 
 # ── 5. marquee matchup probabilities ─────────────────────────────────────────
 def _default_marquee_pairs(top: int = 6) -> list[tuple[str, str]]:
-    t = _read("tournament_probs_latest.csv").sort_values("champion", ascending=False)
+    t = _read("tournament_probs_initial.csv").sort_values("champion", ascending=False)
     return list(combinations(list(t["team"].head(top)), 2))
 
 
@@ -240,7 +253,7 @@ def marquee_matchups(pairs: Optional[list[tuple[str, str]]] = None) -> pd.DataFr
 
 
 # ── 6. path difficulty ───────────────────────────────────────────────────────
-def path_difficulty_table() -> pd.DataFrame:
+def path_difficulty_table(src_dir: str = FORECAST_PATH) -> pd.DataFrame:
     """Expected opponent strength on each team's knockout route ("hardest route").
 
     From ``opponent_distribution.csv`` weighted by ``net_xg``. ``exp_ko_matches``
@@ -250,7 +263,7 @@ def path_difficulty_table() -> pd.DataFrame:
     run depth). ``hardest_stage`` is where the toughest expected opponent sits.
     Sorted by ``avg_opp_strength`` — the genuine "hardest route" ranking.
     """
-    opp = _read("opponent_distribution.csv").copy()
+    opp = _read("opponent_distribution.csv", src_dir).copy()
     strength = _strength()
     opp["opp_strength"] = opp["opponent"].map(strength).fillna(0.0)
     opp["weighted"] = opp["meet_prob"] * opp["opp_strength"]
@@ -262,7 +275,7 @@ def path_difficulty_table() -> pd.DataFrame:
     # Stage contributing the most expected opponent strength.
     by_stage = opp.groupby(["team", "stage"])["weighted"].sum()
     agg["hardest_stage"] = by_stage.groupby(level=0).idxmax().map(lambda x: x[1])
-    champ = _read("tournament_probs_latest.csv").set_index("team")["champion"]
+    champ = _read(_probs_filename(src_dir), src_dir).set_index("team")["champion"]
     agg["champion"] = champ
     # Sort by aggregate route toughness (the roadmap's "aggregate opponent
     # strength on the route to the final"); avg_opp_strength isolates draw luck
@@ -284,7 +297,7 @@ def favorite_title_path(team: Optional[str] = None) -> pd.DataFrame:
     team's total meeting mass at that stage, i.e. P(opponent | team reached stage).
     Honest per-stage marginals — not a claim that this exact path occurs jointly.
     """
-    t = _read("tournament_probs_latest.csv").sort_values("champion", ascending=False)
+    t = _read("tournament_probs_initial.csv").sort_values("champion", ascending=False)
     if team is None:
         team = t.iloc[0]["team"]
     opp = _read("opponent_distribution.csv")
@@ -313,7 +326,12 @@ def favorite_title_path(team: Optional[str] = None) -> pd.DataFrame:
 
 
 # ── 8. projected full bracket (modal R32 chained by re-simulation) ───────────
-def project_modal_bracket(n_match: int = 10000, seed: int = 2026) -> pd.DataFrame:
+def project_modal_bracket(
+    n_match: int = 10000,
+    seed: int = 2026,
+    src_dir: str = FORECAST_PATH,
+    elo: Optional[dict[str, float]] = None,
+) -> pd.DataFrame:
     """Full chalk bracket: project a consistent group stage, then advance by re-sim.
 
     Builds one self-consistent group-stage outcome — per group the modal winner
@@ -341,11 +359,14 @@ def project_modal_bracket(n_match: int = 10000, seed: int = 2026) -> pd.DataFram
 
     inputs = load_sim_inputs()
     rng = np.random.default_rng(seed)
+    # When driven from a live re-sim, use the re-scraped Elo for the per-tie sims
+    # so the projected bracket reflects the same ratings as the headline re-sim.
+    elo0 = elo if elo is not None else inputs.elo0
 
     # Project one consistent group stage: within each group fill 1st/2nd/3rd/4th
     # greedily (argmax p1, then argmax p2 of the rest, then argmax p3_qualify of
     # the rest) so no team takes two positions.
-    gs = group_standings_table()
+    gs = group_standings_table(src_dir)
     group_results: dict[str, dict[int, str]] = {}
     third_p3q: dict[str, float] = {}
     for grp, sub in gs.groupby("group"):
@@ -390,11 +411,11 @@ def project_modal_bracket(n_match: int = 10000, seed: int = 2026) -> pd.DataFram
             for _ in p.track(
                 range(n_match), description="Simulating individual matchups..."
             ):
-                elo = {a: inputs.elo0[a], b: inputs.elo0[b]}  # fresh pre-tournament Elo
+                elo_pair = {a: elo0[a], b: elo0[b]}  # fresh ratings for this tie
                 res = play_match(
                     a,
                     b,
-                    elo,
+                    elo_pair,
                     inputs,
                     rng,
                     knockout=True,
@@ -416,3 +437,65 @@ def project_modal_bracket(n_match: int = 10000, seed: int = 2026) -> pd.DataFram
             }
         )
     return pd.DataFrame(rows)
+
+
+# ── 9. most common knockout matchups ─────────────────────────────────────────
+def most_common_matchups(top_k: int = 10, src_dir: str = FORECAST_PATH) -> pd.DataFrame:
+    """The ``top_k`` most likely knockout matchups across the whole bracket.
+
+    From ``opponent_distribution.csv``: two teams meet at most once in the
+    knockouts, so summing ``meet_prob`` over all knockout stages for an unordered
+    pair gives ``p_meet`` = P(they face each other somewhere in the bracket). The
+    distribution is symmetric (each tie is tallied from both perspectives), so a
+    single orientation (``team < opponent``) is kept to avoid double counting.
+    ``modal_stage`` is the stage at which the pair is most likely to meet.
+    Columns: ``team_a, team_b, p_meet, modal_stage``.
+    """
+    opp = _read("opponent_distribution.csv", src_dir)
+    opp = opp[opp["stage"].isin(_KO_STAGES) & (opp["team"] < opp["opponent"])].copy()
+    agg = (
+        opp.groupby(["team", "opponent"])
+        .agg(p_meet=("meet_prob", "sum"))
+        .reset_index()
+    )
+    modal = (
+        opp.loc[opp.groupby(["team", "opponent"])["meet_prob"].idxmax()]
+        .rename(columns={"stage": "modal_stage"})[["team", "opponent", "modal_stage"]]
+    )
+    out = agg.merge(modal, on=["team", "opponent"]).rename(
+        columns={"team": "team_a", "opponent": "team_b"}
+    )
+    return (
+        out.sort_values("p_meet", ascending=False)
+        .head(top_k)
+        .round(4)
+        .reset_index(drop=True)
+    )
+
+
+# ── 10. biggest title-odds movers vs the pre-tournament forecast ─────────────
+def champion_prob_delta(
+    top_k: int = 16,
+    src_dir: str = FORECAST_PATH,
+    initial_path: str = f"{FORECAST_PATH}/tournament_probs_initial.csv",
+) -> pd.DataFrame:
+    """Largest champion-probability increases since the pre-tournament forecast.
+
+    Joins the re-sim's champion column (``{src_dir}/tournament_probs_updated.csv``)
+    onto the locked pre-tournament column (``initial_path``) on ``team`` and ranks
+    by the increase. Columns: ``team, champion_initial, champion_updated, delta``;
+    returns the ``top_k`` biggest risers.
+    """
+    updated = _read(_probs_filename(src_dir), src_dir).set_index("team")["champion"]
+    initial = pd.read_csv(initial_path).set_index("team")["champion"]
+    out = pd.DataFrame(
+        {"champion_initial": initial, "champion_updated": updated}
+    ).dropna(subset=["champion_updated"])
+    out["delta"] = out["champion_updated"] - out["champion_initial"]
+    return (
+        out.reset_index()
+        .sort_values("delta", ascending=False)
+        .head(top_k)
+        .round(4)
+        .reset_index(drop=True)
+    )

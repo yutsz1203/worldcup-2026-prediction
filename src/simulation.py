@@ -190,6 +190,29 @@ def load_sim_inputs(use_nested: bool = False) -> SimInputs:
     )
 
 
+def load_completed_group_results() -> dict[str, dict[frozenset[str], dict[str, int]]]:
+    """Finished group-stage matches, keyed by group letter then team-pair.
+
+    Reads the actual-results CSV (``wc26_results.csv``) and returns
+    ``{group_letter: {frozenset({home, away}): {home: home_score, away:
+    away_score}}}`` so :func:`monte_carlo` can substitute a real scoreline for any
+    group fixture already played (orientation-independent). Knockout rows are
+    excluded (they have no group letter).
+    """
+    from src.bzzoiro import load_actual_results_csv
+
+    df = load_actual_results_csv()
+    df = df[df["group"].notna()]
+    out: dict[str, dict[frozenset[str], dict[str, int]]] = {}
+    for _, r in df.iterrows():
+        home, away = r["home_team"], r["away_team"]
+        out.setdefault(str(r["group"]), {})[frozenset((home, away))] = {
+            home: int(r["home_score"]),
+            away: int(r["away_score"]),
+        }
+    return out
+
+
 def build_legacy_sim_inputs(
     groups: dict[str, list[str]],
     knockout: list[dict],
@@ -396,9 +419,20 @@ def _h2h_key(team: str, subset: set[str], results: list[dict]) -> tuple[int, int
 
 
 def simulate_group(
-    letter: str, inputs: SimInputs, elo: dict, rng: np.random.Generator
+    letter: str,
+    inputs: SimInputs,
+    elo: dict,
+    rng: np.random.Generator,
+    completed: Optional[dict[frozenset[str], dict[str, int]]] = None,
 ) -> tuple[list[str], dict[str, dict]]:
-    """Play a group's 6 fixtures and rank the 4 teams. Returns (ranked_teams, stats)."""
+    """Play a group's 6 fixtures and rank the 4 teams. Returns (ranked_teams, stats).
+
+    ``completed`` (the live re-sim seam) maps ``frozenset({home, away})`` to a
+    finished scoreline ``{team: goals}``; any fixture found there is substituted
+    with its real result instead of being simulated (and skips the in-match Elo
+    update, since the re-scraped Elo already reflects it). All other fixtures are
+    simulated as usual, so unplayed match-days still flow through the engine.
+    """
     stats: dict[str, dict] = {}
     for home, away, _ in inputs.group_fixtures[letter]:
         for t in (home, away):
@@ -406,7 +440,16 @@ def simulate_group(
 
     results: list[dict] = []
     for home, away, host in inputs.group_fixtures[letter]:
-        m = play_match(home, away, elo, inputs, rng, knockout=False, host_country=host)
+        done = completed.get(frozenset((home, away))) if completed else None
+        if done is not None:
+            ga, gb = done[home], done[away]
+            winner = home if ga > gb else away if gb > ga else None
+            loser = away if ga > gb else home if gb > ga else None
+            m = {"a": home, "b": away, "ga": ga, "gb": gb, "winner": winner, "loser": loser}
+        else:
+            m = play_match(
+                home, away, elo, inputs, rng, knockout=False, host_country=host
+            )
         results.append(m)
         hs, as_ = stats[home], stats[away]
         hs["gf"] += m["ga"]
@@ -555,6 +598,7 @@ def run_tournament(
     r32_slots: Optional[dict[str, Counter]] = None,
     opponent_at_stage: Optional[dict[str, dict[str, Counter]]] = None,
     eliminations: Optional[Counter] = None,
+    completed: Optional[dict[str, dict[frozenset[str], dict[str, int]]]] = None,
 ) -> dict[str, str]:
     """Simulate one full tournament; return {team: furthest stage reached}.
 
@@ -573,7 +617,9 @@ def run_tournament(
     group_results: dict[str, dict[int, str]] = {}
     third_rows: list[dict] = []
     for letter in inputs.group_fixtures:
-        ranked, stats = simulate_group(letter, inputs, elo, rng)
+        ranked, stats = simulate_group(
+            letter, inputs, elo, rng, completed.get(letter) if completed else None
+        )
         group_results[letter] = {pos + 1: t for pos, t in enumerate(ranked)}
         if group_pos is not None:
             for pos, t in enumerate(ranked):
@@ -632,12 +678,13 @@ def monte_carlo(
     inputs: SimInputs,
     n: int = 10000,
     seed: int = 2026,
-    out: str | None = f"{FORECAST_PATH}/tournament_probs_latest.csv",
+    out: str | None = f"{FORECAST_PATH}/tournament_probs_initial.csv",
     goals_out: str | None = None,
     group_pos_out: str | None = None,
     r32_slots_out: str | None = None,
     opponent_dist_out: str | None = None,
     eliminations_out: str | None = None,
+    completed: dict[str, dict[frozenset[str], dict[str, int]]] | None = None,
 ) -> pd.DataFrame:
     """Run N tournaments; return a per-team cumulative stage-probability table.
 
@@ -658,6 +705,10 @@ def monte_carlo(
     the (team, stage, opponent) meeting distribution, ``eliminations_out`` →
     head-to-head knockout eliminations. The returned DataFrame is unchanged by
     any of these.
+
+    ``completed`` (the live re-sim seam, see :func:`load_completed_group_results`)
+    substitutes finished group fixtures with their real scorelines so only the
+    unplayed remainder of the tournament is simulated.
     """
     rng = np.random.default_rng(seed)
     fmt = inputs.fmt
@@ -698,6 +749,7 @@ def monte_carlo(
                 r32_slots,
                 opponent_at_stage,
                 eliminations,
+                completed,
             )
             for team, stage in stage_reached.items():
                 counts[team][stage] += 1
@@ -862,7 +914,7 @@ def _write_opponent_distribution(
     faces ``opponent`` at ``stage`` (i.e. not divided by the chance the team
     reaches that stage). To get the conditional modal opponent given the team
     reached a stage, divide by ``P(reach stage)`` from
-    ``tournament_probs_latest.csv`` — but the argmax (modal opponent) is the same
+    ``tournament_probs_initial.csv`` — but the argmax (modal opponent) is the same
     either way, since the divisor is constant within a (team, stage). The
     third-place play-off is excluded upstream (see :func:`simulate_knockout`).
     """

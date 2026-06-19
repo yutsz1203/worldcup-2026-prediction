@@ -1,6 +1,6 @@
 """Generate predictions for the DataCamp WC2026 competition.
 
-Maps DataCamp's fixture files (datacamp/data) onto our model:
+Maps DataCamp's fixture files (competitions/datacamp/data) onto our model:
 - group matches: 100k vectorized regulation sims per fixture (independent
   bivariate-Poisson model, pre-tournament Elo, host bonus) -> mean goals +
   modal outcome.
@@ -292,7 +292,7 @@ def main():
     rng = np.random.default_rng(SEED)
 
     # ── group stage ─────────────────────────────────────────────────────────
-    dc = pd.read_csv("datacamp/data/group_fixtures.csv")
+    dc = pd.read_csv("competitions/datacamp/data/group_fixtures.csv")
     ours = pd.read_csv("data/cleaned/wc26_groupstage_matches.csv")
     host_lookup = {}
     for _, r in ours.iterrows():
@@ -361,7 +361,7 @@ def main():
                 return losers[int(token.split()[-1])]
             raise ValueError(token)
 
-        for _, r in pd.read_csv("datacamp/data/knockout_slots.csv").iterrows():
+        for _, r in pd.read_csv("competitions/datacamp/data/knockout_slots.csv").iterrows():
             home, away = resolve(r["slot_home"]), resolve(r["slot_away"])
             res = sim_ko_match(home, away, host_from_venue(r["venue"]), inputs, rng)
             mid = int(r["match_id"])

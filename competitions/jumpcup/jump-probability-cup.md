@@ -114,13 +114,23 @@ A `<node>` is one of:
 - `{"and": [<node>, ...]}` / `{"or": [<node>, ...]}` — boolean composition
 - `{"atom": "threshold", "stat": S, "entity": E, "window": W, "op": OP, "k": K}`
 - `{"atom": "compare", "stat": S, "left": E, "right": E, "window": W, "op": OP}`
-- `{"atom": "first", "stat": S, "entity": "team_A" | "team_B"}`
+  (optional `"left_window"`/`"right_window"` override `window` per side, letting a
+  compare span two windows — e.g. *2nd-half goals > 1st-half goals* is
+  `left=match_total left_window=H2`, `right=match_total right_window=H1`)
+- `{"atom": "first", "stat": S, "entity": "team_A" | "team_B"}` (optional
+  `"window": "H1" | "H2" | "FT"`, default `FT` = first occurrence of the match;
+  `H2` = "first goal of the second half", scoped to that half only)
 
 with `S` ∈ goal, corner, shot_on_target, foul, card, red_card, penalty_awarded,
 offside, assist, goal_contribution; `W` ∈ H1, H2, FT; `OP` ∈ `>`, `>=`, `<`, `<=`, `=`;
 `E` ∈ `"team_A"`, `"team_B"`, `"match_total"`, or
-`{"player": "<name as in lineup>", "team": "team_A"}` (`team` optional — the pricer
-resolves accent-insensitively against the rates CSV and fails loudly if ambiguous).
+`{"player": "<name>", "team": "team_A"}` (`team` optional — the pricer resolves
+accent-insensitively against the rates CSV, tolerating full↔abbreviated names
+either way, e.g. spec `"Scott McTominay"` ↔ feed `"S. McTominay"`, so a spec
+survives a lineup refresh that changes the feed's name format. An *ambiguous* name
+still fails loudly; a player simply **not in the lineup** (e.g. dropped to the
+bench on a refresh) is not an error — that event is skipped and emitted with a
+blank `probability` + a `note`, so the rest of the slate still prices).
 Player entities only support goal, assist, goal_contribution, shot_on_target.
 
 Example covering all atom types:
